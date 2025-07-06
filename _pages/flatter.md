@@ -1,7 +1,7 @@
 ---
 title: "Flatter"
 permalink: "/flatter.html"
-image: "/assets/images/frascos_perfume_masc_fem.jpg"
+image: "/assets/images/flatter/frascos_perfume_masc_fem.jpg"
 ---
 A Flatter Cosméticos é uma marca genuinamente cearense, que está no mercado desde 2010, produzindo o que há de melhor no seguimento de perfumaria fina, cosméticos e higiene pessoal. 
 

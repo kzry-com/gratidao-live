@@ -1,7 +1,7 @@
 ---
 title: "Shopee"
 permalink: "/shopee.html"
-image: "/assets/images/follow_card.jpg"
+image: "/assets/images/shopee/achadinhos_shopee.jpg"
 ---
 Todos os achadinhos da Shopee em um só lugar
 
