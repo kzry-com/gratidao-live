@@ -5,4 +5,4 @@ image: "/assets/images/shopee/achadinhos_shopee.jpg"
 ---
 Todos os achadinhos da Shopee em um só lugar
 
-https://collshp.com/lojagratidao
+[Meus achadinhos na Shopee](https://collshp.com/lojagratidao)

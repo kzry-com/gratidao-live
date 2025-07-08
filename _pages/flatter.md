@@ -8,3 +8,5 @@ A Flatter Cosméticos é uma marca genuinamente cearense, que está no mercado d
 Utiliza matéria prima importada para garantir fragrâncias ricas e complexas, com alta fixação e duração de até 24h.
 
 Traz também linha completa de produtos para cuidados corporais em diversas linhas, uma delas é a sua!
+
+[Compre online](https://loja.infinitepay.io/flatterce)
