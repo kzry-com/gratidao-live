@@ -1,5 +1,5 @@
 ---
-title:  "Flatter Perfumaria"
+title:  "Arabes - Flatter Perfumaria"
 metadate: "hide"
 categories: [ Flatter, Perfumaria, Vendas ]
 image: "/assets/images/flatter/20250711-flatter-02.jpg"
@@ -19,4 +19,4 @@ Notas de coração: Rosa turca, Peônia, Almíscar, Petalia e Baunilha.
 Notas e base: Cashmeran, Incenso, Cedro e Vetiver do haiti.
 
 
-Saiba mais entrando em contrato comigo, no site www.gratidao.live ou adquira pelo link.
+Conheça essas fragrâncias entrando em contrato comigo, no site www.gratidao.live ou adquira pelo link.
