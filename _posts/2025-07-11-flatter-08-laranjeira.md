@@ -1,7 +1,7 @@
 ---
 title:  "Flor de Laranjeira - Flatter Perfumaria"
 metadate: "hide"
-categories: [ Flatter, Perfumaria, Vendas ]
+categories: [ Flatter ]
 image: "/assets/images/flatter/20250711-flatter-08.jpg"
 visit: "https://loja.infinitepay.io/flatterce?categories=643464-flor-de-laranjeira"
 ---

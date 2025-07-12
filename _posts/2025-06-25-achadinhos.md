@@ -1,7 +1,7 @@
 ---
 title:  "Achadinhos"
 metadate: "hide"
-categories: [ Compras, Shopee, Achadinhos ]
+categories: [ Shopee, Achadinhos ]
 image: "/assets/images/shopee/achadinhos_shopee.jpg"
 visit: "https://collshp.com/lojagratidao"
 ---

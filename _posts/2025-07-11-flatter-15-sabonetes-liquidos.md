@@ -1,7 +1,7 @@
 ---
 title:  "Sabonetes Líquidos Perfumados - Flatter Perfumaria"
 metadate: "hide"
-categories: [ Flatter, Perfumaria, Vendas ]
+categories: [ Flatter ]
 image: "/assets/images/flatter/20250711-flatter-15.jpg"
 visit: "https://loja.infinitepay.io/flatterce?categories=646802-linha-classica"
 ---

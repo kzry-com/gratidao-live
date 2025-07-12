@@ -1,7 +1,7 @@
 ---
 title:  "Serotonina - Flatter Perfumaria"
 metadate: "hide"
-categories: [ Flatter, Perfumaria, Vendas ]
+categories: [ Flatter ]
 image: "/assets/images/flatter/20250711-flatter-13.jpg"
 visit: "https://loja.infinitepay.io/flatterce?categories=646453-serotonina"
 ---

@@ -1,7 +1,7 @@
 ---
 title:  "Femininos Campeões de Vendas - Flatter Perfumaria"
 metadate: "hide"
-categories: [ Flatter, Perfumaria, Vendas ]
+categories: [ Flatter ]
 image: "/assets/images/flatter/20250711-flatter-03.jpg"
 visit: "https://loja.infinitepay.io/flatterce/zkg7708-extase---perfume-feminino"
 ---

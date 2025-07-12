@@ -1,7 +1,7 @@
 ---
 title:  "Masculinos - Flatter Perfumaria"
 metadate: "hide"
-categories: [ Flatter, Perfumaria, Vendas ]
+categories: [ Flatter ]
 image: "/assets/images/flatter/20250711-flatter-06.jpg"
 visit: "https://loja.infinitepay.io/flatterce?categories=633399-perfume-flatter-masculino"
 ---

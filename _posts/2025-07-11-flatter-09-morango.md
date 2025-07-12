@@ -1,7 +1,7 @@
 ---
 title:  "Morango e Framboesa - Flatter Perfumaria"
 metadate: "hide"
-categories: [ Flatter, Perfumaria, Vendas ]
+categories: [ Flatter ]
 image: "/assets/images/flatter/20250711-flatter-09.jpg"
 visit: "https://loja.infinitepay.io/flatterce?categories=646347-morango-e-framboesa"
 ---

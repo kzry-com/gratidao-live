@@ -1,7 +1,7 @@
 ---
 title:  "Ocean - Flatter Perfumaria"
 metadate: "hide"
-categories: [ Flatter, Perfumaria, Vendas ]
+categories: [ Flatter ]
 image: "/assets/images/flatter/20250711-flatter-01.jpg"
 visit: "https://loja.infinitepay.io/flatterce/cay0971-body-splash-ocean"
 ---

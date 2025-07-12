@@ -1,7 +1,7 @@
 ---
 title:  "Ameixa e Damasco - Flatter Perfumaria"
 metadate: "hide"
-categories: [ Flatter, Perfumaria, Vendas ]
+categories: [ Flatter ]
 image: "/assets/images/flatter/20250711-flatter-10.jpg"
 visit: "https://loja.infinitepay.io/flatterce?categories=643813-ameixa-e-damasco"
 ---

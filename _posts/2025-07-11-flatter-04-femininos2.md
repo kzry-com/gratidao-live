@@ -1,7 +1,7 @@
 ---
 title:  "Femininos - Flatter Perfumaria"
 metadate: "hide"
-categories: [ Flatter, Perfumaria, Vendas ]
+categories: [ Flatter ]
 image: "/assets/images/flatter/20250711-flatter-04.jpg"
 visit: "https://loja.infinitepay.io/flatterce?categories=633379-perfume-flatter-feminino-100ml"
 ---

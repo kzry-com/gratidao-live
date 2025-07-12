@@ -1,7 +1,7 @@
 ---
 title:  "Abacaxi e Romã - Flatter Perfumaria"
 metadate: "hide"
-categories: [ Flatter, Perfumaria, Vendas ]
+categories: [ Flatter ]
 image: "/assets/images/flatter/20250711-flatter-11.jpg"
 visit: "https://loja.infinitepay.io/flatterce?categories=646433-abacaxi-e-roma"
 ---

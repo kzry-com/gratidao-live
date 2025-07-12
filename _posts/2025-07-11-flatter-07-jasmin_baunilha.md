@@ -1,7 +1,7 @@
 ---
 title:  "Jasmin e Baunilha - Flatter Perfumaria"
 metadate: "hide"
-categories: [ Flatter, Perfumaria, Vendas ]
+categories: [ Flatter ]
 image: "/assets/images/flatter/20250711-flatter-07.jpg"
 visit: "https://loja.infinitepay.io/flatterce?categories=633435-jasmin-e-baunilha"
 ---
