@@ -8,7 +8,7 @@ description: "Perfumaria, Compras, Achadinhos, Turismo. Gratidao.live by Claudia
     
 <div class="container-fluid">
     
-    <div class="card-columns">        
+    <div class="row row-cols-5 row-cols-sm-1 row-cols-md-2  row-cols-lg-4  row-cols-xl-5">
         {% for post in paginator.posts %}
             {% include card-post.html %}
         {% endfor %}            

@@ -8,13 +8,24 @@ layout: default
                 
     			<article class="card">
                     
-                 {% if page.image %} 
-                    <span class="pinme">
-                        <a data-pin-do="buttonPin" data-pin-tall="true" href="https://www.pinterest.com/pin/create/button/?url={{site.url}}{{site.baseurl}}{{page.url}}&media={{site.url}}{{site.baseurl}}/{{page.image}}&description={{ page.title }}- {{ page.content | strip_html | truncatewords:25 }}"></a>
-                    </span>
+                {% if page.video %}
+                <div class="embed-container">
+                    <iframe width="360" height="640"
+                        src="{{page.video}}"
+                        title="{{page.videotitle}}" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+                {% elsif page.image %}
+                    {% if page.visit %}
+                    <a target="_blank" href="{{page.visit}}">
+                      <img class="card-img-top mb-2" src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ page.image | absolute_url }}{% endif %}" alt="{{ page.title }}">
+                    </a>
+                    {% else %}
                     <img class="card-img-top mb-2" src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ page.image | absolute_url }}{% endif %}" alt="{{ page.title }}"> 
+                    {% endif %}
                 {% endif %}
-                    
+
     			<div class="card-body">
                     
     				<h1 class="display-4">
