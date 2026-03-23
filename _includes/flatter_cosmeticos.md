@@ -1,5 +1,5 @@
 --------
-Flatter Cosméticos
+Sobre a Flatter Cosméticos
 
 Um perfume não é apenas um cheiro. É a primeira impressão que deixamos e a última lembrança que fica.
 
