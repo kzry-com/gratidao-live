@@ -1,4 +1,5 @@
 --------
+
 Sobre a Flatter Cosméticos
 
 Um perfume não é apenas um cheiro. É a primeira impressão que deixamos e a última lembrança que fica.
@@ -10,6 +11,14 @@ Com mais de 14 anos de mercado é uma marca orgulhosamente brasileira, nascida n
 Produz perfumes para quem busca sofisticação, fixação e presença, mas também valoriza a inteligência financeira.
 Conta também com uma vasta linha de cuidados corporais!
 
-Você pode comprar ou saber mais aqui comigo. Ana Ferreira.
+
+--------
+
+Sobre mim
+
+
+Você pode comprar ou saber mais aqui comigo.
+
+Ana Ferreira. Revendedora Flatter Cosméticos a mais de 5 anos.
 
 Nós não vendemos apenas cosméticos; nós entregamos autoestima e cuidado diário.
