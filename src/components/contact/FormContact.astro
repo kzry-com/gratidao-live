@@ -5,7 +5,7 @@
     <div class="mb-8">
         <h3 class="text-2xl font-bold font-['Cinzel'] text-base-content mb-2">Envie uma Mensagem</h3>
         <p class="text-sm text-base-content/70">
-            Preencha os campos abaixo para nos enviar sua dúvida ou pedido especial. Se preferir atendimento imediato, clique no botão do WhatsApp.
+            Preencha os campos abaixo para nos enviar sua dúvida ou pedido especial. Responderemos com máxima atenção e brevidade.
         </p>
     </div>
 
@@ -26,18 +26,17 @@
                 />
             </div>
 
-            <!-- Telefone / WhatsApp -->
+            <!-- Telefone -->
             <div class="flex flex-col">
                 <label for="telefone" class="font-semibold text-base-content mb-2 text-sm">
-                    WhatsApp ou Celular *
+                    Telefone ou Celular
                 </label>
                 <input
                     type="tel"
                     id="telefone"
                     name="telefone"
-                    placeholder="(84) 9.9999-9999"
+                    placeholder="(DDD) 99999-9999"
                     class="input input-bordered w-full rounded-xl focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary"
-                    required
                 />
             </div>
 
@@ -76,17 +75,14 @@
                 type="submit"
                 class="w-full sm:w-auto bg-primary text-primary-content hover:bg-primary/90 font-bold px-8 py-3.5 rounded-full cursor-pointer transition text-base shadow-md hover:shadow-lg hover:scale-[1.02] transform duration-200"
             >
-                Enviar via WhatsApp
+                Enviar Mensagem
             </button>
 
             <a
-                href="https://wa.me/5584994224545?text=Ol%C3%A1%20Ana%20Ferreira%2C%20gostaria%20de%20um%20atendimento%20personalizado%20sobre%20os%20perfumes!"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="w-full sm:w-auto inline-flex items-center justify-center gap-2 border border-emerald-600 text-emerald-700 hover:bg-emerald-50 px-6 py-3 rounded-full font-bold text-sm transition"
+                href="mailto:gratidao@gratidao.live"
+                class="w-full sm:w-auto inline-flex items-center justify-center gap-2 border border-[#D4A33D] text-[#6E0D25] hover:bg-[#F6EFE8] px-6 py-3 rounded-full font-bold text-sm transition"
             >
-                <span>Falar no WhatsApp</span>
-                <span class="inline-block w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+                <span>Enviar E-mail Direto</span>
             </a>
         </div>
     </form>
@@ -102,9 +98,9 @@
             const email = (document.getElementById("email") as HTMLInputElement)?.value || "";
             const mensagem = (document.getElementById("mensagem") as HTMLInputElement)?.value || "";
 
-            const text = `*Contato via Loja Gratidão Shop*\n\n*Nome:* ${nome}\n*Telefone:* ${telefone}\n*E-mail:* ${email || 'Não informado'}\n\n*Mensagem:*\n${mensagem}`;
-            const url = `https://wa.me/5584994224545?text=${encodeURIComponent(text)}`;
-            window.open(url, "_blank");
+            const subject = encodeURIComponent(`Contato de ${nome} via Loja Gratidão Shop`);
+            const body = encodeURIComponent(`Nome: ${nome}\nTelefone: ${telefone || 'Não informado'}\nE-mail: ${email || 'Não informado'}\n\nMensagem:\n${mensagem}`);
+            window.location.href = `mailto:gratidao@gratidao.live?subject=${subject}&body=${body}`;
         });
     }
 </script>

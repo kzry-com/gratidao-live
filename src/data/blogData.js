@@ -319,7 +319,7 @@ export const blogPosts = [
 
       <p>
         Quer ajuda para descobrir em qual quadrante da Roda de Fragrâncias o seu perfume ideal se encontra? 
-        Fale diretamente com nossa consultoria pelo WhatsApp!
+        Fale diretamente com nossa consultoria online!
       </p>
     `
   }

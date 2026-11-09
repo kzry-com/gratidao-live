@@ -69,7 +69,6 @@ import { Icon } from "astro-icon/components";
     const ticketCustomer = document.getElementById("ticket-customer");
     const ticketDate = document.getElementById("ticket-date");
     const ticketId = document.getElementById("ticket-id");
-    const whatsappBtn = document.getElementById("whatsapp-confirm-btn") as HTMLAnchorElement;
 
     const formatPrice = (price: number) =>
         new Intl.NumberFormat("pt-BR", { style: "currency", currency: "BRL" }).format(price);
@@ -129,17 +128,8 @@ import { Icon } from "astro-icon/components";
         if (ticketDate) ticketDate.textContent = dateStr;
         if (ticketId) ticketId.textContent = orderCode;
 
-        // Build WhatsApp message
-        const itemsListText = currentItems.map(i => `• ${i.quantity}x ${i.name} (${formatPrice(i.price * i.quantity)})`).join("\n");
-        const user = currentUser.get();
-
-        const msgText = `*Novo Pedido na Loja Gratidão Shop!*\n\n*Código:* ${orderCode}\n*Cliente:* ${name}\n*WhatsApp:* ${phone}\n*E-mail:* ${email}\n\n*Endereço de Entrega:*\n${address}, Nº ${number}\nCEP: ${zip} - ${city}/${state}\n\n*Itens do Pedido:*\n${itemsListText}\n\n*Total a Pagar:* ${formatPrice(currentTotal)}\n*Forma de Pagamento:* Pix Dinâmico / Cartão\n\n_Por favor, confirme a disponibilidade e a chave Pix para liquidação!_`;
-
-        if (whatsappBtn) {
-            whatsappBtn.href = `https://wa.me/5584994224545?text=${encodeURIComponent(msgText)}`;
-        }
-
         // Save order in history
+        const user = currentUser.get();
         const orderData = {
             id: orderCode,
             userId: user?.id || "guest",
