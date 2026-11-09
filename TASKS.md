@@ -16,7 +16,11 @@ Este documento registra o estado consolidado de implementação e o backlog das 
 - [x] Importar tipografia nobre Google Fonts: `Cinzel` (títulos/marcas) e `Montserrat` (textos/UI).
 - [x] Implementar layout PWA no padrão **App Shell** com Bottom Navigation móvel fixa (Início, Catálogo, Favoritos, Sacola).
 - [x] Configurar `public/site.webmanifest` e Service Worker para cache offline.
-- [ ] Migrar artigos de blog legados do Jekyll (`_posts/*.md`) para `src/content/blog/` com validação de esquema Zod.
+- [x] Migrar artigos de blog legados do Jekyll (`_posts/*.md`) para `src/content/blog/` com validação de esquema Zod:
+  - 7 artigos migrados com frontmatter Zod (`title`, `description`, `pubDate`, `author`, `image`, `tags`, `visit`).
+  - Geração de pacote desacoplado `public/data/blog_posts.json` para consumo estático multiplataforma (Web e Mobile offline-first).
+  - Páginas Web `/blog` e `/blog/[slug]` atualizadas usando `getCollection('blog')` e renderização nativa de conteúdo Markdown.
+  - Aplicativo mobile (`apps/gratidao_mobile`) com modelo `BlogPost` no `gratidao_core`, `BlogService`, `BlogListScreen`, `BlogPostScreen` com `flutter_markdown` e atalhos na Home e AppBar.
 
 ---
 
