@@ -1,0 +1,39 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+@theme {
+  --color-bordo: #6E0D25;
+  --color-bordo-dark: #4B0919;
+  --color-bordo-light: #8E1130;
+  --color-dourado: #D4A33D;
+  --color-dourado-dark: #B88928;
+  --color-dourado-light: #E6BD64;
+  --color-rose: #DB9ABA;
+  --color-rose-light: #F2D2E1;
+  --color-champagne: #F6EFE8;
+  --color-champagne-dark: #EADFD4;
+  --color-grafite: #2F2F2F;
+  --color-grafite-light: #525252;
+  
+  --font-heading: 'Cinzel', serif;
+  --font-body: 'Montserrat', sans-serif;
+}
+
+:root {
+  --font-heading: 'Cinzel', serif;
+  --font-body: 'Montserrat', sans-serif;
+  color-scheme: light;
+}
+
+body {
+  font-family: var(--font-body), sans-serif;
+  background-color: #F6EFE8;
+  color: #2F2F2F;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6, .font-heading {
+  font-family: var(--font-heading), serif;
+}

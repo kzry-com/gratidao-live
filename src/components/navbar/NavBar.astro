@@ -1,0 +1,173 @@
+---
+import { Icon } from "astro-icon/components";
+import Links from "./Links.astro";
+---
+
+<div
+    id="main-navbar"
+    class="sticky top-0 z-999 w-full font-sans transition-transform duration-300"
+>
+    <div class="bg-[#6E0D25] text-white shadow-md border-b border-[#D4A33D]/30">
+        <nav class="navbar max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <!-- Left Side: Logo -->
+            <div class="navbar-start">
+                <a href="/" class="flex items-center gap-3 group">
+                    <img
+                        src="/docs/brand/Logo AnaFerreira_w.png"
+                        alt="Logo Ana Ferreira"
+                        class="h-9 w-auto object-contain transition-transform group-hover:scale-105"
+                    />
+                    <div class="flex flex-col">
+                        <span class="text-lg font-bold tracking-wider font-heading text-white">
+                            ANA FERREIRA
+                        </span>
+                        <span class="text-[10px] tracking-widest text-[#D4A33D] uppercase -mt-1 font-medium">
+                            Gratidão Shop
+                        </span>
+                    </div>
+                </a>
+            </div>
+
+            <!-- Middle Space: Links -->
+            <div class="navbar-center hidden lg:flex">
+                <ul class="flex items-center gap-6 text-sm font-medium">
+                    <li><a href="/" class="hover:text-[#D4A33D] transition-colors">Início</a></li>
+                    <li><a href="/category/femininos" class="hover:text-[#D4A33D] transition-colors">Femininos</a></li>
+                    <li><a href="/category/masculinos" class="hover:text-[#D4A33D] transition-colors">Masculinos</a></li>
+                    <li><a href="/category/cosmeticos" class="hover:text-[#D4A33D] transition-colors">Cosméticos</a></li>
+                    <li><a href="/blog" class="hover:text-[#D4A33D] transition-colors">Blog</a></li>
+                    <li><a href="/about" class="hover:text-[#D4A33D] transition-colors">Sobre</a></li>
+                </ul>
+            </div>
+
+            <!-- Right Side: Icons -->
+            <div class="navbar-end gap-1.5 sm:gap-3">
+                <!-- User Account Button -->
+                <a
+                    id="nav-user-link"
+                    href="/login"
+                    class="btn btn-ghost btn-circle text-white hover:bg-white/10 transition-colors"
+                    aria-label="Minha Conta"
+                    title="Minha Conta"
+                >
+                    <div class="indicator">
+                        <Icon
+                            name="lucide:user"
+                            class="w-5 h-5 hover:text-[#D4A33D] transition-colors"
+                        />
+                        <span
+                            id="nav-user-badge"
+                            class="badge badge-xs bg-emerald-400 indicator-item border-none hidden"
+                        ></span>
+                    </div>
+                </a>
+
+                <!-- Favorites Button -->
+                <a
+                    href="/favorites"
+                    class="btn btn-ghost btn-circle text-white hover:bg-white/10 transition-colors"
+                    aria-label="Favoritos"
+                    title="Favoritos"
+                >
+                    <div class="indicator">
+                        <Icon
+                            name="lucide:heart"
+                            class="w-5 h-5 hover:text-[#D4A33D] transition-colors"
+                        />
+                        <span
+                            id="nav-fav-count"
+                            class="badge badge-xs bg-[#D4A33D] text-[#2F2F2F] indicator-item border-none hidden font-bold"
+                        ></span>
+                    </div>
+                </a>
+
+                <!-- Cart Button -->
+                <button
+                    class="btn btn-ghost btn-circle text-white hover:bg-white/10 transition-colors relative"
+                    aria-label="Sacola de Compras"
+                    title="Sacola de Compras"
+                    id="open-cart-btn"
+                >
+                    <div class="indicator">
+                        <Icon
+                            name="lucide:shopping-bag"
+                            class="w-5 h-5 hover:text-[#D4A33D] transition-colors"
+                        />
+                        <span
+                            id="cart-count"
+                            class="badge badge-xs bg-[#D4A33D] text-[#2F2F2F] font-bold indicator-item border-none hidden"
+                        ></span>
+                    </div>
+                </button>
+            </div>
+        </nav>
+    </div>
+
+    <!-- Secondary Category Subbar -->
+    <div class="bg-[#F6EFE8] border-b border-[#D4A33D]/20 text-[#2F2F2F]">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-2 overflow-x-auto">
+            <Links />
+        </div>
+    </div>
+</div>
+
+<script>
+    import { cartItems, toggleCart } from "../../store/cartStore";
+    import { favoriteItems } from "../../store/favoriteStore";
+    import { currentUser } from "../../store/authStore";
+
+    function initNavbar() {
+        const cartCount = document.getElementById("cart-count");
+        const openCartBtn = document.getElementById("open-cart-btn");
+        const favCount = document.getElementById("nav-fav-count");
+        const userLink = document.getElementById("nav-user-link") as HTMLAnchorElement;
+        const userBadge = document.getElementById("nav-user-badge");
+
+        // Cart items badge
+        cartItems.subscribe((items) => {
+            const total = items.reduce((acc, item) => acc + item.quantity, 0);
+            if (cartCount) {
+                if (total > 0) {
+                    cartCount.textContent = String(total);
+                    cartCount.classList.remove("hidden");
+                } else {
+                    cartCount.classList.add("hidden");
+                }
+            }
+        });
+
+        // Favorites badge
+        favoriteItems.subscribe((items) => {
+            if (favCount) {
+                if (items.length > 0) {
+                    favCount.textContent = String(items.length);
+                    favCount.classList.remove("hidden");
+                } else {
+                    favCount.classList.add("hidden");
+                }
+            }
+        });
+
+        // User Auth Status
+        currentUser.subscribe((user) => {
+            if (userLink) {
+                if (user) {
+                    userLink.href = "/profile";
+                    userLink.title = `Perfil: ${user.name}`;
+                    userBadge?.classList.remove("hidden");
+                } else {
+                    userLink.href = "/login";
+                    userLink.title = "Entrar ou Cadastrar";
+                    userBadge?.classList.add("hidden");
+                }
+            }
+        });
+
+        openCartBtn?.addEventListener("click", () => {
+            toggleCart();
+        });
+    }
+
+    initNavbar();
+    document.addEventListener("astro:page-load", initNavbar);
+</script>

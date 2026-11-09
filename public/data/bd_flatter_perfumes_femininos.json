@@ -1,0 +1,1894 @@
+[
+  {
+    "id": "001",
+    "nome": "Adore",
+    "genero": "Feminino",
+    "categoria": "Perfume Feminino",
+    "inspiracao_olfativa": "Fame (Paco Rabanne)",
+    "familia_olfativa": "Chypre Floral / Frutado",
+    "piramide_olfativa": {
+      "topo": [
+        "Manga",
+        "Bergamota"
+      ],
+      "corpo": [
+        "Jasmin",
+        "Incenso"
+      ],
+      "fundo": [
+        "Baunilha",
+        "Sândalo"
+      ]
+    },
+    "perfil_sensorial": [
+      "Doce",
+      "Cremoso",
+      "Moderno",
+      "Urbano",
+      "Fashion",
+      "Versátil",
+      "Equilibrado",
+      "Divertido"
+    ],
+    "ocasiao_uso": "Dia a dia urbano, trabalho, momentos sociais e lazer (Primavera/Verão)",
+    "status": "Linha Ativa",
+    "preco_venda": 190,
+    "preco_shopee": 220,
+    "estoque_inicial": 1,
+    "logistica": {
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 100,
+      "dimensoes_embalagem": {
+        "comprimento_cm": 7,
+        "largura_cm": 10,
+        "altura_cm": 10
+      },
+      "fragil": true
+    },
+    "assets": {
+      "capa_img": "/assets/images/flatter/anuncios_femininos_26/anuncio_f_adore_1x1.jpg",
+      "ficha_tecnica_img": "/assets/images/flatter/catalogo-fichas-flatter-26/4.jpg",
+      "url_slug": "/001-adore/"
+    }
+  },
+  {
+    "id": "002",
+    "nome": "Divine",
+    "genero": "Feminino",
+    "categoria": "Perfume Feminino",
+    "inspiracao_olfativa": "L'Eau (Chloé)",
+    "familia_olfativa": "Floral Verde",
+    "piramide_olfativa": {
+      "topo": [
+        "Rosa",
+        "Toranja (Grapefruit)",
+        "Lichia"
+      ],
+      "corpo": [
+        "Rosa",
+        "Magnólia"
+      ],
+      "fundo": [
+        "Cedro",
+        "Musgo",
+        "Âmbar"
+      ]
+    },
+    "perfil_sensorial": [
+      "Frutado",
+      "Fresco",
+      "Atalcado",
+      "Versátil",
+      "Sofisticado",
+      "Maduro",
+      "Clean Girl"
+    ],
+    "ocasiao_uso": "Trabalho, escritório e atividades diárias (Primavera/Verão)",
+    "status": "Linha Ativa",
+    "preco_venda": 190,
+    "preco_shopee": 220,
+    "estoque_inicial": 2,
+    "logistica": {
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 100,
+      "dimensoes_embalagem": {
+        "comprimento_cm": 7,
+        "largura_cm": 10,
+        "altura_cm": 10
+      },
+      "fragil": true
+    },
+    "assets": {
+      "capa_img": "/assets/images/flatter/anuncios_femininos_26/anuncio_perfume_f_divine_3x4.jpg",
+      "ficha_tecnica_img": "/assets/images/flatter/catalogo-fichas-flatter-26/5.jpg",
+      "url_slug": "/002-divine/"
+    }
+  },
+  {
+    "id": "003",
+    "nome": "Indomável",
+    "genero": "Feminino",
+    "categoria": "Perfume Feminino",
+    "inspiracao_olfativa": "Wanted Girl (Azzaro)",
+    "familia_olfativa": "Floral Oriental",
+    "piramide_olfativa": {
+      "topo": [
+        "Flor de Laranjeira",
+        "Gengibre",
+        "Romã"
+      ],
+      "corpo": [
+        "Datura",
+        "Doce de Leite"
+      ],
+      "fundo": [
+        "Cumaru",
+        "Vetiver"
+      ]
+    },
+    "perfil_sensorial": [
+      "Solar",
+      "Doce equilibrado",
+      "Exótico",
+      "Sensual",
+      "Moderno",
+      "Marcante"
+    ],
+    "ocasiao_uso": "Noite, eventos especiais e climas amenos (Outono/Inverno)",
+    "status": "Linha Ativa",
+    "preco_venda": 190,
+    "preco_shopee": 220,
+    "estoque_inicial": 1,
+    "logistica": {
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 100,
+      "dimensoes_embalagem": {
+        "comprimento_cm": 7,
+        "largura_cm": 10,
+        "altura_cm": 10
+      },
+      "fragil": true
+    },
+    "assets": {
+      "capa_img": "/assets/images/flatter/fichas_flatter_26-femininos/12.png",
+      "ficha_tecnica_img": "/assets/images/flatter/catalogo-fichas-flatter-26/6.jpg",
+      "url_slug": "/003-indomavel/"
+    }
+  },
+  {
+    "id": "004",
+    "nome": "Blossom",
+    "genero": "Feminino",
+    "categoria": "Perfume Feminino",
+    "inspiracao_olfativa": "Bloom (Gucci)",
+    "familia_olfativa": "Floral",
+    "piramide_olfativa": {
+      "topo": [
+        "Jasmin"
+      ],
+      "corpo": [
+        "Tuberosa"
+      ],
+      "fundo": [
+        "Jasmin-da-Índia"
+      ]
+    },
+    "perfil_sensorial": [
+      "Floral",
+      "Fresco",
+      "Talco",
+      "Luminoso",
+      "Elegante",
+      "Luxuoso",
+      "Minimalista"
+    ],
+    "ocasiao_uso": "Dia, amantes de floral puro, passeios e clima leve (Primavera)",
+    "status": "Fora de Linha",
+    "preco_venda": 190,
+    "preco_shopee": 220,
+    "estoque_inicial": 0,
+    "logistica": {
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 100,
+      "dimensoes_embalagem": {
+        "comprimento_cm": 7,
+        "largura_cm": 10,
+        "altura_cm": 10
+      },
+      "fragil": true
+    },
+    "assets": {
+      "capa_img": "/assets/images/flatter/fichas_flatter_26-femininos/17.png",
+      "ficha_tecnica_img": "/assets/images/flatter/catalogo-fichas-flatter-26/25.jpg",
+      "url_slug": "/004-blossom/"
+    }
+  },
+  {
+    "id": "005",
+    "nome": "Elegance",
+    "genero": "Feminino",
+    "categoria": "Perfume Feminino",
+    "inspiracao_olfativa": "For Her (Narciso Rodriguez)",
+    "familia_olfativa": "Chypre Frutado",
+    "piramide_olfativa": {
+      "topo": [
+        "Rosa",
+        "Pêssego"
+      ],
+      "corpo": [
+        "Almíscar",
+        "Âmbar"
+      ],
+      "fundo": [
+        "Sândalo",
+        "Musgo"
+      ]
+    },
+    "perfil_sensorial": [
+      "Floral",
+      "Frutado",
+      "Madeira",
+      "Talco",
+      "Assinatura",
+      "Aura",
+      "Elegante",
+      "Minimalista"
+    ],
+    "ocasiao_uso": "Mulheres determinadas, trabalho, reuniões e eventos sociais (Primavera/Outono)",
+    "status": "Linha Ativa",
+    "preco_venda": 190,
+    "preco_shopee": 220,
+    "estoque_inicial": 2,
+    "logistica": {
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 100,
+      "dimensoes_embalagem": {
+        "comprimento_cm": 7,
+        "largura_cm": 10,
+        "altura_cm": 10
+      },
+      "fragil": true
+    },
+    "assets": {
+      "capa_img": "/assets/images/flatter/anuncios_femininos_26/anuncio_perfume_f_elegance_3x4.jpg",
+      "ficha_tecnica_img": "/assets/images/flatter/catalogo-fichas-flatter-26/7.jpg",
+      "url_slug": "/005-elegance/"
+    }
+  },
+  {
+    "id": "006",
+    "nome": "Jade",
+    "genero": "Feminino",
+    "categoria": "Perfume Feminino",
+    "inspiracao_olfativa": "J'adore (Dior)",
+    "familia_olfativa": "Floral Frutado",
+    "piramide_olfativa": {
+      "topo": [
+        "Bergamota",
+        "Mandarina",
+        "Pêssego"
+      ],
+      "corpo": [
+        "Jasmin",
+        "Lírio",
+        "Orquídea"
+      ],
+      "fundo": [
+        "Almíscar",
+        "Baunilha",
+        "Cedro"
+      ]
+    },
+    "perfil_sensorial": [
+      "Floral",
+      "Frutado",
+      "Assinatura",
+      "Aura",
+      "Elegante",
+      "Presença",
+      "Solar"
+    ],
+    "ocasiao_uso": "Atemporal, radiante, trabalho e celebrações (Primavera/Outono)",
+    "status": "Linha Ativa",
+    "preco_venda": 190,
+    "preco_shopee": 220,
+    "estoque_inicial": 2,
+    "logistica": {
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 100,
+      "dimensoes_embalagem": {
+        "comprimento_cm": 7,
+        "largura_cm": 10,
+        "altura_cm": 10
+      },
+      "fragil": true
+    },
+    "assets": {
+      "capa_img": "/assets/images/flatter/anuncios_femininos_26/anuncio_f_jade_3x4.jpg",
+      "ficha_tecnica_img": "/assets/images/flatter/catalogo-fichas-flatter-26/8.jpg",
+      "url_slug": "/006-jade/"
+    }
+  },
+  {
+    "id": "007",
+    "nome": "Black Femme",
+    "genero": "Feminino",
+    "categoria": "Perfume Feminino",
+    "inspiracao_olfativa": "Black Opium (Yves Saint Laurent)",
+    "familia_olfativa": "Oriental Gourmand",
+    "piramide_olfativa": {
+      "topo": [
+        "Pera",
+        "Flor de Laranjeira",
+        "Pimenta Rosa"
+      ],
+      "corpo": [
+        "Café",
+        "Jasmin",
+        "Amêndoa"
+      ],
+      "fundo": [
+        "Baunilha",
+        "Patchouli",
+        "Cedro"
+      ]
+    },
+    "perfil_sensorial": [
+      "Quente",
+      "Café tostado",
+      "Cremoso",
+      "Doce noturno",
+      "Dark chic"
+    ],
+    "ocasiao_uso": "Baladas, festas, encontros noturnos e noites frias",
+    "status": "Linha Ativa",
+    "preco_venda": 190,
+    "preco_shopee": 220,
+    "estoque_inicial": 0,
+    "logistica": {
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 100,
+      "dimensoes_embalagem": {
+        "comprimento_cm": 7,
+        "largura_cm": 10,
+        "altura_cm": 10
+      },
+      "fragil": true
+    },
+    "assets": {
+      "capa_img": "/assets/images/flatter/fichas_flatter_26-femininos/32.png",
+      "ficha_tecnica_img": "/assets/images/flatter/fichas_flatter_26-femininos/33.png",
+      "url_slug": "/007-black-femme/"
+    }
+  },
+  {
+    "id": "008",
+    "nome": "Enigma",
+    "genero": "Feminino",
+    "categoria": "Perfume Feminino",
+    "inspiracao_olfativa": "Paradoxe (Prada)",
+    "familia_olfativa": "Floral Oriental",
+    "piramide_olfativa": {
+      "topo": [
+        "Pera",
+        "Bergamota",
+        "Tangerina"
+      ],
+      "corpo": [
+        "Flor de Laranjeira",
+        "Jasmin",
+        "Neroli"
+      ],
+      "fundo": [
+        "Baunilha",
+        "Âmbar",
+        "Benjoim"
+      ]
+    },
+    "perfil_sensorial": [
+      "Doce alegre",
+      "Frutado",
+      "Floral",
+      "Delicado",
+      "Sensual"
+    ],
+    "ocasiao_uso": "Encontros românticos, jantares e passeios (Outono/Primavera)",
+    "status": "Linha Ativa",
+    "preco_venda": 190,
+    "preco_shopee": 220,
+    "estoque_inicial": 2,
+    "logistica": {
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 100,
+      "dimensoes_embalagem": {
+        "comprimento_cm": 7,
+        "largura_cm": 10,
+        "altura_cm": 10
+      },
+      "fragil": true
+    },
+    "assets": {
+      "capa_img": "/assets/images/flatter/anuncios_femininos_26/anuncio_f_enigma_1x1.jpg",
+      "ficha_tecnica_img": "/assets/images/flatter/catalogo-fichas-flatter-26/9.jpg",
+      "url_slug": "/008-enigma/"
+    }
+  },
+  {
+    "id": "009",
+    "nome": "Lady",
+    "genero": "Feminino",
+    "categoria": "Perfume Feminino",
+    "inspiracao_olfativa": "Lady Million (Paco Rabanne)",
+    "familia_olfativa": "Floral Madeira",
+    "piramide_olfativa": {
+      "topo": [
+        "Framboesa",
+        "Neroli",
+        "Limão"
+      ],
+      "corpo": [
+        "Flor de Laranjeira",
+        "Jasmin",
+        "Gardênia"
+      ],
+      "fundo": [
+        "Mel",
+        "Âmbar",
+        "Patchouli"
+      ]
+    },
+    "perfil_sensorial": [
+      "Néctar floral",
+      "Doce intenso",
+      "Amadeirado",
+      "Poderoso",
+      "Luxuoso"
+    ],
+    "ocasiao_uso": "Noites glamorosas, festas e ocasiões de destaque",
+    "status": "Linha Ativa",
+    "preco_venda": 190,
+    "preco_shopee": 220,
+    "estoque_inicial": 0,
+    "logistica": {
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 100,
+      "dimensoes_embalagem": {
+        "comprimento_cm": 7,
+        "largura_cm": 10,
+        "altura_cm": 10
+      },
+      "fragil": true
+    },
+    "assets": {
+      "capa_img": "/assets/images/flatter/fichas_flatter_26-femininos/42.png",
+      "ficha_tecnica_img": "/assets/images/flatter/fichas_flatter_26-femininos/43.png",
+      "url_slug": "/009-lady/"
+    }
+  },
+  {
+    "id": "010",
+    "nome": "Cibelle",
+    "genero": "Feminino",
+    "categoria": "Perfume Feminino",
+    "inspiracao_olfativa": "Trésor Midnight Rose (Lancôme)",
+    "familia_olfativa": "Floral Madeira",
+    "piramide_olfativa": {
+      "topo": [
+        "Framboesa",
+        "Rosa"
+      ],
+      "corpo": [
+        "Cassis",
+        "Jasmin",
+        "Pimenta Rosa"
+      ],
+      "fundo": [
+        "Baunilha",
+        "Almíscar",
+        "Cedro"
+      ]
+    },
+    "perfil_sensorial": [
+      "Licor de frutas vermelhas",
+      "Opulento",
+      "Floral amadeirado",
+      "Misterioso"
+    ],
+    "ocasiao_uso": "Noite, jantares sofisticados e escritórios climatizados",
+    "status": "Fora de Linha",
+    "preco_venda": 190,
+    "preco_shopee": 220,
+    "estoque_inicial": 1,
+    "logistica": {
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 100,
+      "dimensoes_embalagem": {
+        "comprimento_cm": 7,
+        "largura_cm": 10,
+        "altura_cm": 10
+      },
+      "fragil": true
+    },
+    "assets": {
+      "capa_img": "/assets/images/flatter/fichas_flatter_26-femininos/47.png",
+      "ficha_tecnica_img": "/assets/images/flatter/fichas_flatter_26-femininos/48.png",
+      "url_slug": "/010-cibelle/"
+    }
+  },
+  {
+    "id": "011",
+    "nome": "Êxtase",
+    "genero": "Feminino",
+    "categoria": "Perfume Feminino",
+    "inspiracao_olfativa": "Autoral Flatter (Exclusivo)",
+    "familia_olfativa": "Floral Oriental",
+    "piramide_olfativa": {
+      "topo": [
+        "Pimenta Rosa",
+        "Pêssego",
+        "Pera"
+      ],
+      "corpo": [
+        "Framboesa",
+        "Jasmin",
+        "Rosa"
+      ],
+      "fundo": [
+        "Baunilha",
+        "Caramelo",
+        "Âmbar",
+        "Almíscar",
+        "Benjoim",
+        "Cedro"
+      ]
+    },
+    "perfil_sensorial": [
+      "Floral",
+      "Frutado",
+      "Picante",
+      "Aura",
+      "Maduro",
+      "Sensual",
+      "Licoroso"
+    ],
+    "ocasiao_uso": "Noturno, sensual, outono e inverno",
+    "status": "Lançamento",
+    "preco_venda": 250,
+    "preco_shopee": 280,
+    "estoque_inicial": 1,
+    "logistica": {
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 100,
+      "dimensoes_embalagem": {
+        "comprimento_cm": 7,
+        "largura_cm": 10,
+        "altura_cm": 10
+      },
+      "fragil": true
+    },
+    "assets": {
+      "capa_img": "/assets/images/flatter/anuncios_femininos_26/Novo_Extase_3x4.jpg",
+      "ficha_tecnica_img": "/assets/images/flatter/catalogo-fichas-flatter-26/2.jpg",
+      "url_slug": "/011-extase/"
+    }
+  },
+  {
+    "id": "011B",
+    "nome": "Êxtase Elixir",
+    "genero": "Feminino",
+    "categoria": "Perfume Feminino",
+    "inspiracao_olfativa": "Autoral Flatter (Flanker Intenso)",
+    "familia_olfativa": "Floral Oriental",
+    "piramide_olfativa": {
+      "topo": [
+        "Pimenta Rosa",
+        "Pêssego",
+        "Pera"
+      ],
+      "corpo": [
+        "Framboesa",
+        "Jasmin",
+        "Rosa"
+      ],
+      "fundo": [
+        "Baunilha",
+        "Caramelo",
+        "Âmbar",
+        "Almíscar",
+        "Benjoim",
+        "Cedro"
+      ]
+    },
+    "perfil_sensorial": [
+      "Intenso",
+      "Envolvente",
+      "Amadeirado quente",
+      "Almiscarado",
+      "Sofisticado"
+    ],
+    "ocasiao_uso": "Noite, alta projeção, festas e climas frios (Outono/Inverno)",
+    "status": "Lançamento",
+    "preco_venda": 260,
+    "preco_shopee": 290,
+    "estoque_inicial": 1,
+    "logistica": {
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 100,
+      "dimensoes_embalagem": {
+        "comprimento_cm": 7,
+        "largura_cm": 10,
+        "altura_cm": 10
+      },
+      "fragil": true
+    },
+    "assets": {
+      "capa_img": "/assets/images/flatter/anuncios_femininos_26/Novo_Extase_3x4.jpg",
+      "ficha_tecnica_img": "/assets/images/flatter/catalogo-fichas-flatter-26/3.jpg",
+      "url_slug": "/011b-extase-elixir/"
+    }
+  },
+  {
+    "id": "012",
+    "nome": "Lander",
+    "genero": "Feminino",
+    "categoria": "Perfume Feminino",
+    "inspiracao_olfativa": "La Vie est Belle (Lancôme)",
+    "familia_olfativa": "Floral Oriental",
+    "piramide_olfativa": {
+      "topo": [
+        "Cassis",
+        "Pera",
+        "Amora"
+      ],
+      "corpo": [
+        "Flor de Laranjeira",
+        "Jasmin",
+        "Iris"
+      ],
+      "fundo": [
+        "Baunilha",
+        "Caramelo",
+        "Cumaru",
+        "Patchouli"
+      ]
+    },
+    "perfil_sensorial": [
+      "Floral",
+      "Frutado",
+      "Atalcado",
+      "Elegante",
+      "Sofisticado",
+      "Doce"
+    ],
+    "ocasiao_uso": "Noite, ocasiões alegres e ser notada (Outono/Inverno)",
+    "status": "Linha Ativa",
+    "preco_venda": 190,
+    "preco_shopee": 220,
+    "estoque_inicial": 0,
+    "logistica": {
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 100,
+      "dimensoes_embalagem": {
+        "comprimento_cm": 7,
+        "largura_cm": 10,
+        "altura_cm": 10
+      },
+      "fragil": true
+    },
+    "assets": {
+      "capa_img": "/assets/images/flatter/anuncios_femininos_26/anuncio_perfume_f_lander_3x4.jpg",
+      "ficha_tecnica_img": "/assets/images/flatter/catalogo-fichas-flatter-26/10.jpg",
+      "url_slug": "/012-lander/"
+    }
+  },
+  {
+    "id": "013",
+    "nome": "De Rosè",
+    "genero": "Feminino",
+    "categoria": "Perfume Feminino",
+    "inspiracao_olfativa": "Good Girl Blush (Carolina Herrera)",
+    "familia_olfativa": "Floral Oriental",
+    "piramide_olfativa": {
+      "topo": [
+        "Bergamota",
+        "Mandarina"
+      ],
+      "corpo": [
+        "Peônia",
+        "Água de Rosas",
+        "Ylang Ylang"
+      ],
+      "fundo": [
+        "Baunilha",
+        "Cumaru"
+      ]
+    },
+    "perfil_sensorial": [
+      "Floral",
+      "Frutado",
+      "Atalcado",
+      "Elegante",
+      "Sofisticado",
+      "Doce",
+      "Princesa"
+    ],
+    "ocasiao_uso": "Dia, eventos leves, encontros e sofisticação suave (Primavera/Verão)",
+    "status": "Linha Ativa",
+    "preco_venda": 190,
+    "preco_shopee": 220,
+    "estoque_inicial": 0,
+    "logistica": {
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 100,
+      "dimensoes_embalagem": {
+        "comprimento_cm": 7,
+        "largura_cm": 10,
+        "altura_cm": 10
+      },
+      "fragil": true
+    },
+    "assets": {
+      "capa_img": "/assets/images/flatter/anuncios_femininos_26/anuncio_perfume_f_derose_3x4.jpg",
+      "ficha_tecnica_img": "/assets/images/flatter/catalogo-fichas-flatter-26/11.jpg",
+      "url_slug": "/013-de-rose/"
+    }
+  },
+  {
+    "id": "014",
+    "nome": "Hipife",
+    "genero": "Feminino",
+    "categoria": "Perfume Feminino",
+    "inspiracao_olfativa": "Hypnôse (Lancôme)",
+    "familia_olfativa": "Madeira Oriental",
+    "piramide_olfativa": {
+      "topo": [
+        "Bergamota",
+        "Flor de Maracujá"
+      ],
+      "corpo": [
+        "Jasmin",
+        "Gardênia"
+      ],
+      "fundo": [
+        "Baunilha",
+        "Vetiver"
+      ]
+    },
+    "perfil_sensorial": [
+      "Floral frutado exótico",
+      "Cremoso",
+      "Misterioso",
+      "Hipnotizante"
+    ],
+    "ocasiao_uso": "Uso noturno e eventos sociais sofisticados",
+    "status": "Linha Ativa",
+    "preco_venda": 190,
+    "preco_shopee": 220,
+    "estoque_inicial": 0,
+    "logistica": {
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 100,
+      "dimensoes_embalagem": {
+        "comprimento_cm": 7,
+        "largura_cm": 10,
+        "altura_cm": 10
+      },
+      "fragil": true
+    },
+    "assets": {
+      "capa_img": "/assets/images/flatter/fichas_flatter_26-femininos/67.png",
+      "ficha_tecnica_img": "/assets/images/flatter/fichas_flatter_26-femininos/68.png",
+      "url_slug": "/014-hipife/"
+    }
+  },
+  {
+    "id": "015",
+    "nome": "Lolita",
+    "genero": "Feminino",
+    "categoria": "Perfume Feminino",
+    "inspiracao_olfativa": "Alien (Thierry Mugler)",
+    "familia_olfativa": "Floral Oriental",
+    "piramide_olfativa": {
+      "topo": [
+        "Jasmin",
+        "Flor de Laranjeira"
+      ],
+      "corpo": [
+        "Cashemira",
+        "Cardamomo"
+      ],
+      "fundo": [
+        "Âmbar"
+      ]
+    },
+    "perfil_sensorial": [
+      "Floral",
+      "Amadeirado",
+      "Ambarado",
+      "Misterioso",
+      "Intenso",
+      "Noturno"
+    ],
+    "ocasiao_uso": "Noite, eventos formais ou climas frios (Outono/Inverno)",
+    "status": "Linha Ativa",
+    "preco_venda": 190,
+    "preco_shopee": 220,
+    "estoque_inicial": 1,
+    "logistica": {
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 100,
+      "dimensoes_embalagem": {
+        "comprimento_cm": 7,
+        "largura_cm": 10,
+        "altura_cm": 10
+      },
+      "fragil": true
+    },
+    "assets": {
+      "capa_img": "/assets/images/flatter/anuncios_femininos_26/anuncio_perfume_f_lolita_3x4.jpg",
+      "ficha_tecnica_img": "/assets/images/flatter/catalogo-fichas-flatter-26/12.jpg",
+      "url_slug": "/015-lolita/"
+    }
+  },
+  {
+    "id": "016",
+    "nome": "Love",
+    "genero": "Feminino",
+    "categoria": "Perfume Feminino",
+    "inspiracao_olfativa": "L'Interdit (Givenchy)",
+    "familia_olfativa": "Floral Madeira",
+    "piramide_olfativa": {
+      "topo": [
+        "Pera",
+        "Bergamota",
+        "Amora"
+      ],
+      "corpo": [
+        "Flor de Laranjeira",
+        "Jasmin",
+        "Tuberosa"
+      ],
+      "fundo": [
+        "Baunilha",
+        "Vetiver",
+        "Patchouli"
+      ]
+    },
+    "perfil_sensorial": [
+      "Floral",
+      "Terroso",
+      "Sofisticado",
+      "Clássico",
+      "Moderno",
+      "Chique"
+    ],
+    "ocasiao_uso": "Dia/Noite, mulher decidida e elegante (Outono/Inverno)",
+    "status": "Linha Ativa",
+    "preco_venda": 190,
+    "preco_shopee": 220,
+    "estoque_inicial": 1,
+    "logistica": {
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 100,
+      "dimensoes_embalagem": {
+        "comprimento_cm": 7,
+        "largura_cm": 10,
+        "altura_cm": 10
+      },
+      "fragil": true
+    },
+    "assets": {
+      "capa_img": "/assets/images/flatter/anuncios_femininos_26/anuncio_f_love_1x1.jpg",
+      "ficha_tecnica_img": "/assets/images/flatter/catalogo-fichas-flatter-26/13.jpg",
+      "url_slug": "/016-love/"
+    }
+  },
+  {
+    "id": "017",
+    "nome": "Passion",
+    "genero": "Feminino",
+    "categoria": "Perfume Feminino",
+    "inspiracao_olfativa": "Good Girl (Carolina Herrera)",
+    "familia_olfativa": "Oriental Floral",
+    "piramide_olfativa": {
+      "topo": [
+        "Amêndoa",
+        "Café",
+        "Bergamota",
+        "Limão"
+      ],
+      "corpo": [
+        "Flor de Laranjeira",
+        "Jasmin",
+        "Iris",
+        "Rosa",
+        "Tuberosa"
+      ],
+      "fundo": [
+        "Baunilha",
+        "Caramelo",
+        "Sândalo",
+        "Cedro",
+        "Âmbar",
+        "Cumaru",
+        "Cacau"
+      ]
+    },
+    "perfil_sensorial": [
+      "Floral",
+      "Doce",
+      "Sedutor",
+      "Elegante",
+      "Balada"
+    ],
+    "ocasiao_uso": "Balada, noites festivas, encontros e clima frio (Outono/Inverno)",
+    "status": "Linha Ativa",
+    "preco_venda": 190,
+    "preco_shopee": 220,
+    "estoque_inicial": 1,
+    "logistica": {
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 100,
+      "dimensoes_embalagem": {
+        "comprimento_cm": 7,
+        "largura_cm": 10,
+        "altura_cm": 10
+      },
+      "fragil": true
+    },
+    "assets": {
+      "capa_img": "/assets/images/flatter/anuncios_femininos_26/anuncio_perfume_f_passion_3x4.jpg",
+      "ficha_tecnica_img": "/assets/images/flatter/catalogo-fichas-flatter-26/14.jpg",
+      "url_slug": "/017-passion/"
+    }
+  },
+  {
+    "id": "018",
+    "nome": "Vip Rose",
+    "genero": "Feminino",
+    "categoria": "Perfume Feminino",
+    "inspiracao_olfativa": "212 VIP Rosé (Carolina Herrera)",
+    "familia_olfativa": "Floral Frutado",
+    "piramide_olfativa": {
+      "topo": [
+        "Champagne Rose",
+        "Pimenta Rosa"
+      ],
+      "corpo": [
+        "Flor de Pessegueiro",
+        "Rosa"
+      ],
+      "fundo": [
+        "Almíscar",
+        "Queenswood"
+      ]
+    },
+    "perfil_sensorial": [
+      "Frutado",
+      "Jovem",
+      "Festivo",
+      "Vibrante",
+      "Dinâmico"
+    ],
+    "ocasiao_uso": "Happy hour, eventos ao ar livre, festas e clima tropical (Primavera)",
+    "status": "Linha Ativa",
+    "preco_venda": 190,
+    "preco_shopee": 220,
+    "estoque_inicial": 1,
+    "logistica": {
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 100,
+      "dimensoes_embalagem": {
+        "comprimento_cm": 7,
+        "largura_cm": 10,
+        "altura_cm": 10
+      },
+      "fragil": true
+    },
+    "assets": {
+      "capa_img": "/assets/images/flatter/anuncios_femininos_26/anuncio_perfume_f_viprose_3x4.jpg",
+      "ficha_tecnica_img": "/assets/images/flatter/catalogo-fichas-flatter-26/15.jpg",
+      "url_slug": "/018-vip-rose/"
+    }
+  },
+  {
+    "id": "019",
+    "nome": "Majestic",
+    "genero": "Feminino",
+    "categoria": "Perfume Feminino",
+    "inspiracao_olfativa": "Idôle (Lancôme)",
+    "familia_olfativa": "Floral Frutado",
+    "piramide_olfativa": {
+      "topo": [
+        "Pera",
+        "Bergamota",
+        "Pimenta Rosa"
+      ],
+      "corpo": [
+        "Rosa",
+        "Jasmin"
+      ],
+      "fundo": [
+        "Baunilha",
+        "Cedro",
+        "Musgo",
+        "Patchouli"
+      ]
+    },
+    "perfil_sensorial": [
+      "Floral limpo",
+      "Rosa fresca",
+      "Radiante",
+      "Banho tomado luxuoso"
+    ],
+    "ocasiao_uso": "Extremamente versátil, uso profissional, casamentos e assinatura pessoal",
+    "status": "Linha Ativa",
+    "preco_venda": 190,
+    "preco_shopee": 220,
+    "estoque_inicial": 3,
+    "logistica": {
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 100,
+      "dimensoes_embalagem": {
+        "comprimento_cm": 7,
+        "largura_cm": 10,
+        "altura_cm": 10
+      },
+      "fragil": true
+    },
+    "assets": {
+      "capa_img": "/assets/images/flatter/fichas_flatter_26-femininos/92.png",
+      "ficha_tecnica_img": "/assets/images/flatter/fichas_flatter_26-femininos/93.png",
+      "url_slug": "/019-majestic/"
+    }
+  },
+  {
+    "id": "020",
+    "nome": "Pink",
+    "genero": "Feminino",
+    "categoria": "Perfume Feminino",
+    "inspiracao_olfativa": "Yes I Am (Cacharel)",
+    "familia_olfativa": "Floral Oriental",
+    "piramide_olfativa": {
+      "topo": [
+        "Framboesa",
+        "Mexerica",
+        "Citros"
+      ],
+      "corpo": [
+        "Gardênia",
+        "Âmbar",
+        "Gengibre"
+      ],
+      "fundo": [
+        "Caramelo",
+        "Baunilha",
+        "Leite",
+        "Cardamomo",
+        "Benjoim",
+        "Sândalo"
+      ]
+    },
+    "perfil_sensorial": [
+      "Doce especiado",
+      "Chai Latte",
+      "Cremoso",
+      "Femme Fatale",
+      "Divertido",
+      "Moderno"
+    ],
+    "ocasiao_uso": "Encontros românticos, saídas à noite ou dias frios (Outono/Inverno)",
+    "status": "Linha Ativa",
+    "preco_venda": 190,
+    "preco_shopee": 220,
+    "estoque_inicial": 0,
+    "logistica": {
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 100,
+      "dimensoes_embalagem": {
+        "comprimento_cm": 7,
+        "largura_cm": 10,
+        "altura_cm": 10
+      },
+      "fragil": true
+    },
+    "assets": {
+      "capa_img": "/assets/images/flatter/fichas_flatter_26-femininos/97.png",
+      "ficha_tecnica_img": "/assets/images/flatter/fichas_flatter_26-femininos/98.png",
+      "url_slug": "/020-pink/"
+    }
+  },
+  {
+    "id": "021",
+    "nome": "XYF",
+    "genero": "Feminino",
+    "categoria": "Perfume Feminino",
+    "inspiracao_olfativa": "212 Sexy (Carolina Herrera)",
+    "familia_olfativa": "Oriental Gourmand",
+    "piramide_olfativa": {
+      "topo": [
+        "Pimenta Rosa",
+        "Mexerica",
+        "Bergamota"
+      ],
+      "corpo": [
+        "Gardênia",
+        "Flores",
+        "Algodão Doce"
+      ],
+      "fundo": [
+        "Caramelo",
+        "Baunilha",
+        "Almíscar",
+        "Patchouli",
+        "Sândalo"
+      ]
+    },
+    "perfil_sensorial": [
+      "Algodão doce",
+      "Picante",
+      "Atalcado",
+      "Sensual",
+      "Urbano",
+      "Misterioso"
+    ],
+    "ocasiao_uso": "Noite, encontros românticos e dias de frio",
+    "status": "Linha Ativa",
+    "preco_venda": 190,
+    "preco_shopee": 220,
+    "estoque_inicial": 0,
+    "logistica": {
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 100,
+      "dimensoes_embalagem": {
+        "comprimento_cm": 7,
+        "largura_cm": 10,
+        "altura_cm": 10
+      },
+      "fragil": true
+    },
+    "assets": {
+      "capa_img": "/assets/images/flatter/fichas_flatter_26-femininos/102.png",
+      "ficha_tecnica_img": "/assets/images/flatter/fichas_flatter_26-femininos/103.png",
+      "url_slug": "/021-xyf/"
+    }
+  },
+  {
+    "id": "022",
+    "nome": "Missis",
+    "genero": "Feminino",
+    "categoria": "Perfume Feminino",
+    "inspiracao_olfativa": "Miss Dior (Dior)",
+    "familia_olfativa": "Floral Oriental",
+    "piramide_olfativa": {
+      "topo": [
+        "Mexerica"
+      ],
+      "corpo": [
+        "Rosa",
+        "Jasmin"
+      ],
+      "fundo": [
+        "Baunilha",
+        "Almíscar",
+        "Patchouli"
+      ]
+    },
+    "perfil_sensorial": [
+      "Romântico",
+      "Elegante",
+      "Floral nobre",
+      "Jovem",
+      "Espontâneo"
+    ],
+    "ocasiao_uso": "Dia e noite, eventos elegantes, encontros e assinatura romântica",
+    "status": "Linha Ativa",
+    "preco_venda": 190,
+    "preco_shopee": 220,
+    "estoque_inicial": 3,
+    "logistica": {
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 100,
+      "dimensoes_embalagem": {
+        "comprimento_cm": 7,
+        "largura_cm": 10,
+        "altura_cm": 10
+      },
+      "fragil": true
+    },
+    "assets": {
+      "capa_img": "/assets/images/flatter/fichas_flatter_26-femininos/107.png",
+      "ficha_tecnica_img": "/assets/images/flatter/fichas_flatter_26-femininos/108.png",
+      "url_slug": "/022-missis/"
+    }
+  },
+  {
+    "id": "023",
+    "nome": "Sublime",
+    "genero": "Feminino",
+    "categoria": "Perfume Feminino",
+    "inspiracao_olfativa": "Sì (Giorgio Armani)",
+    "familia_olfativa": "Oriental Frutado",
+    "piramide_olfativa": {
+      "topo": [
+        "Cassis"
+      ],
+      "corpo": [
+        "Rosa",
+        "Frésia"
+      ],
+      "fundo": [
+        "Baunilha",
+        "Madeira",
+        "Patchouli"
+      ]
+    },
+    "perfil_sensorial": [
+      "Licoroso",
+      "Aveludado",
+      "Clássico",
+      "Chipre moderno",
+      "Maduro",
+      "Versátil"
+    ],
+    "ocasiao_uso": "Uso diário em ambientes de trabalho ou encontros noturnos em climas amenos",
+    "status": "Fora de Linha",
+    "preco_venda": 190,
+    "preco_shopee": 220,
+    "estoque_inicial": 1,
+    "logistica": {
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 100,
+      "dimensoes_embalagem": {
+        "comprimento_cm": 7,
+        "largura_cm": 10,
+        "altura_cm": 10
+      },
+      "fragil": true
+    },
+    "assets": {
+      "capa_img": "/assets/images/flatter/fichas_flatter_26-femininos/112.png",
+      "ficha_tecnica_img": "/assets/images/flatter/fichas_flatter_26-femininos/113.png",
+      "url_slug": "/023-sublime/"
+    }
+  },
+  {
+    "id": "024",
+    "nome": "Seduction",
+    "genero": "Feminino",
+    "categoria": "Perfume Feminino",
+    "inspiracao_olfativa": "Irresistible (Givenchy)",
+    "familia_olfativa": "Floral Madeira",
+    "piramide_olfativa": {
+      "topo": [
+        "Pera",
+        "Musgo"
+      ],
+      "corpo": [
+        "Rosa",
+        "Iris"
+      ],
+      "fundo": [
+        "Cedro",
+        "Almíscar"
+      ]
+    },
+    "perfil_sensorial": [
+      "Floral",
+      "Doce",
+      "Atalcado",
+      "Amadeirado",
+      "Elegante",
+      "Jovem",
+      "Versátil"
+    ],
+    "ocasiao_uso": "Dia a dia, passeios, clima ameno ou ensolarado (Primavera/Verão)",
+    "status": "Linha Ativa",
+    "preco_venda": 190,
+    "preco_shopee": 220,
+    "estoque_inicial": 1,
+    "logistica": {
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 100,
+      "dimensoes_embalagem": {
+        "comprimento_cm": 7,
+        "largura_cm": 10,
+        "altura_cm": 10
+      },
+      "fragil": true
+    },
+    "assets": {
+      "capa_img": "/assets/images/flatter/anuncios_femininos_26/anuncio_perfume_f_seduction_3x4.jpg",
+      "ficha_tecnica_img": "/assets/images/flatter/catalogo-fichas-flatter-26/16.jpg",
+      "url_slug": "/024-seduction/"
+    }
+  },
+  {
+    "id": "025",
+    "nome": "My You",
+    "genero": "Feminino",
+    "categoria": "Perfume Feminino",
+    "inspiracao_olfativa": "My Way (Giorgio Armani)",
+    "familia_olfativa": "Floral Doce",
+    "piramide_olfativa": {
+      "topo": [
+        "Cítrico",
+        "Uva"
+      ],
+      "corpo": [
+        "Flores Brancas"
+      ],
+      "fundo": [
+        "Madeira"
+      ]
+    },
+    "perfil_sensorial": [
+      "Floral",
+      "Doce",
+      "Cítrico",
+      "Amadeirado",
+      "Diurno",
+      "Jovem",
+      "Versátil"
+    ],
+    "ocasiao_uso": "Coringa de luxo, trabalho, casamentos diurnos e sol (Primavera/Verão)",
+    "status": "Linha Ativa",
+    "preco_venda": 190,
+    "preco_shopee": 220,
+    "estoque_inicial": 2,
+    "logistica": {
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 100,
+      "dimensoes_embalagem": {
+        "comprimento_cm": 7,
+        "largura_cm": 10,
+        "altura_cm": 10
+      },
+      "fragil": true
+    },
+    "assets": {
+      "capa_img": "/assets/images/flatter/anuncios_femininos_26/anuncio_f_my_you_1x1.jpg",
+      "ficha_tecnica_img": "/assets/images/flatter/catalogo-fichas-flatter-26/17.jpg",
+      "url_slug": "/025-my-you/"
+    }
+  },
+  {
+    "id": "026",
+    "nome": "TMYF",
+    "genero": "Feminino",
+    "categoria": "Perfume Feminino",
+    "inspiracao_olfativa": "Tommy Girl (Tommy Hilfiger)",
+    "familia_olfativa": "Floral Verde",
+    "piramide_olfativa": {
+      "topo": [
+        "Camélia",
+        "Flor de Macieira",
+        "Mexerica",
+        "Cassis"
+      ],
+      "corpo": [
+        "Limão",
+        "Toranja",
+        "Rosa",
+        "Lírio",
+        "Hortelã"
+      ],
+      "fundo": [
+        "Jasmin",
+        "Magnólia",
+        "Couro",
+        "Cedro",
+        "Sândalo"
+      ]
+    },
+    "perfil_sensorial": [
+      "Clean",
+      "Banho tomado",
+      "Jovial",
+      "Esportivo",
+      "Fresco",
+      "Atemporal"
+    ],
+    "ocasiao_uso": "Dia a dia, academia, faculdade ou trabalho em dias quentes",
+    "status": "Fora de Linha",
+    "preco_venda": 190,
+    "preco_shopee": 220,
+    "estoque_inicial": 1,
+    "logistica": {
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 100,
+      "dimensoes_embalagem": {
+        "comprimento_cm": 7,
+        "largura_cm": 10,
+        "altura_cm": 10
+      },
+      "fragil": true
+    },
+    "assets": {
+      "capa_img": "/assets/images/flatter/fichas_flatter_26-femininos/127.png",
+      "ficha_tecnica_img": "/assets/images/flatter/fichas_flatter_26-femininos/128.png",
+      "url_slug": "/026-tmyf/"
+    }
+  },
+  {
+    "id": "027",
+    "nome": "Rouge",
+    "genero": "Feminino",
+    "categoria": "Perfume Feminino",
+    "inspiracao_olfativa": "Scandal (Jean Paul Gaultier)",
+    "familia_olfativa": "Oriental Gourmand",
+    "piramide_olfativa": {
+      "topo": [
+        "Pomelo",
+        "Mexerica",
+        "Cassis"
+      ],
+      "corpo": [
+        "Gardênia",
+        "Jasmin",
+        "Mel",
+        "Flor de Laranjeira",
+        "Pêssego"
+      ],
+      "fundo": [
+        "Caramelo",
+        "Cera de Abelha",
+        "Alcaçuz",
+        "Patchouli"
+      ]
+    },
+    "perfil_sensorial": [
+      "Cítrico",
+      "Floral",
+      "Doce melado",
+      "Intenso",
+      "Marcante",
+      "Sedução"
+    ],
+    "ocasiao_uso": "Noite, baladas, sedução intensa para não passar despercebida (Outono/Inverno)",
+    "status": "Linha Ativa",
+    "preco_venda": 190,
+    "preco_shopee": 220,
+    "estoque_inicial": 1,
+    "logistica": {
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 100,
+      "dimensoes_embalagem": {
+        "comprimento_cm": 7,
+        "largura_cm": 10,
+        "altura_cm": 10
+      },
+      "fragil": true
+    },
+    "assets": {
+      "capa_img": "/assets/images/flatter/anuncios_femininos_26/anuncio_f_rouge_1x1.jpg",
+      "ficha_tecnica_img": "/assets/images/flatter/catalogo-fichas-flatter-26/18.jpg",
+      "url_slug": "/027-rouge/"
+    }
+  },
+  {
+    "id": "028",
+    "nome": "Olym",
+    "genero": "Feminino",
+    "categoria": "Perfume Feminino",
+    "inspiracao_olfativa": "Olympêa (Paco Rabanne)",
+    "familia_olfativa": "Oriental Floral",
+    "piramide_olfativa": {
+      "topo": [
+        "Lírio do Brejo",
+        "Mexerica",
+        "Gengibre"
+      ],
+      "corpo": [
+        "Baunilha",
+        "Sal"
+      ],
+      "fundo": [
+        "Cashemira",
+        "Âmbar Cinza",
+        "Sândalo"
+      ]
+    },
+    "perfil_sensorial": [
+      "Floral",
+      "Doce-salgado",
+      "Cremoso",
+      "Intenso",
+      "Marcante",
+      "Carnal"
+    ],
+    "ocasiao_uso": "Pôr do sol em resort, noites de verão/outono e encontros marcantes",
+    "status": "Linha Ativa",
+    "preco_venda": 190,
+    "preco_shopee": 220,
+    "estoque_inicial": 0,
+    "logistica": {
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 100,
+      "dimensoes_embalagem": {
+        "comprimento_cm": 7,
+        "largura_cm": 10,
+        "altura_cm": 10
+      },
+      "fragil": true
+    },
+    "assets": {
+      "capa_img": "/assets/images/flatter/anuncios_femininos_26/anuncio_perfume_f_olym_3x4.jpg",
+      "ficha_tecnica_img": "/assets/images/flatter/catalogo-fichas-flatter-26/19.jpg",
+      "url_slug": "/028-olym/"
+    }
+  },
+  {
+    "id": "029",
+    "nome": "Very Sexy",
+    "genero": "Feminino",
+    "categoria": "Perfume Feminino",
+    "inspiracao_olfativa": "Very Good Girl (Carolina Herrera)",
+    "familia_olfativa": "Oriental Frutado",
+    "piramide_olfativa": {
+      "topo": [
+        "Lichia",
+        "Groselha"
+      ],
+      "corpo": [
+        "Rosa"
+      ],
+      "fundo": [
+        "Baunilha",
+        "Vetiver"
+      ]
+    },
+    "perfil_sensorial": [
+      "Frutado",
+      "Floral",
+      "Sofisticado",
+      "Vibrante",
+      "Sedutor",
+      "Versátil",
+      "Elegante",
+      "Femme Fatale"
+    ],
+    "ocasiao_uso": "Jantar romântico, eventos elegantes e festas (Primavera/Verão)",
+    "status": "Fora de Linha",
+    "preco_venda": 190,
+    "preco_shopee": 220,
+    "estoque_inicial": 2,
+    "logistica": {
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 100,
+      "dimensoes_embalagem": {
+        "comprimento_cm": 7,
+        "largura_cm": 10,
+        "altura_cm": 10
+      },
+      "fragil": true
+    },
+    "assets": {
+      "capa_img": "/assets/images/flatter/anuncios_femininos_26/anuncio_f_very_sexy_1x1.jpg",
+      "ficha_tecnica_img": "/assets/images/flatter/catalogo-fichas-flatter-26/24.jpg",
+      "url_slug": "/029-very-sexy/"
+    }
+  },
+  {
+    "id": "030",
+    "nome": "Livery",
+    "genero": "Feminino",
+    "categoria": "Perfume Feminino",
+    "inspiracao_olfativa": "Libre Intense (Yves Saint Laurent)",
+    "familia_olfativa": "Floral Oriental",
+    "piramide_olfativa": {
+      "topo": [
+        "Lavanda",
+        "Mexerica",
+        "Bergamota"
+      ],
+      "corpo": [
+        "Jasmin",
+        "Flor de Laranjeira",
+        "Orquídea"
+      ],
+      "fundo": [
+        "Baunilha",
+        "Cumaru",
+        "Vetiver",
+        "Âmbar Cinza"
+      ]
+    },
+    "perfil_sensorial": [
+      "Lavanda",
+      "Exótico",
+      "Licoroso",
+      "Luxo",
+      "Poder",
+      "Sofisticação",
+      "Limpo",
+      "Sexy"
+    ],
+    "ocasiao_uso": "Mulher de negócios, jantares luxuosos e eventos de gala (Outono/Primavera)",
+    "status": "Linha Ativa",
+    "preco_venda": 190,
+    "preco_shopee": 220,
+    "estoque_inicial": 2,
+    "logistica": {
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 100,
+      "dimensoes_embalagem": {
+        "comprimento_cm": 7,
+        "largura_cm": 10,
+        "altura_cm": 10
+      },
+      "fragil": true
+    },
+    "assets": {
+      "capa_img": "/assets/images/flatter/anuncios_femininos_26/anuncio_f_livery_1x1.jpg",
+      "ficha_tecnica_img": "/assets/images/flatter/catalogo-fichas-flatter-26/20.jpg",
+      "url_slug": "/030-livery/"
+    }
+  },
+  {
+    "id": "031",
+    "nome": "Illusion",
+    "genero": "Feminino",
+    "categoria": "Perfume Feminino",
+    "inspiracao_olfativa": "Paradoxe Intense (Prada)",
+    "familia_olfativa": "Floral Oriental",
+    "piramide_olfativa": {
+      "topo": [
+        "Pera",
+        "Bergamota"
+      ],
+      "corpo": [
+        "Musgo",
+        "Jasmin",
+        "Neroli"
+      ],
+      "fundo": [
+        "Baunilha",
+        "Âmbar Cinza",
+        "Almíscar"
+      ]
+    },
+    "perfil_sensorial": [
+      "Doce",
+      "Floral",
+      "Terroso",
+      "Luxo",
+      "Poder",
+      "Sedução",
+      "Licoroso"
+    ],
+    "ocasiao_uso": "Noites requintadas, eventos e presença madura sedutora (Outono/Primavera)",
+    "status": "Linha Ativa",
+    "preco_venda": 190,
+    "preco_shopee": 220,
+    "estoque_inicial": 0,
+    "logistica": {
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 100,
+      "dimensoes_embalagem": {
+        "comprimento_cm": 7,
+        "largura_cm": 10,
+        "altura_cm": 10
+      },
+      "fragil": true
+    },
+    "assets": {
+      "capa_img": "/assets/images/flatter/anuncios_femininos_26/anuncio_perfume_f_illusion_3x4.jpg",
+      "ficha_tecnica_img": "/assets/images/flatter/catalogo-fichas-flatter-26/21.jpg",
+      "url_slug": "/031-illusion/"
+    }
+  },
+  {
+    "id": "032",
+    "nome": "Charmy",
+    "genero": "Feminino",
+    "categoria": "Perfume Feminino",
+    "inspiracao_olfativa": "Million Gold for Her (Paco Rabanne)",
+    "familia_olfativa": "Floral Madeira",
+    "piramide_olfativa": {
+      "topo": [
+        "Pera",
+        "Rosa",
+        "Lavanda"
+      ],
+      "corpo": [
+        "Ylang-ylang",
+        "Jasmin"
+      ],
+      "fundo": [
+        "Baunilha",
+        "Musgo de Carvalho",
+        "Almíscar"
+      ]
+    },
+    "perfil_sensorial": [
+      "Floral",
+      "Exótico",
+      "Sedutor",
+      "Elegante",
+      "Marcante",
+      "Quente"
+    ],
+    "ocasiao_uso": "Assinatura olfativa intensa e requintada, noite e eventos (Outono/Inverno)",
+    "status": "Lançamento",
+    "preco_venda": 190,
+    "preco_shopee": 220,
+    "estoque_inicial": 3,
+    "logistica": {
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 100,
+      "dimensoes_embalagem": {
+        "comprimento_cm": 7,
+        "largura_cm": 10,
+        "altura_cm": 10
+      },
+      "fragil": true
+    },
+    "assets": {
+      "capa_img": "/assets/images/flatter/anuncios_femininos_26/anuncio_perfume_f_charmy_3x4.jpg",
+      "ficha_tecnica_img": "/assets/images/flatter/catalogo-fichas-flatter-26/22.jpg",
+      "url_slug": "/032-charmy/"
+    }
+  },
+  {
+    "id": "033",
+    "nome": "Mystic",
+    "genero": "Feminino",
+    "categoria": "Perfume Feminino",
+    "inspiracao_olfativa": "Goddess (Burberry)",
+    "familia_olfativa": "Aromático Gourmand",
+    "piramide_olfativa": {
+      "topo": [
+        "Bergamota",
+        "Lavanda",
+        "Gengibre"
+      ],
+      "corpo": [
+        "Caviar de Baunilha",
+        "Cacau",
+        "Flores Brancas"
+      ],
+      "fundo": [
+        "Fava de Baunilha",
+        "Sândalo"
+      ]
+    },
+    "perfil_sensorial": [
+      "Floral",
+      "Delicado",
+      "Luminoso",
+      "Doce",
+      "Luxuoso",
+      "Sofisticado",
+      "Marcante"
+    ],
+    "ocasiao_uso": "Noite, jantares sofisticados, inverno e outono",
+    "status": "Lançamento",
+    "preco_venda": 190,
+    "preco_shopee": 220,
+    "estoque_inicial": 0,
+    "logistica": {
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 100,
+      "dimensoes_embalagem": {
+        "comprimento_cm": 7,
+        "largura_cm": 10,
+        "altura_cm": 10
+      },
+      "fragil": true
+    },
+    "assets": {
+      "capa_img": "/assets/images/flatter/anuncios_femininos_26/anuncio_perfume_f_mystic_3x4.jpg",
+      "ficha_tecnica_img": "/assets/images/flatter/catalogo-fichas-flatter-26/23.jpg",
+      "url_slug": "/033-mystic/"
+    }
+  },
+  {
+    "id": "034",
+    "nome": "Haara",
+    "genero": "Feminino",
+    "categoria": "Perfume Árabe",
+    "inspiracao_olfativa": "Baccarat Rouge 540 (Maison Francis Kurkdjian)",
+    "familia_olfativa": "Oriental Amadeirado Âmbar",
+    "piramide_olfativa": {
+      "topo": [
+        "Amêndoa Amarga",
+        "Açafrão"
+      ],
+      "corpo": [
+        "Jasmin Egípcio",
+        "Cedro da Virgínia"
+      ],
+      "fundo": [
+        "Âmbar Cinzento",
+        "Notas Amadeiradas",
+        "Almíscar",
+        "Ambroxan",
+        "Cashmeran"
+      ]
+    },
+    "perfil_sensorial": [
+      "Árabe luxuoso",
+      "Intenso",
+      "Misterioso",
+      "Açafrão dourado",
+      "Rastro milionário"
+    ],
+    "ocasiao_uso": "Ocasiões de gala, noites especiais e assinatura de altíssimo luxo",
+    "status": "Linha Árabe",
+    "preco_venda": 250,
+    "preco_shopee": 270,
+    "estoque_inicial": 0,
+    "logistica": {
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 100,
+      "dimensoes_embalagem": {
+        "comprimento_cm": 7,
+        "largura_cm": 10,
+        "altura_cm": 10
+      },
+      "fragil": true
+    },
+    "assets": {
+      "capa_img": "/assets/images/flatter/20250711-flatter-02.jpg",
+      "ficha_tecnica_img": "/assets/images/flatter/20250711-flatter-02.jpg",
+      "url_slug": "/034-haara/"
+    }
+  },
+  {
+    "id": "035",
+    "nome": "Melina",
+    "genero": "Feminino",
+    "categoria": "Perfume Árabe",
+    "inspiracao_olfativa": "Delina (Parfums de Marly)",
+    "familia_olfativa": "Floral Frutado Nobre",
+    "piramide_olfativa": {
+      "topo": [
+        "Lichia",
+        "Ruibarbo",
+        "Bergamota",
+        "Noz-Moscada"
+      ],
+      "corpo": [
+        "Rosa Turca",
+        "Peônia",
+        "Almíscar",
+        "Petalia",
+        "Baunilha"
+      ],
+      "fundo": [
+        "Cashmeran",
+        "Incenso",
+        "Cedro",
+        "Vetiver do Haiti"
+      ]
+    },
+    "perfil_sensorial": [
+      "Realeza",
+      "Rosa turca",
+      "Lichia suculenta",
+      "Elegância extrema",
+      "Sofisticado"
+    ],
+    "ocasiao_uso": "Casamentos, eventos de alto padrão, dia e noite sofisticados",
+    "status": "Linha Árabe",
+    "preco_venda": 250,
+    "preco_shopee": 270,
+    "estoque_inicial": 0,
+    "logistica": {
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 100,
+      "dimensoes_embalagem": {
+        "comprimento_cm": 7,
+        "largura_cm": 10,
+        "altura_cm": 10
+      },
+      "fragil": true
+    },
+    "assets": {
+      "capa_img": "/assets/images/flatter/20250711-flatter-02.jpg",
+      "ficha_tecnica_img": "/assets/images/flatter/20250711-flatter-02.jpg",
+      "url_slug": "/035-melina/"
+    }
+  }
+]

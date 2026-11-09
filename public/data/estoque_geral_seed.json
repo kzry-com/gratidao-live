@@ -1,0 +1,354 @@
+{
+  "101": {
+    "qtd": 1,
+    "status": "disponivel"
+  },
+  "102": {
+    "qtd": 3,
+    "status": "disponivel"
+  },
+  "103": {
+    "qtd": 1,
+    "status": "disponivel"
+  },
+  "104": {
+    "qtd": 1,
+    "status": "disponivel"
+  },
+  "105": {
+    "qtd": 0,
+    "status": "sob_encomenda"
+  },
+  "106": {
+    "qtd": 1,
+    "status": "disponivel"
+  },
+  "107": {
+    "qtd": 1,
+    "status": "disponivel"
+  },
+  "108": {
+    "qtd": 0,
+    "status": "sob_encomenda"
+  },
+  "109": {
+    "qtd": 0,
+    "status": "sob_encomenda"
+  },
+  "110": {
+    "qtd": 2,
+    "status": "disponivel"
+  },
+  "111": {
+    "qtd": 2,
+    "status": "disponivel"
+  },
+  "112": {
+    "qtd": 0,
+    "status": "sob_encomenda"
+  },
+  "113": {
+    "qtd": 2,
+    "status": "disponivel"
+  },
+  "114": {
+    "qtd": 3,
+    "status": "disponivel"
+  },
+  "115": {
+    "qtd": 1,
+    "status": "disponivel"
+  },
+  "116": {
+    "qtd": 2,
+    "status": "disponivel"
+  },
+  "117": {
+    "qtd": 2,
+    "status": "disponivel"
+  },
+  "118": {
+    "qtd": 0,
+    "status": "sob_encomenda"
+  },
+  "119": {
+    "qtd": 2,
+    "status": "disponivel"
+  },
+  "120": {
+    "qtd": 1,
+    "status": "disponivel"
+  },
+  "121": {
+    "qtd": 3,
+    "status": "disponivel"
+  },
+  "122": {
+    "qtd": 0,
+    "status": "sob_encomenda"
+  },
+  "123": {
+    "qtd": 1,
+    "status": "disponivel"
+  },
+  "124": {
+    "qtd": 0,
+    "status": "sob_encomenda"
+  },
+  "125": {
+    "qtd": 1,
+    "status": "disponivel"
+  },
+  "126": {
+    "qtd": 0,
+    "status": "sob_encomenda"
+  },
+  "127": {
+    "qtd": 1,
+    "status": "disponivel"
+  },
+  "128": {
+    "qtd": 1,
+    "status": "disponivel"
+  },
+  "129": {
+    "qtd": 3,
+    "status": "disponivel"
+  },
+  "130": {
+    "qtd": 1,
+    "status": "disponivel"
+  },
+  "131": {
+    "qtd": 1,
+    "status": "disponivel"
+  },
+  "201": {
+    "qtd": 4,
+    "status": "disponivel"
+  },
+  "202": {
+    "qtd": 4,
+    "status": "disponivel"
+  },
+  "203": {
+    "qtd": 3,
+    "status": "disponivel"
+  },
+  "204": {
+    "qtd": 2,
+    "status": "disponivel"
+  },
+  "205": {
+    "qtd": 3,
+    "status": "disponivel"
+  },
+  "206": {
+    "qtd": 2,
+    "status": "disponivel"
+  },
+  "207": {
+    "qtd": 2,
+    "status": "disponivel"
+  },
+  "208": {
+    "qtd": 2,
+    "status": "disponivel"
+  },
+  "209": {
+    "qtd": 2,
+    "status": "disponivel"
+  },
+  "210": {
+    "qtd": 1,
+    "status": "disponivel"
+  },
+  "211": {
+    "qtd": 2,
+    "status": "disponivel"
+  },
+  "212": {
+    "qtd": 1,
+    "status": "disponivel"
+  },
+  "213": {
+    "qtd": 3,
+    "status": "disponivel"
+  },
+  "214": {
+    "qtd": 4,
+    "status": "disponivel"
+  },
+  "215": {
+    "qtd": 3,
+    "status": "disponivel"
+  },
+  "216": {
+    "qtd": 1,
+    "status": "disponivel"
+  },
+  "217": {
+    "qtd": 1,
+    "status": "disponivel"
+  },
+  "218": {
+    "qtd": 14,
+    "status": "disponivel"
+  },
+  "219": {
+    "qtd": 10,
+    "status": "disponivel"
+  },
+  "220": {
+    "qtd": 4,
+    "status": "disponivel"
+  },
+  "221": {
+    "qtd": 8,
+    "status": "disponivel"
+  },
+  "001": {
+    "qtd": 1,
+    "status": "disponivel"
+  },
+  "002": {
+    "qtd": 2,
+    "status": "disponivel"
+  },
+  "003": {
+    "qtd": 1,
+    "status": "disponivel"
+  },
+  "004": {
+    "qtd": 0,
+    "status": "esgotado"
+  },
+  "005": {
+    "qtd": 2,
+    "status": "disponivel"
+  },
+  "006": {
+    "qtd": 2,
+    "status": "disponivel"
+  },
+  "007": {
+    "qtd": 0,
+    "status": "sob_encomenda"
+  },
+  "008": {
+    "qtd": 2,
+    "status": "disponivel"
+  },
+  "009": {
+    "qtd": 0,
+    "status": "sob_encomenda"
+  },
+  "010": {
+    "qtd": 1,
+    "status": "disponivel"
+  },
+  "011": {
+    "qtd": 1,
+    "status": "disponivel"
+  },
+  "011B": {
+    "qtd": 1,
+    "status": "disponivel"
+  },
+  "012": {
+    "qtd": 0,
+    "status": "sob_encomenda"
+  },
+  "013": {
+    "qtd": 0,
+    "status": "sob_encomenda"
+  },
+  "014": {
+    "qtd": 0,
+    "status": "sob_encomenda"
+  },
+  "015": {
+    "qtd": 1,
+    "status": "disponivel"
+  },
+  "016": {
+    "qtd": 1,
+    "status": "disponivel"
+  },
+  "017": {
+    "qtd": 1,
+    "status": "disponivel"
+  },
+  "018": {
+    "qtd": 1,
+    "status": "disponivel"
+  },
+  "019": {
+    "qtd": 3,
+    "status": "disponivel"
+  },
+  "020": {
+    "qtd": 0,
+    "status": "sob_encomenda"
+  },
+  "021": {
+    "qtd": 0,
+    "status": "sob_encomenda"
+  },
+  "022": {
+    "qtd": 3,
+    "status": "disponivel"
+  },
+  "023": {
+    "qtd": 1,
+    "status": "disponivel"
+  },
+  "024": {
+    "qtd": 1,
+    "status": "disponivel"
+  },
+  "025": {
+    "qtd": 2,
+    "status": "disponivel"
+  },
+  "026": {
+    "qtd": 1,
+    "status": "disponivel"
+  },
+  "027": {
+    "qtd": 1,
+    "status": "disponivel"
+  },
+  "028": {
+    "qtd": 0,
+    "status": "sob_encomenda"
+  },
+  "029": {
+    "qtd": 2,
+    "status": "disponivel"
+  },
+  "030": {
+    "qtd": 2,
+    "status": "disponivel"
+  },
+  "031": {
+    "qtd": 0,
+    "status": "sob_encomenda"
+  },
+  "032": {
+    "qtd": 3,
+    "status": "disponivel"
+  },
+  "033": {
+    "qtd": 0,
+    "status": "sob_encomenda"
+  },
+  "034": {
+    "qtd": 0,
+    "status": "sob_encomenda"
+  },
+  "035": {
+    "qtd": 0,
+    "status": "sob_encomenda"
+  }
+}

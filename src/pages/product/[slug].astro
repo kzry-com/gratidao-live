@@ -1,0 +1,160 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import Breadcrumbs from "../../components/ui/Breadcrumbs.astro";
+import ProductGallery from "../../components/products/ProductGallery.astro";
+import ProductInfo from "../../components/products/ProductInfo.astro";
+import PiramideOlfativa from "../../components/products/PiramideOlfativa.astro";
+import CardProduct from "../../components/products/CardProduct.astro";
+import { products, getProductBySlug, getRelatedProducts } from "../../data/products";
+
+export async function getStaticPaths() {
+    return products.map((product) => ({
+        params: { slug: product.slug },
+        props: { product },
+    }));
+}
+
+const { slug } = Astro.params;
+const product = getProductBySlug(String(slug || "")) || Astro.props.product;
+if (!product) {
+    return Astro.redirect("/404");
+}
+const relatedProducts = getRelatedProducts(product.category, product.slug);
+
+const breadcrumbItems = [
+    { label: "Início", href: "/" },
+    {
+        label: product.category.charAt(0).toUpperCase() + product.category.slice(1),
+        href: `/category/${product.category.toLowerCase()}`,
+    },
+    { label: product.name },
+];
+---
+
+<Layout title={`${product.name} | Ana Ferreira Perfumes`}>
+    <div class="bg-[#F6EFE8] min-h-screen pb-20 pt-6">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6">
+            <Breadcrumbs items={breadcrumbItems} />
+        </div>
+
+        <main class="max-w-7xl mx-auto px-4 sm:px-6 py-8 md:py-12">
+            <!-- Top Grid: Gallery + Info -->
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 xl:gap-16 items-start">
+                <!-- Gallery Section + Pirâmide -->
+                <div class="bg-white p-4 sm:p-6 rounded-2xl shadow-sm border border-[#D4A33D]/20">
+                    <ProductGallery images={product.images} />
+                    
+                    {product.piramide_olfativa && (
+                        <div class="mt-8">
+                            <PiramideOlfativa
+                                topo={product.piramide_olfativa.topo}
+                                corpo={product.piramide_olfativa.corpo}
+                                fundo={product.piramide_olfativa.fundo}
+                            />
+                        </div>
+                    )}
+                </div>
+
+                <!-- Info Section: Ficha, Preço, Botões -->
+                <div class="bg-white p-6 sm:p-8 rounded-2xl shadow-sm border border-[#D4A33D]/20">
+                    <ProductInfo product={product} />
+                </div>
+            </div>
+
+            <!-- Bloco de Descrição Detalhada & Experiência Olfativa (Abaixo dos dois quadros) -->
+            <section class="mt-12 bg-white p-6 sm:p-10 rounded-2xl shadow-sm border border-[#D4A33D]/20">
+                <div class="max-w-4xl mx-auto">
+                    <div class="flex items-center gap-3 mb-6 pb-4 border-b border-[#D4A33D]/20">
+                        <div class="w-12 h-12 rounded-2xl bg-[#6E0D25]/10 flex items-center justify-center text-[#6E0D25] shrink-0">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                                <polyline points="14 2 14 8 20 8"/>
+                                <line x1="16" y1="13" x2="8" y2="13"/>
+                                <line x1="16" y1="17" x2="8" y2="17"/>
+                                <polyline points="10 9 9 9 8 9"/>
+                            </svg>
+                        </div>
+                        <div>
+                            <span class="text-xs font-bold uppercase tracking-widest text-[#D4A33D] font-heading block">
+                                Ficha Olfativa Completa
+                            </span>
+                            <h2 class="text-2xl sm:text-3xl font-heading font-bold text-[#6E0D25] tracking-wide">
+                                Descrição Detalhada & Experiência Sensorial
+                            </h2>
+                        </div>
+                    </div>
+
+                    <!-- Inspiração em destaque -->
+                    {product.inspiredBy && (
+                        <div class="mb-6 p-4 rounded-xl bg-[#F6EFE8] border-l-4 border-[#6E0D25] flex items-center gap-3">
+                            <span class="text-lg">✨</span>
+                            <p class="text-sm sm:text-base font-medium text-[#2F2F2F]">
+                                <strong>Inspiração Olfativa:</strong> {product.inspiredBy}
+                            </p>
+                        </div>
+                    )}
+
+                    <!-- Texto detalhado longo -->
+                    <div class="prose prose-lg max-w-none text-[#2F2F2F]/90 leading-relaxed space-y-4 font-light">
+                        {product.detailedDescription?.split('\n\n').map(paragraph => (
+                            <p class="text-base sm:text-lg leading-relaxed whitespace-pre-line">{paragraph}</p>
+                        ))}
+                    </div>
+
+                    <!-- Perfil Sensorial Tags -->
+                    {product.perfil_sensorial && product.perfil_sensorial.length > 0 && (
+                        <div class="mt-8 pt-6 border-t border-slate-100">
+                            <h3 class="text-xs uppercase font-bold text-[#6E0D25] tracking-widest font-heading mb-3">
+                                Acordes & Sensações Predominantes
+                            </h3>
+                            <div class="flex flex-wrap gap-2">
+                                {product.perfil_sensorial.map(tag => (
+                                    <span class="px-3.5 py-1.5 rounded-full text-xs font-medium bg-[#F6EFE8] text-[#6E0D25] border border-[#D4A33D]/30">
+                                        ✨ {tag}
+                                    </span>
+                                ))}
+                            </div>
+                        </div>
+                    )}
+
+                    <!-- Destaque Padrão Parfum -->
+                    <div class="mt-8 p-6 rounded-2xl bg-gradient-to-r from-[#6E0D25]/5 via-[#D4A33D]/10 to-transparent border border-[#D4A33D]/25">
+                        <h4 class="font-heading font-bold text-[#6E0D25] text-base mb-1">
+                            Concentração Parfum (Até 33% de Óleos Nobres)
+                        </h4>
+                        <p class="text-xs text-[#2F2F2F]/80 leading-relaxed">
+                            Formulação de alta performance com maceração controlada para longevidade e fixação autêntica no clima brasileiro.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Related Products Section -->
+            {relatedProducts.length > 0 && (
+                <section class="mt-16">
+                    <div class="flex items-center justify-between mb-8 border-b border-[#D4A33D]/20 pb-4">
+                        <h2 class="text-2xl font-heading font-bold text-[#6E0D25] tracking-wide">
+                            Fragrâncias Relacionadas
+                        </h2>
+                    </div>
+
+                    <div class="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6">
+                        {
+                            relatedProducts.map((relProduct) => (
+                                <CardProduct
+                                    title={relProduct.title}
+                                    price={relProduct.price}
+                                    images={relProduct.images}
+                                    slug={relProduct.slug}
+                                    badge={relProduct.badge}
+                                    stock={relProduct.stock}
+                                    discount={relProduct.discount}
+                                />
+                            ))
+                        }
+                    </div>
+                </section>
+            )}
+        </main>
+    </div>
+</Layout>

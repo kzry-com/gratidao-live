@@ -1,0 +1,63 @@
+---
+import { Icon } from "astro-icon/components";
+
+const contactDetails = [
+    {
+        icon: "lucide:message-circle",
+        title: "WhatsApp Oficial",
+        lines: ["(84) 9.9422-4545", "Atendimento rápido & consultoria olfativa"],
+        href: "https://wa.me/5584994224545?text=Ol%C3%A1%2C%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20os%20perfumes%20da%20Gratid%C3%A3o%20Shop!",
+    },
+    {
+        icon: "lucide:mail",
+        title: "E-mail de Contato",
+        lines: ["gratidao@gratidao.live"],
+        href: "mailto:gratidao@gratidao.live",
+    },
+    {
+        icon: "lucide:shopping-bag",
+        title: "Loja Oficial Shopee",
+        lines: ["shopee.com.br/annaferreira81", "Mais de 5 anos com avaliações 5 estrelas"],
+        href: "https://shopee.com.br/annaferreira81",
+    },
+    {
+        icon: "lucide:map-pin",
+        title: "Localização & Entregas",
+        lines: ["Natal / RN", "Envios via Melhor Envio para todo o Brasil"],
+    },
+];
+---
+
+<div class="space-y-6 mb-10">
+    {
+        contactDetails.map((item) => (
+            <div class="flex items-start gap-4">
+                <div class="w-12 h-12 rounded-2xl bg-primary/10 flex items-center justify-center text-primary shrink-0 shadow-xs">
+                    <Icon name={item.icon} class="w-6 h-6" />
+                </div>
+                <div>
+                    <h3 class="font-bold text-lg text-base-content font-['Cinzel']">{item.title}</h3>
+                    {item.href ? (
+                        <a 
+                            href={item.href} 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            class="text-primary hover:underline font-medium text-sm md:text-base block"
+                        >
+                            {item.lines[0]}
+                        </a>
+                    ) : (
+                        <p class="font-medium text-base-content text-sm md:text-base">
+                            {item.lines[0]}
+                        </p>
+                    )}
+                    {item.lines.length > 1 && (
+                        <p class="text-base-content/60 text-xs md:text-sm mt-0.5">
+                            {item.lines[1]}
+                        </p>
+                    )}
+                </div>
+            </div>
+        ))
+    }
+</div>

@@ -1,0 +1,249 @@
+---
+import { Icon } from "astro-icon/components";
+
+interface Product {
+    id: string;
+    name: string;
+    price: number;
+    compareAtPrice?: number;
+    description: string;
+    category: string;
+    stock: number;
+    badge?: string;
+    discount?: number;
+    image?: string;
+    images?: string[];
+    specs?: { label: string; value: string }[];
+    isDiscontinued?: boolean;
+    linkShopee?: string;
+}
+
+interface Props {
+    product: Product;
+}
+
+const { product } = Astro.props;
+
+const formatMoeda = (val: number | undefined) => typeof val === "number" ? `R$ ${val.toFixed(2).replace(".", ",")}` : "R$ 0,00";
+const effectiveImage = product.image || (product as any).images?.[0] || "";
+const shopeeUrl = product.linkShopee || "https://shopee.com.br/annaferreira81";
+const productSlug = (product as any).slug || product.id || product.name.toLowerCase().replace(/\s+/g, "-");
+
+const isSemEstoque = (product.stock ?? 0) <= 0;
+const podeComprar = !product.isDiscontinued || (product.isDiscontinued && (product.stock ?? 0) > 0);
+const botaoIcone = isSemEstoque ? "lucide:factory" : "lucide:shopping-bag";
+const botaoCorClass = product.isDiscontinued
+    ? "bg-[#C05621] hover:bg-[#9C4215]"
+    : (isSemEstoque ? "bg-[#B7791F] hover:bg-[#975A16]" : "bg-[#6E0D25] hover:bg-[#4B0919]");
+const botaoTexto = product.isDiscontinued
+    ? `Comprar Últimas Unidades (${product.stock})`
+    : (isSemEstoque ? "Pedir Sob Encomenda" : ((product.badge === "Lançamento" || product.badge === "Lancamento") ? "Comprar Lançamento" : "Adicionar ao Carrinho"));
+---
+
+<div
+    class="product-info space-y-6"
+    data-product={JSON.stringify({
+        id: productSlug,
+        slug: productSlug,
+        name: product.name,
+        price: product.price,
+        image: effectiveImage,
+        category: product.category,
+        discount: product.discount,
+        stock: product.stock,
+    })}
+>
+    <!-- Header Info -->
+    <div class="space-y-3">
+        <div class="flex items-center gap-2">
+            <span class="text-[#6E0D25] font-bold uppercase text-xs tracking-widest font-heading">
+                {product.category}
+            </span>
+            {product.badge && (
+                <span class:list={[
+                    "px-2.5 py-0.5 text-[10px] font-bold uppercase rounded-full tracking-wider",
+                    product.badge === "Fora de Linha"
+                        ? "bg-slate-200 text-slate-700"
+                        : (product.badge === "Lançamento" ? "bg-[#D4A33D] text-[#2F2F2F]" : "bg-[#6E0D25] text-white")
+                ]}>
+                    {product.badge}
+                </span>
+            )}
+        </div>
+
+        <h1 class="text-3xl md:text-4xl font-heading font-bold text-[#2F2F2F] tracking-wide leading-tight">
+            {product.name}
+        </h1>
+
+        <!-- Preço e Referência Shopee -->
+        <div class="flex items-baseline gap-4 pt-2">
+            <div class="flex flex-col">
+                {product.compareAtPrice && product.compareAtPrice !== product.price && (
+                    <span class="text-xs text-slate-400 font-medium line-through">
+                        Preço Shopee: {formatMoeda(product.compareAtPrice)}
+                    </span>
+                )}
+                <span class="text-3xl md:text-4xl font-black text-[#6E0D25]">
+                    {formatMoeda(product.price)}
+                </span>
+                <span class="text-xs text-emerald-800 font-medium mt-0.5">
+                    Valor especial para Venda Direta / Pix
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Status de Disponibilidade -->
+    <div class="flex items-center gap-2 text-sm font-semibold p-3 rounded-xl bg-[#F6EFE8] border border-[#D4A33D]/20">
+        {product.isDiscontinued ? (
+            product.stock > 0 ? (
+                <div class="flex items-center gap-2 text-amber-900">
+                    <span class="w-2.5 h-2.5 rounded-full bg-amber-600"></span>
+                    <span>Fora de Linha — Últimas Unidades ({product.stock} {product.stock === 1 ? 'disponível' : 'disponíveis'}). Não haverá reposição.</span>
+                </div>
+            ) : (
+                <div class="flex items-center gap-2 text-slate-600">
+                    <span class="w-2.5 h-2.5 rounded-full bg-slate-500"></span>
+                    <span>Produto Fora de Linha (Disponível apenas para histórico e consulta olfativa)</span>
+                </div>
+            )
+        ) : (product.badge === "Lançamento" || product.badge === "Lancamento") ? (
+            <div class="flex items-center gap-2 text-[#6E0D25]">
+                <span class="w-2.5 h-2.5 rounded-full bg-[#D4A33D]"></span>
+                <span class="font-bold">✨ Lançamento Exclusivo — Em Estoque para Envio Imediato ({product.stock} un.)</span>
+            </div>
+        ) : product.stock > 0 ? (
+            <div class="flex items-center gap-2 text-emerald-800">
+                <span class="w-2.5 h-2.5 rounded-full bg-emerald-600"></span>
+                <span>Em Estoque para Envio Imediato ({product.stock} {product.stock === 1 ? 'unidade' : 'unidades'})</span>
+            </div>
+        ) : (
+            <div class="flex items-center gap-2 text-[#D4A33D]">
+                <span class="w-2.5 h-2.5 rounded-full bg-[#D4A33D]"></span>
+                <span>Disponível Sob Encomenda (Prazo rápido de fábrica)</span>
+            </div>
+        )}
+    </div>
+
+    <!-- Description -->
+    <div class="prose prose-sm text-[#2F2F2F]/90 leading-relaxed font-light">
+        <p>{product.description}</p>
+    </div>
+
+    <!-- Specs / Ficha Técnica -->
+    {product.specs && product.specs.length > 0 && (
+        <div class="space-y-3 pt-2">
+            <h3 class="text-xs uppercase font-bold text-[#6E0D25] tracking-widest font-heading">
+                Ficha Técnica
+            </h3>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs">
+                {product.specs.map(spec => (
+                    <div class="flex justify-between p-2 rounded-lg bg-[#F6EFE8]/70 border border-[#D4A33D]/15">
+                        <span class="text-slate-500 font-medium">{spec.label}:</span>
+                        <span class="text-[#2F2F2F] font-semibold text-right">{spec.value}</span>
+                    </div>
+                ))}
+            </div>
+        </div>
+    )}
+
+    <!-- Actions -->
+    <div class="space-y-3 pt-4 border-t border-slate-100">
+        <!-- Linha 1: Adicionar ao Carrinho / Últimas Unidades + Favorito -->
+        <div class="flex items-center gap-3">
+            {podeComprar ? (
+                <button
+                    id="btn-add-main-cart"
+                    class:list={[
+                        "btn font-bold flex-1 rounded-xl shadow-md border-none flex items-center justify-center gap-2 py-3.5 text-sm uppercase tracking-wider cursor-pointer text-white",
+                        botaoCorClass
+                    ]}
+                >
+                    <Icon name={botaoIcone} class="w-5 h-5 shrink-0" />
+                    <span>{botaoTexto}</span>
+                </button>
+            ) : (
+                <div class="flex-1 p-3 bg-slate-100 text-slate-500 rounded-xl text-center text-xs font-semibold">
+                    Produto Fora de Linha (Apenas Histórico / Consulta)
+                </div>
+            )}
+
+            <button
+                id="btn-fav-toggle"
+                class="btn btn-square bg-[#F6EFE8] hover:bg-[#D4A33D]/20 text-[#6E0D25] border border-[#D4A33D]/30 rounded-xl shrink-0"
+                aria-label="Favoritar"
+                title="Favoritar"
+            >
+                <Icon name="lucide:heart" class="w-5 h-5" />
+            </button>
+        </div>
+
+        <!-- Linha 2: Opção Shopee -->
+        <a
+            href={shopeeUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn w-full bg-[#FFF2EE] hover:bg-[#FFE3DB] text-[#EE4D2D] hover:text-[#D73211] border border-[#EE4D2D]/30 font-semibold rounded-xl flex items-center justify-center gap-2 py-3 text-xs uppercase tracking-wider transition-all"
+        >
+            <Icon name="lucide:shopping-bag" class="w-4 h-4 text-[#EE4D2D] shrink-0" />
+            <span>Prefiro comprar na Shopee</span>
+            {product.compareAtPrice && product.compareAtPrice !== product.price && (
+                <span class="text-[11px] font-normal text-slate-500">
+                    ({formatMoeda(product.compareAtPrice)})
+                </span>
+            )}
+        </a>
+    </div>
+</div>
+
+<script>
+    import { addToCart } from "../../store/cartStore";
+    import { toggleFavorite, isFavorite, favoriteItems } from "../../store/favoriteStore";
+    import { toast } from "sonner";
+
+    function initProductInfo() {
+        const infoEl = document.querySelector(".product-info") as HTMLElement;
+        if (!infoEl) return;
+
+        const product = JSON.parse(infoEl.dataset.product || "{}");
+        const addBtn = document.getElementById("btn-add-main-cart");
+        const favBtn = document.getElementById("btn-fav-toggle");
+        const favIcon = favBtn?.querySelector("svg");
+        const targetId = product.slug || product.id;
+
+        const updateFav = () => {
+            if (isFavorite(targetId)) {
+                favIcon?.classList.add("fill-red-600", "text-red-600");
+            } else {
+                favIcon?.classList.remove("fill-red-600", "text-red-600");
+            }
+        };
+        updateFav();
+
+        favoriteItems.subscribe(() => {
+            updateFav();
+        });
+
+        addBtn?.addEventListener("click", () => {
+            const res = addToCart(product, 1);
+            if (res.success) {
+                toast.success(res.message);
+            } else {
+                toast.error(res.message);
+            }
+        });
+
+        favBtn?.addEventListener("click", () => {
+            toggleFavorite(product);
+            updateFav();
+            if (isFavorite(targetId)) {
+                toast.success("Adicionado aos favoritos!");
+            } else {
+                toast.info("Removido dos favoritos.");
+            }
+        });
+    }
+
+    initProductInfo();
+    document.addEventListener("astro:page-load", initProductInfo);
+</script>

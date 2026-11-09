@@ -1,0 +1,110 @@
+---
+---
+
+<div class="bg-base-100 p-8 md:p-10 rounded-3xl border border-base-200 shadow-xl">
+    <div class="mb-8">
+        <h3 class="text-2xl font-bold font-['Cinzel'] text-base-content mb-2">Envie uma Mensagem</h3>
+        <p class="text-sm text-base-content/70">
+            Preencha os campos abaixo para nos enviar sua dúvida ou pedido especial. Se preferir atendimento imediato, clique no botão do WhatsApp.
+        </p>
+    </div>
+
+    <form id="contact-form" class="w-full space-y-6">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <!-- Nome -->
+            <div class="flex flex-col">
+                <label for="nome" class="font-semibold text-base-content mb-2 text-sm">
+                    Nome Completo *
+                </label>
+                <input
+                    type="text"
+                    id="nome"
+                    name="nome"
+                    placeholder="Seu nome"
+                    class="input input-bordered w-full rounded-xl focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary"
+                    required
+                />
+            </div>
+
+            <!-- Telefone / WhatsApp -->
+            <div class="flex flex-col">
+                <label for="telefone" class="font-semibold text-base-content mb-2 text-sm">
+                    WhatsApp ou Celular *
+                </label>
+                <input
+                    type="tel"
+                    id="telefone"
+                    name="telefone"
+                    placeholder="(84) 9.9999-9999"
+                    class="input input-bordered w-full rounded-xl focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary"
+                    required
+                />
+            </div>
+
+            <!-- E-mail -->
+            <div class="flex flex-col md:col-span-2">
+                <label for="email" class="font-semibold text-base-content mb-2 text-sm">
+                    E-mail
+                </label>
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="seuemail@exemplo.com"
+                    class="input input-bordered w-full rounded-xl focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary"
+                />
+            </div>
+        </div>
+
+        <!-- Mensagem -->
+        <div class="flex flex-col">
+            <label for="mensagem" class="font-semibold text-base-content mb-2 text-sm">
+                Como podemos ajudar? *
+            </label>
+            <textarea
+                id="mensagem"
+                name="mensagem"
+                rows="4"
+                placeholder="Ex: Gostaria de saber qual perfume se parece com o meu favorito, ou tirar dúvidas sobre o prazo de entrega para meu CEP..."
+                class="textarea textarea-bordered w-full rounded-xl focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary resize-none text-base"
+                required></textarea>
+        </div>
+
+        <!-- Buttons -->
+        <div class="flex flex-col sm:flex-row items-center justify-between gap-4 pt-4">
+            <button
+                type="submit"
+                class="w-full sm:w-auto bg-primary text-primary-content hover:bg-primary/90 font-bold px-8 py-3.5 rounded-full cursor-pointer transition text-base shadow-md hover:shadow-lg hover:scale-[1.02] transform duration-200"
+            >
+                Enviar via WhatsApp
+            </button>
+
+            <a
+                href="https://wa.me/5584994224545?text=Ol%C3%A1%20Ana%20Ferreira%2C%20gostaria%20de%20um%20atendimento%20personalizado%20sobre%20os%20perfumes!"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="w-full sm:w-auto inline-flex items-center justify-center gap-2 border border-emerald-600 text-emerald-700 hover:bg-emerald-50 px-6 py-3 rounded-full font-bold text-sm transition"
+            >
+                <span>Falar no WhatsApp</span>
+                <span class="inline-block w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+            </a>
+        </div>
+    </form>
+</div>
+
+<script>
+    const form = document.getElementById("contact-form");
+    if (form) {
+        form.addEventListener("submit", (e) => {
+            e.preventDefault();
+            const nome = (document.getElementById("nome") as HTMLInputElement)?.value || "";
+            const telefone = (document.getElementById("telefone") as HTMLInputElement)?.value || "";
+            const email = (document.getElementById("email") as HTMLInputElement)?.value || "";
+            const mensagem = (document.getElementById("mensagem") as HTMLInputElement)?.value || "";
+
+            const text = `*Contato via Loja Gratidão Shop*\n\n*Nome:* ${nome}\n*Telefone:* ${telefone}\n*E-mail:* ${email || 'Não informado'}\n\n*Mensagem:*\n${mensagem}`;
+            const url = `https://wa.me/5584994224545?text=${encodeURIComponent(text)}`;
+            window.open(url, "_blank");
+        });
+    }
+</script>

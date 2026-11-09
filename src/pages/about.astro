@@ -1,0 +1,21 @@
+---
+import Layout from "../layouts/Layout.astro";
+import AboutHero from "../components/about/AboutHero.astro";
+import AboutMission from "../components/about/AboutMission.astro";
+import AboutValues from "../components/about/AboutValues.astro";
+import Breadcrumbs from "../components/ui/Breadcrumbs.astro";
+---
+
+<Layout>
+    <AboutHero />
+    <div class="max-w-7xl mx-auto px-4 pt-8">
+        <Breadcrumbs
+            items={[
+                { label: "Início", href: "/" },
+                { label: "Sobre a Marca", href: "/about" },
+            ]}
+        />
+    </div>
+    <AboutMission />
+    <AboutValues />
+</Layout>

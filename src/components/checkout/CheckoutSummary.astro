@@ -1,0 +1,132 @@
+---
+import { Icon } from "astro-icon/components";
+---
+
+<div
+    class="bg-base-100 rounded-3xl p-6 md:p-8 shadow-sm border border-base-200 h-fit sticky top-24"
+>
+    <div class="flex items-center gap-3 mb-6">
+        <div
+            class="w-10 h-10 bg-primary/10 rounded-xl flex items-center justify-center text-primary"
+        >
+            <Icon name="lucide:shopping-bag" class="w-5 h-5" />
+        </div>
+        <h2
+            class="text-xl font-bold text-base-content font-['Cinzel'] tracking-tight"
+        >
+            Resumo do Pedido
+        </h2>
+    </div>
+
+    <div
+        id="checkout-items"
+        class="space-y-4 max-h-[360px] overflow-y-auto mb-6 pr-2 custom-scrollbar"
+    >
+        <!-- Items injected by client JS -->
+    </div>
+
+    <div class="space-y-3 pt-6 border-t border-base-200">
+        <div
+            class="flex justify-between text-base-content/70 font-semibold text-xs uppercase tracking-wider"
+        >
+            <span>Subtotal</span>
+            <span id="checkout-subtotal">R$ 0,00</span>
+        </div>
+        <div
+            class="flex justify-between text-base-content/70 font-semibold text-xs uppercase tracking-wider"
+        >
+            <span>Frete (Melhor Envio)</span>
+            <span class="text-emerald-600 font-bold">Grátis ou a calcular</span>
+        </div>
+        <div
+            id="checkout-savings-container"
+            class="hidden justify-between text-emerald-700 font-bold text-xs uppercase tracking-wider bg-emerald-500/10 p-2.5 rounded-xl"
+        >
+            <span>Economia Direta</span>
+            <span id="checkout-savings">- R$ 0,00</span>
+        </div>
+        <div
+            class="flex justify-between items-center pt-4 mt-2 border-t-2 border-base-200 border-dashed"
+        >
+            <span
+                class="text-xl font-black text-base-content font-['Cinzel'] tracking-tight"
+                >Total</span
+            >
+            <span
+                id="checkout-total"
+                class="text-2xl font-black text-primary font-['Cinzel']">R$ 0,00</span
+            >
+        </div>
+    </div>
+</div>
+
+<style>
+    .custom-scrollbar::-webkit-scrollbar {
+        width: 4px;
+    }
+    .custom-scrollbar::-webkit-scrollbar-track {
+        background: transparent;
+    }
+    .custom-scrollbar::-webkit-scrollbar-thumb {
+        background: #e2e8f0;
+        border-radius: 10px;
+    }
+</style>
+
+<script>
+    import { cartItems, totalPrice, totalSavings } from "../../store/cartStore";
+
+    const itemsContainer = document.getElementById("checkout-items");
+    const subtotalEl = document.getElementById("checkout-subtotal");
+    const totalEl = document.getElementById("checkout-total");
+    const savingsEl = document.getElementById("checkout-savings");
+    const savingsContainer = document.getElementById(
+        "checkout-savings-container",
+    );
+
+    const formatPrice = (price: number) =>
+        new Intl.NumberFormat("pt-BR", { style: "currency", currency: "BRL" }).format(price);
+
+    cartItems.subscribe((items) => {
+        if (!itemsContainer) return;
+
+        if (items.length === 0) {
+            itemsContainer.innerHTML = `<p class="text-base-content/50 font-normal italic text-sm">Sua sacola está vazia.</p>`;
+            return;
+        }
+
+        itemsContainer.innerHTML = items
+            .map(
+                (item) => `
+            <div class="flex items-center gap-4 py-2 border-b border-base-200 last:border-0">
+                <div class="w-14 h-16 rounded-lg bg-base-200 overflow-hidden shrink-0 border border-base-300">
+                    <img src="${item.image}" alt="${item.name}" class="w-full h-full object-cover" />
+                </div>
+                <div class="flex-1 min-w-0">
+                    <h4 class="font-bold text-xs text-base-content font-['Cinzel'] truncate">${item.name}</h4>
+                    <p class="text-[10px] text-base-content/60 font-semibold">Qtd: ${item.quantity} x ${formatPrice(item.price)}</p>
+                </div>
+                <span class="font-bold text-xs text-primary font-['Cinzel']">${formatPrice(item.price * item.quantity)}</span>
+            </div>
+        `,
+            )
+            .join("");
+    });
+
+    totalPrice.subscribe((price) => {
+        if (subtotalEl) subtotalEl.textContent = formatPrice(price);
+        if (totalEl) totalEl.textContent = formatPrice(price);
+    });
+
+    totalSavings.subscribe((savings) => {
+        if (!savingsContainer || !savingsEl) return;
+        if (savings > 0) {
+            savingsContainer.classList.remove("hidden");
+            savingsContainer.classList.add("flex");
+            savingsEl.textContent = `- ${formatPrice(savings)}`;
+        } else {
+            savingsContainer.classList.add("hidden");
+            savingsContainer.classList.remove("flex");
+        }
+    });
+</script>

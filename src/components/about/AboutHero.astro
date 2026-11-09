@@ -1,0 +1,42 @@
+---
+interface Props {
+    title?: string;
+    subtitle?: string;
+    image?: string;
+}
+
+const {
+    title = "Nossa História & Propósito",
+    subtitle = "Alta perfumaria, inteligência financeira e gratidão em cada detalhe.",
+    image = "https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?q=80&w=1920&auto=format&fit=crop",
+} = Astro.props;
+---
+
+<section
+    class="relative h-[380px] md:h-[460px] flex items-center justify-center overflow-hidden"
+>
+    <div class="absolute inset-0 z-0">
+        <img
+            src={image}
+            alt="Gratidão Shop - Alta Perfumaria"
+            class="w-full h-full object-cover"
+        />
+        <div class="absolute inset-0 bg-gradient-to-t from-black/85 via-black/60 to-black/40"></div>
+    </div>
+
+    <div class="relative z-10 text-center px-4 max-w-4xl mx-auto">
+        <span class="text-secondary font-bold uppercase tracking-widest text-xs md:text-sm mb-3 block font-['Cinzel']">
+            Ana Ferreira • Gratidão Shop
+        </span>
+        <h1
+            class="text-3xl md:text-5xl lg:text-6xl font-black text-white font-['Cinzel'] tracking-tight mb-4 drop-shadow-md"
+        >
+            {title}
+        </h1>
+        <p
+            class="text-base md:text-xl text-white/90 max-w-2xl mx-auto leading-relaxed drop-shadow-sm"
+        >
+            {subtitle}
+        </p>
+    </div>
+</section>

@@ -1,0 +1,26 @@
+{
+  "catalog_version": "2026.11.09-v2.1794264080430",
+  "version": "2026.11.09-v2.1794264080430",
+  "min_app_version": "1.0.0",
+  "last_updated": "2026-11-09T22:41:20.429350Z",
+  "release_date": "2026-11-09T19:41:20.430349",
+  "endpoints": {
+    "femininos": "/data/bd_flatter_perfumes_femininos_v2.json",
+    "masculinos": "/data/bd_flatter_perfumes_masculinos_v2.json",
+    "cosmeticos": "/data/bd_flatter_cosmeticos_v2.json"
+  },
+  "counts": {
+    "femininos": 36,
+    "masculinos": 31,
+    "cosmeticos": 21,
+    "total": 88
+  },
+  "total_products": 88,
+  "categories": {
+    "femininos": 36,
+    "masculinos": 31,
+    "cosmeticos": 21
+  },
+  "assets_base_url": "https://gratidao.live",
+  "system": "gratidao-admin-desktop"
+}

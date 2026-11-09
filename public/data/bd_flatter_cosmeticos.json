@@ -1,0 +1,1029 @@
+[
+  {
+    "id": "201",
+    "nome": "Body Mystic Melina",
+    "genero": "Feminino",
+    "categoria": "Body Splash / Body Mystic",
+    "inspiracao_olfativa": "Delina (Parfums de Marly)",
+    "familia_olfativa": "Floral Frutado",
+    "piramide_olfativa": {
+      "topo": [
+        "Lichia",
+        "Ruibarbo",
+        "Bergamota"
+      ],
+      "corpo": [
+        "Rosa Turca",
+        "Peônia",
+        "Baunilha"
+      ],
+      "fundo": [
+        "Cashmeran",
+        "Almíscar",
+        "Cedro"
+      ]
+    },
+    "perfil_sensorial": [
+      "Refrescante",
+      "Floral rosa",
+      "Sofisticado",
+      "Pós-banho luxuoso"
+    ],
+    "ocasiao_uso": "Uso diário, pós-banho, sobreposição com perfume e dias quentes",
+    "status": "Linha Ativa",
+    "preco_venda": 55,
+    "preco_shopee": 70,
+    "estoque_inicial": 4,
+    "logistica": {
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 200,
+      "dimensoes_embalagem": {
+        "comprimento_cm": 6,
+        "largura_cm": 6,
+        "altura_cm": 20
+      },
+      "fragil": false
+    },
+    "assets": {
+      "capa_img": "/assets/images/flatter/20250711-flatter-02.jpg",
+      "ficha_tecnica_img": "/assets/images/flatter/20250711-flatter-02.jpg",
+      "url_slug": "/201-body-mystic-melina/"
+    }
+  },
+  {
+    "id": "202",
+    "nome": "Body Mystic Golden",
+    "genero": "Unissex",
+    "categoria": "Body Splash / Body Mystic",
+    "inspiracao_olfativa": "Erba Pura (Xerjoff)",
+    "familia_olfativa": "Frutado Âmbar",
+    "piramide_olfativa": {
+      "topo": [
+        "Laranja Siciliana",
+        "Bergamota",
+        "Limão"
+      ],
+      "corpo": [
+        "Frutas Mediterrâneas"
+      ],
+      "fundo": [
+        "Almíscar Branco",
+        "Baunilha de Madagascar",
+        "Âmbar"
+      ]
+    },
+    "perfil_sensorial": [
+      "Frutado solar",
+      "Radiante",
+      "Exótico",
+      "Vibrante"
+    ],
+    "ocasiao_uso": "Dia a dia, verão, praia e lazer",
+    "status": "Linha Ativa",
+    "preco_venda": 55,
+    "preco_shopee": 70,
+    "estoque_inicial": 4,
+    "logistica": {
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 200,
+      "dimensoes_embalagem": {
+        "comprimento_cm": 6,
+        "largura_cm": 6,
+        "altura_cm": 20
+      },
+      "fragil": false
+    },
+    "assets": {
+      "capa_img": "/assets/images/flatter/20250711-flatter-01.jpg",
+      "ficha_tecnica_img": "/assets/images/flatter/20250711-flatter-01.jpg",
+      "url_slug": "/202-body-mystic-golden/"
+    }
+  },
+  {
+    "id": "203",
+    "nome": "Body Mystic Serena",
+    "genero": "Feminino",
+    "categoria": "Body Splash / Body Mystic",
+    "inspiracao_olfativa": "Yara (Lattafa)",
+    "familia_olfativa": "Oriental Baunilha Frutado",
+    "piramide_olfativa": {
+      "topo": [
+        "Orquídea",
+        "Heliotrópio",
+        "Tangerina"
+      ],
+      "corpo": [
+        "Acorde Gourmand",
+        "Frutas Tropicais"
+      ],
+      "fundo": [
+        "Baunilha",
+        "Almíscar",
+        "Sândalo"
+      ]
+    },
+    "perfil_sensorial": [
+      "Cremoso",
+      "Doce delicado",
+      "Morango com creme",
+      "Aconchegante"
+    ],
+    "ocasiao_uso": "Uso diário, pós-banho e momentos de autocuidado",
+    "status": "Linha Ativa",
+    "preco_venda": 55,
+    "preco_shopee": 70,
+    "estoque_inicial": 3,
+    "logistica": {
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 200,
+      "dimensoes_embalagem": {
+        "comprimento_cm": 6,
+        "largura_cm": 6,
+        "altura_cm": 20
+      },
+      "fragil": false
+    },
+    "assets": {
+      "capa_img": "/assets/images/flatter/20250711-flatter-09.jpg",
+      "ficha_tecnica_img": "/assets/images/flatter/20250711-flatter-09.jpg",
+      "url_slug": "/203-body-mystic-serena/"
+    }
+  },
+  {
+    "id": "204",
+    "nome": "Body Mystic Hypnotic",
+    "genero": "Feminino",
+    "categoria": "Body Splash / Body Mystic",
+    "inspiracao_olfativa": "Very Good Girl (Carolina Herrera)",
+    "familia_olfativa": "Floral Frutado",
+    "piramide_olfativa": {
+      "topo": [
+        "Lichia",
+        "Groselha Vermelha"
+      ],
+      "corpo": [
+        "Rosa"
+      ],
+      "fundo": [
+        "Baunilha",
+        "Vetiver"
+      ]
+    },
+    "perfil_sensorial": [
+      "Frutado envolvente",
+      "Sedutor",
+      "Vibrante",
+      "Feminino"
+    ],
+    "ocasiao_uso": "Dia e noite, encontros e perfumação pós-banho",
+    "status": "Linha Ativa",
+    "preco_venda": 55,
+    "preco_shopee": 70,
+    "estoque_inicial": 2,
+    "logistica": {
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 200,
+      "dimensoes_embalagem": {
+        "comprimento_cm": 6,
+        "largura_cm": 6,
+        "altura_cm": 20
+      },
+      "fragil": false
+    },
+    "assets": {
+      "capa_img": "/assets/images/flatter/anuncios_femininos_26/anuncio_f_very_sexy_1x1.jpg",
+      "ficha_tecnica_img": "/assets/images/flatter/anuncios_femininos_26/anuncio_f_very_sexy_1x1.jpg",
+      "url_slug": "/204-body-mystic-hypnotic/"
+    }
+  },
+  {
+    "id": "205",
+    "nome": "Body Mystic Auriah",
+    "genero": "Feminino",
+    "categoria": "Body Splash / Body Mystic",
+    "inspiracao_olfativa": "Linha Especial Flatter",
+    "familia_olfativa": "Floral Oriental",
+    "piramide_olfativa": {
+      "topo": [
+        "Notas Cítricas",
+        "Frutas Vermelhas"
+      ],
+      "corpo": [
+        "Flores Brancas",
+        "Rosa"
+      ],
+      "fundo": [
+        "Baunilha",
+        "Almíscar"
+      ]
+    },
+    "perfil_sensorial": [
+      "Luminoso",
+      "Elegante",
+      "Suave",
+      "Perfumação contínua"
+    ],
+    "ocasiao_uso": "Rotina diária, trabalho e pós-banho",
+    "status": "Linha Ativa",
+    "preco_venda": 55,
+    "preco_shopee": 70,
+    "estoque_inicial": 3,
+    "logistica": {
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 200,
+      "dimensoes_embalagem": {
+        "comprimento_cm": 6,
+        "largura_cm": 6,
+        "altura_cm": 20
+      },
+      "fragil": false
+    },
+    "assets": {
+      "capa_img": "/assets/images/flatter/20250711-flatter-03.jpg",
+      "ficha_tecnica_img": "/assets/images/flatter/20250711-flatter-03.jpg",
+      "url_slug": "/205-body-mystic-auriah/"
+    }
+  },
+  {
+    "id": "206",
+    "nome": "Body Mystic Zion",
+    "genero": "Masculino",
+    "categoria": "Body Splash / Body Mystic",
+    "inspiracao_olfativa": "Asad (Lattafa)",
+    "familia_olfativa": "Oriental Especiado",
+    "piramide_olfativa": {
+      "topo": [
+        "Pimenta Preta",
+        "Abacaxi",
+        "Tabaco"
+      ],
+      "corpo": [
+        "Café",
+        "Patchouli",
+        "Íris"
+      ],
+      "fundo": [
+        "Âmbar",
+        "Baunilha",
+        "Madeiras"
+      ]
+    },
+    "perfil_sensorial": [
+      "Especiado",
+      "Quente",
+      "Masculino",
+      "Presença"
+    ],
+    "ocasiao_uso": "Pós-banho, academia e uso diário masculino",
+    "status": "Linha Ativa",
+    "preco_venda": 55,
+    "preco_shopee": 70,
+    "estoque_inicial": 2,
+    "logistica": {
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 200,
+      "dimensoes_embalagem": {
+        "comprimento_cm": 6,
+        "largura_cm": 6,
+        "altura_cm": 20
+      },
+      "fragil": false
+    },
+    "assets": {
+      "capa_img": "/assets/images/flatter/20250711-flatter-05.jpg",
+      "ficha_tecnica_img": "/assets/images/flatter/20250711-flatter-05.jpg",
+      "url_slug": "/206-body-mystic-zion/"
+    }
+  },
+  {
+    "id": "207",
+    "nome": "Body Mystic Royale",
+    "genero": "Masculino",
+    "categoria": "Body Splash / Body Mystic",
+    "inspiracao_olfativa": "Fakhar Black (Lattafa)",
+    "familia_olfativa": "Aromático Fougère",
+    "piramide_olfativa": {
+      "topo": [
+        "Maçã",
+        "Bergamota",
+        "Gengibre"
+      ],
+      "corpo": [
+        "Lavanda",
+        "Sálvia",
+        "Zimbro"
+      ],
+      "fundo": [
+        "Fava Tonka",
+        "Cedro",
+        "Âmbar"
+      ]
+    },
+    "perfil_sensorial": [
+      "Fresco aromático",
+      "Moderno",
+      "Elegante",
+      "Versátil"
+    ],
+    "ocasiao_uso": "Trabalho, dia a dia e pós-treino",
+    "status": "Linha Ativa",
+    "preco_venda": 55,
+    "preco_shopee": 70,
+    "estoque_inicial": 2,
+    "logistica": {
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 200,
+      "dimensoes_embalagem": {
+        "comprimento_cm": 6,
+        "largura_cm": 6,
+        "altura_cm": 20
+      },
+      "fragil": false
+    },
+    "assets": {
+      "capa_img": "/assets/images/flatter/20250711-flatter-06.jpg",
+      "ficha_tecnica_img": "/assets/images/flatter/20250711-flatter-06.jpg",
+      "url_slug": "/207-body-mystic-royale/"
+    }
+  },
+  {
+    "id": "208",
+    "nome": "Body Mystic Metallic",
+    "genero": "Masculino",
+    "categoria": "Body Splash / Body Mystic",
+    "inspiracao_olfativa": "Al Noble Wazeer (Lattafa)",
+    "familia_olfativa": "Amadeirado Frutado Especiado",
+    "piramide_olfativa": {
+      "topo": [
+        "Hortelã",
+        "Laranja Amarga",
+        "Bergamota",
+        "Zimbro"
+      ],
+      "corpo": [
+        "Chocolate Amargo",
+        "Caramelo",
+        "Framboesa",
+        "Íris"
+      ],
+      "fundo": [
+        "Cedro",
+        "Sândalo",
+        "Vetiver",
+        "Âmbar",
+        "Baunilha",
+        "Almíscar"
+      ]
+    },
+    "perfil_sensorial": [
+      "Exótico",
+      "Amadeirado",
+      "Sofisticado",
+      "Árabe moderno"
+    ],
+    "ocasiao_uso": "Noite, encontros e uso diário sofisticado",
+    "status": "Linha Ativa",
+    "preco_venda": 55,
+    "preco_shopee": 70,
+    "estoque_inicial": 2,
+    "logistica": {
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 200,
+      "dimensoes_embalagem": {
+        "comprimento_cm": 6,
+        "largura_cm": 6,
+        "altura_cm": 20
+      },
+      "fragil": false
+    },
+    "assets": {
+      "capa_img": "/assets/images/flatter/20250711-flatter-06.jpg",
+      "ficha_tecnica_img": "/assets/images/flatter/20250711-flatter-06.jpg",
+      "url_slug": "/208-body-mystic-metallic/"
+    }
+  },
+  {
+    "id": "209",
+    "nome": "Body Mystic Azure",
+    "genero": "Unissex",
+    "categoria": "Body Splash / Body Mystic",
+    "inspiracao_olfativa": "Light Blue Summer Vibes (Dolce & Gabbana)",
+    "familia_olfativa": "Cítrico Aromático Aquático",
+    "piramide_olfativa": {
+      "topo": [
+        "Limão Siciliano",
+        "Bergamota"
+      ],
+      "corpo": [
+        "Cipreste",
+        "Notas Oceânicas"
+      ],
+      "fundo": [
+        "Madeira de Âmbar",
+        "Almíscar"
+      ]
+    },
+    "perfil_sensorial": [
+      "Fresco",
+      "Solar",
+      "Marinho",
+      "Revigorante"
+    ],
+    "ocasiao_uso": "Dias quentes, praia, piscina e pós-banho",
+    "status": "Linha Ativa",
+    "preco_venda": 55,
+    "preco_shopee": 70,
+    "estoque_inicial": 2,
+    "logistica": {
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 200,
+      "dimensoes_embalagem": {
+        "comprimento_cm": 6,
+        "largura_cm": 6,
+        "altura_cm": 20
+      },
+      "fragil": false
+    },
+    "assets": {
+      "capa_img": "/assets/images/flatter/20250711-flatter-01.jpg",
+      "ficha_tecnica_img": "/assets/images/flatter/20250711-flatter-01.jpg",
+      "url_slug": "/209-body-mystic-azure/"
+    }
+  },
+  {
+    "id": "210",
+    "nome": "Body Splash Ocean",
+    "genero": "Unissex",
+    "categoria": "Body Splash",
+    "inspiracao_olfativa": "Brisa Marinha Flatter",
+    "familia_olfativa": "Aquático Cítrico",
+    "piramide_olfativa": {
+      "topo": [
+        "Notas Marinhas",
+        "Cítricos Frescos"
+      ],
+      "corpo": [
+        "Lavanda",
+        "Flor de Lótus"
+      ],
+      "fundo": [
+        "Almíscar Branco",
+        "Cedro"
+      ]
+    },
+    "perfil_sensorial": [
+      "Refrescante",
+      "Oceânico",
+      "Liberdade",
+      "Unissex"
+    ],
+    "ocasiao_uso": "Uso diário, pós-banho e dias de calor",
+    "status": "Linha Ativa",
+    "preco_venda": 45,
+    "preco_shopee": 58,
+    "estoque_inicial": 1,
+    "logistica": {
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 200,
+      "dimensoes_embalagem": {
+        "comprimento_cm": 6,
+        "largura_cm": 6,
+        "altura_cm": 20
+      },
+      "fragil": false
+    },
+    "assets": {
+      "capa_img": "/assets/images/flatter/20250711-flatter-01.jpg",
+      "ficha_tecnica_img": "/assets/images/flatter/20250711-flatter-01.jpg",
+      "url_slug": "/210-body-splash-ocean/"
+    }
+  },
+  {
+    "id": "211",
+    "nome": "Body Splash Jasmin & Baunilha",
+    "genero": "Feminino",
+    "categoria": "Body Splash",
+    "inspiracao_olfativa": "Linha Flowers Flatter",
+    "familia_olfativa": "Floral Gourmand",
+    "piramide_olfativa": {
+      "topo": [
+        "Notas Frescas",
+        "Bergamota"
+      ],
+      "corpo": [
+        "Jasmin",
+        "Flores Brancas"
+      ],
+      "fundo": [
+        "Baunilha",
+        "Almíscar"
+      ]
+    },
+    "perfil_sensorial": [
+      "Docinho",
+      "Aconchegante",
+      "Floral cremoso",
+      "Bem-estar"
+    ],
+    "ocasiao_uso": "Pós-banho, dormir perfumada e rotina diária",
+    "status": "Linha Ativa",
+    "preco_venda": 45,
+    "preco_shopee": 58,
+    "estoque_inicial": 2,
+    "logistica": {
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 200,
+      "dimensoes_embalagem": {
+        "comprimento_cm": 6,
+        "largura_cm": 6,
+        "altura_cm": 20
+      },
+      "fragil": false
+    },
+    "assets": {
+      "capa_img": "/assets/images/flatter/20250711-flatter-07.jpg",
+      "ficha_tecnica_img": "/assets/images/flatter/20250711-flatter-07.jpg",
+      "url_slug": "/211-body-splash-jasmin-baunilha/"
+    }
+  },
+  {
+    "id": "212",
+    "nome": "Body Splash Flor de Laranjeira",
+    "genero": "Feminino",
+    "categoria": "Body Splash",
+    "inspiracao_olfativa": "Linha Flowers Flatter",
+    "familia_olfativa": "Floral Cítrico",
+    "piramide_olfativa": {
+      "topo": [
+        "Laranja Doce",
+        "Mandarina"
+      ],
+      "corpo": [
+        "Flor de Laranjeira",
+        "Neroli"
+      ],
+      "fundo": [
+        "Almíscar",
+        "Madeiras Claras"
+      ]
+    },
+    "perfil_sensorial": [
+      "Revitalizante",
+      "Fresco",
+      "Luminoso",
+      "Delicado"
+    ],
+    "ocasiao_uso": "Dia a dia, manhãs ensolaradas e pós-banho",
+    "status": "Linha Ativa",
+    "preco_venda": 45,
+    "preco_shopee": 58,
+    "estoque_inicial": 1,
+    "logistica": {
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 200,
+      "dimensoes_embalagem": {
+        "comprimento_cm": 6,
+        "largura_cm": 6,
+        "altura_cm": 20
+      },
+      "fragil": false
+    },
+    "assets": {
+      "capa_img": "/assets/images/flatter/20250711-flatter-08.jpg",
+      "ficha_tecnica_img": "/assets/images/flatter/20250711-flatter-08.jpg",
+      "url_slug": "/212-body-splash-flor-de-laranjeira/"
+    }
+  },
+  {
+    "id": "213",
+    "nome": "Body Splash Morango & Framboesa",
+    "genero": "Feminino",
+    "categoria": "Body Splash",
+    "inspiracao_olfativa": "Linha Fruit Flatter",
+    "familia_olfativa": "Frutado Doce",
+    "piramide_olfativa": {
+      "topo": [
+        "Morango Silvestre",
+        "Framboesa"
+      ],
+      "corpo": [
+        "Flores Vermelhas",
+        "Pêssego"
+      ],
+      "fundo": [
+        "Baunilha",
+        "Almíscar Doce"
+      ]
+    },
+    "perfil_sensorial": [
+      "Frutado suculento",
+      "Alegre",
+      "Jovem",
+      "Doce vibrante"
+    ],
+    "ocasiao_uso": "Uso diário, lazer e pós-banho",
+    "status": "Linha Ativa",
+    "preco_venda": 45,
+    "preco_shopee": 58,
+    "estoque_inicial": 3,
+    "logistica": {
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 200,
+      "dimensoes_embalagem": {
+        "comprimento_cm": 6,
+        "largura_cm": 6,
+        "altura_cm": 20
+      },
+      "fragil": false
+    },
+    "assets": {
+      "capa_img": "/assets/images/flatter/20250711-flatter-09.jpg",
+      "ficha_tecnica_img": "/assets/images/flatter/20250711-flatter-09.jpg",
+      "url_slug": "/213-body-splash-morango-framboesa/"
+    }
+  },
+  {
+    "id": "214",
+    "nome": "Body Splash Ameixa & Damasco",
+    "genero": "Feminino",
+    "categoria": "Body Splash",
+    "inspiracao_olfativa": "Linha Fruit Flatter",
+    "familia_olfativa": "Frutado Floral",
+    "piramide_olfativa": {
+      "topo": [
+        "Ameixa Negra",
+        "Damasco"
+      ],
+      "corpo": [
+        "Rosa",
+        "Jasmin"
+      ],
+      "fundo": [
+        "Baunilha",
+        "Sândalo",
+        "Almíscar"
+      ]
+    },
+    "perfil_sensorial": [
+      "Envolvente",
+      "Frutado nobre",
+      "Macio",
+      "Sensual"
+    ],
+    "ocasiao_uso": "Uso diário, pós-banho e combinação com hidratante",
+    "status": "Linha Ativa",
+    "preco_venda": 45,
+    "preco_shopee": 58,
+    "estoque_inicial": 4,
+    "logistica": {
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 200,
+      "dimensoes_embalagem": {
+        "comprimento_cm": 6,
+        "largura_cm": 6,
+        "altura_cm": 20
+      },
+      "fragil": false
+    },
+    "assets": {
+      "capa_img": "/assets/images/flatter/20250711-flatter-10.jpg",
+      "ficha_tecnica_img": "/assets/images/flatter/20250711-flatter-10.jpg",
+      "url_slug": "/214-body-splash-ameixa-damasco/"
+    }
+  },
+  {
+    "id": "215",
+    "nome": "Body Splash Abacaxi & Romã",
+    "genero": "Feminino",
+    "categoria": "Body Splash",
+    "inspiracao_olfativa": "Linha Fruit Flatter",
+    "familia_olfativa": "Frutado Tropical",
+    "piramide_olfativa": {
+      "topo": [
+        "Abacaxi Tropical",
+        "Romã"
+      ],
+      "corpo": [
+        "Frésia",
+        "Flor de Laranjeira"
+      ],
+      "fundo": [
+        "Almíscar",
+        "Madeiras Brancas"
+      ]
+    },
+    "perfil_sensorial": [
+      "Tropical",
+      "Refrescante",
+      "Energizante",
+      "Frutado leve"
+    ],
+    "ocasiao_uso": "Dias quentes, verão e pós-banho",
+    "status": "Linha Ativa",
+    "preco_venda": 45,
+    "preco_shopee": 58,
+    "estoque_inicial": 3,
+    "logistica": {
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 200,
+      "dimensoes_embalagem": {
+        "comprimento_cm": 6,
+        "largura_cm": 6,
+        "altura_cm": 20
+      },
+      "fragil": false
+    },
+    "assets": {
+      "capa_img": "/assets/images/flatter/20250711-flatter-11.jpg",
+      "ficha_tecnica_img": "/assets/images/flatter/20250711-flatter-11.jpg",
+      "url_slug": "/215-body-splash-abacaxi-roma/"
+    }
+  },
+  {
+    "id": "216",
+    "nome": "Body Splash Maracujá",
+    "genero": "Unissex",
+    "categoria": "Body Splash",
+    "inspiracao_olfativa": "Linha Fruit Flatter",
+    "familia_olfativa": "Frutado Cítrico",
+    "piramide_olfativa": {
+      "topo": [
+        "Maracujá Azedo",
+        "Notas Cítricas"
+      ],
+      "corpo": [
+        "Folhas Verdes",
+        "Flores de Maracujá"
+      ],
+      "fundo": [
+        "Almíscar",
+        "Cedro Suave"
+      ]
+    },
+    "perfil_sensorial": [
+      "Calmante",
+      "Frescor tropical",
+      "Vitalidade",
+      "Banho tomado"
+    ],
+    "ocasiao_uso": "Pós-banho, relaxamento e dias de calor",
+    "status": "Linha Ativa",
+    "preco_venda": 45,
+    "preco_shopee": 58,
+    "estoque_inicial": 1,
+    "logistica": {
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 200,
+      "dimensoes_embalagem": {
+        "comprimento_cm": 6,
+        "largura_cm": 6,
+        "altura_cm": 20
+      },
+      "fragil": false
+    },
+    "assets": {
+      "capa_img": "/assets/images/flatter/20250711-flatter-12.jpg",
+      "ficha_tecnica_img": "/assets/images/flatter/20250711-flatter-12.jpg",
+      "url_slug": "/216-body-splash-maracuja/"
+    }
+  },
+  {
+    "id": "217",
+    "nome": "Body Splash Serotonina",
+    "genero": "Unissex",
+    "categoria": "Body Splash",
+    "inspiracao_olfativa": "Linha Energy Flatter",
+    "familia_olfativa": "Cítrico Aromático",
+    "piramide_olfativa": {
+      "topo": [
+        "Tangerina Vibrante",
+        "Laranja",
+        "Limão"
+      ],
+      "corpo": [
+        "Neroli",
+        "Notas Verdes"
+      ],
+      "fundo": [
+        "Almíscar",
+        "Madeiras Leves"
+      ]
+    },
+    "perfil_sensorial": [
+      "Energizante",
+      "Alegria",
+      "Bem-estar",
+      "Cítrico solar"
+    ],
+    "ocasiao_uso": "Manhãs, pré-trabalho, pós-treino e dias quentes",
+    "status": "Linha Ativa",
+    "preco_venda": 45,
+    "preco_shopee": 58,
+    "estoque_inicial": 1,
+    "logistica": {
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 200,
+      "dimensoes_embalagem": {
+        "comprimento_cm": 6,
+        "largura_cm": 6,
+        "altura_cm": 20
+      },
+      "fragil": false
+    },
+    "assets": {
+      "capa_img": "/assets/images/flatter/20250711-flatter-13.jpg",
+      "ficha_tecnica_img": "/assets/images/flatter/20250711-flatter-13.jpg",
+      "url_slug": "/217-body-splash-serotonina/"
+    }
+  },
+  {
+    "id": "218",
+    "nome": "Hidratante Perfumado Linha Clássica",
+    "genero": "Feminino",
+    "categoria": "Hidratante Corporal",
+    "inspiracao_olfativa": "Êxtase / Love / Livery / Rouge / Olym",
+    "familia_olfativa": "Perfumaria Fina Hidratante",
+    "piramide_olfativa": {
+      "topo": [
+        "Óleo de Macadâmia",
+        "Sementes de Uva"
+      ],
+      "corpo": [
+        "Fragrâncias Clássicas Flatter"
+      ],
+      "fundo": [
+        "Toque Aveludado",
+        "Fixação Prolongada"
+      ]
+    },
+    "perfil_sensorial": [
+      "Toque sedoso",
+      "Rápida absorção",
+      "Nutrição profunda",
+      "Pele radiante"
+    ],
+    "ocasiao_uso": "Hidratação diária e potencialização da fixação do perfume",
+    "status": "Linha Ativa",
+    "preco_venda": 40,
+    "preco_shopee": 53,
+    "estoque_inicial": 14,
+    "logistica": {
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 200,
+      "dimensoes_embalagem": {
+        "comprimento_cm": 6,
+        "largura_cm": 6,
+        "altura_cm": 20
+      },
+      "fragil": false
+    },
+    "assets": {
+      "capa_img": "/assets/images/flatter/20250711-flatter-14.jpg",
+      "ficha_tecnica_img": "/assets/images/flatter/20250711-flatter-14.jpg",
+      "url_slug": "/218-hidratante-perfumado-classico/"
+    }
+  },
+  {
+    "id": "219",
+    "nome": "Sabonete Líquido Perfumado Linha Clássica",
+    "genero": "Feminino",
+    "categoria": "Sabonete Líquido",
+    "inspiracao_olfativa": "Êxtase / Love / Livery / Rouge",
+    "familia_olfativa": "Perfumaria Fina Banho",
+    "piramide_olfativa": {
+      "topo": [
+        "Glicerina Vegetal",
+        "Ativos Emolientes"
+      ],
+      "corpo": [
+        "Fragrâncias Clássicas Flatter"
+      ],
+      "fundo": [
+        "Pele Macia",
+        "Perfume Suave"
+      ]
+    },
+    "perfil_sensorial": [
+      "Espuma cremosa",
+      "Limpeza suave",
+      "Hidratação no banho",
+      "Perfumado"
+    ],
+    "ocasiao_uso": "Banho diário e lavabo de luxo",
+    "status": "Linha Ativa",
+    "preco_venda": 35,
+    "preco_shopee": 45,
+    "estoque_inicial": 10,
+    "logistica": {
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 200,
+      "dimensoes_embalagem": {
+        "comprimento_cm": 6,
+        "largura_cm": 6,
+        "altura_cm": 20
+      },
+      "fragil": false
+    },
+    "assets": {
+      "capa_img": "/assets/images/flatter/20250711-flatter-15.jpg",
+      "ficha_tecnica_img": "/assets/images/flatter/20250711-flatter-15.jpg",
+      "url_slug": "/219-sabonete-liquido-classico/"
+    }
+  },
+  {
+    "id": "220",
+    "nome": "Sérum Corporal Antirressecamento",
+    "genero": "Unissex",
+    "categoria": "Hidratante Corporal",
+    "inspiracao_olfativa": "Ocean / Serotonina / Jasmin & Baunilha / Flor de Laranjeira",
+    "familia_olfativa": "Cuidado Corporal Botânico",
+    "piramide_olfativa": {
+      "topo": [
+        "Extrato de Pepino",
+        "Abacate"
+      ],
+      "corpo": [
+        "Óleo de Jojoba",
+        "Andiroba"
+      ],
+      "fundo": [
+        "Vitamina E",
+        "Pele Regenerada"
+      ]
+    },
+    "perfil_sensorial": [
+      "Toque seco",
+      "Alta hidratação",
+      "Antioxidante",
+      "Luminosidade"
+    ],
+    "ocasiao_uso": "Cuidado diário pós-sol e pós-banho",
+    "status": "Linha Ativa",
+    "preco_venda": 43,
+    "preco_shopee": 55,
+    "estoque_inicial": 4,
+    "logistica": {
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 200,
+      "dimensoes_embalagem": {
+        "comprimento_cm": 6,
+        "largura_cm": 6,
+        "altura_cm": 20
+      },
+      "fragil": false
+    },
+    "assets": {
+      "capa_img": "/assets/images/flatter/20250711-flatter-08.jpg",
+      "ficha_tecnica_img": "/assets/images/flatter/20250711-flatter-08.jpg",
+      "url_slug": "/220-serum-corporal-flatter/"
+    }
+  },
+  {
+    "id": "221",
+    "nome": "Sabonete Líquido Glicerinado Fruit",
+    "genero": "Unissex",
+    "categoria": "Sabonete Líquido",
+    "inspiracao_olfativa": "Abacaxi & Romã / Morango & Framboesa / Ameixa",
+    "familia_olfativa": "Frutado Banho",
+    "piramide_olfativa": {
+      "topo": [
+        "Extratos Frutados",
+        "Glicerina"
+      ],
+      "corpo": [
+        "Espuma Hidratante",
+        "Vitamina E"
+      ],
+      "fundo": [
+        "Frescor Natural",
+        "Suavidade"
+      ]
+    },
+    "perfil_sensorial": [
+      "Refrescante",
+      "Frutado",
+      "Maciez",
+      "Uso diário"
+    ],
+    "ocasiao_uso": "Banho diário revitalizante",
+    "status": "Linha Ativa",
+    "preco_venda": 26,
+    "preco_shopee": 40,
+    "estoque_inicial": 8,
+    "logistica": {
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 200,
+      "dimensoes_embalagem": {
+        "comprimento_cm": 6,
+        "largura_cm": 6,
+        "altura_cm": 20
+      },
+      "fragil": false
+    },
+    "assets": {
+      "capa_img": "/assets/images/flatter/20250711-flatter-11.jpg",
+      "ficha_tecnica_img": "/assets/images/flatter/20250711-flatter-11.jpg",
+      "url_slug": "/221-sabonete-liquido-fruit/"
+    }
+  }
+]

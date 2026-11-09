@@ -1,0 +1,42 @@
+---
+import CategoryCardHome from "./CategoryCardHome.astro";
+import { categories, featuredLinks } from "../../data/home.ts";
+---
+
+<section class="py-12 md:py-16 bg-base-100">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center md:text-left mb-10">
+            <span class="text-primary font-bold uppercase tracking-widest text-xs font-['Cinzel'] block mb-2">
+                Navegação Rápida
+            </span>
+            <h2
+                class="text-3xl md:text-4xl font-black text-base-content font-['Cinzel'] tracking-tight"
+            >
+                Categorias & Coleções
+            </h2>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8">
+            {
+                categories.map((category) => (
+                    <CategoryCardHome
+                        name={category.name}
+                        image={category.image}
+                        path={category.path}
+                    />
+                ))
+            }
+            {
+                featuredLinks.map((link) => (
+                    <CategoryCardHome
+                        name={link.name}
+                        image={link.image}
+                        path={link.path}
+                        className={link.className}
+                        imageClass={link.imageClass}
+                    />
+                ))
+            }
+        </div>
+    </div>
+</section>

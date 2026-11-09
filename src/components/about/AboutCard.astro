@@ -1,0 +1,27 @@
+---
+import { Icon } from "astro-icon/components";
+
+interface Props {
+    title: string;
+    description: string;
+    icon: string;
+}
+
+const { title, description, icon } = Astro.props;
+---
+
+<div
+    class="group p-8 bg-base-100 rounded-3xl border border-base-200 shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 flex flex-col"
+>
+    <div
+        class="w-14 h-14 bg-primary/10 text-primary rounded-2xl flex items-center justify-center mb-6 group-hover:bg-primary group-hover:text-primary-content transition-all shadow-xs"
+    >
+        <Icon name={icon} class="w-7 h-7" />
+    </div>
+    <h3 class="text-lg md:text-xl font-black text-base-content font-['Cinzel'] mb-3 tracking-tight">
+        {title}
+    </h3>
+    <p class="text-base-content/70 font-normal leading-relaxed text-sm md:text-base">
+        {description}
+    </p>
+</div>

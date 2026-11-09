@@ -1,0 +1,60 @@
+---
+import "../styles/global.css";
+import Navbar from "../components/navbar/NavBar.astro";
+import AnnouncementBar from "../components/ui/AnnouncementBar.astro";
+import Footer from "../components/footer/Footer.astro";
+import ToasterComponent from "../components/ui/ToasterComponent";
+import CartDrawer from "../components/cart/CartDrawer.astro";
+import BottomNav from "../components/ui/BottomNav.astro";
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+const { 
+  title = "Ana Ferreira Perfumes & Loja Gratidão Shop", 
+  description = "Sua essência, sua assinatura. Perfumes femininos, masculinos e cosméticos finos." 
+} = Astro.props;
+---
+
+<!doctype html>
+<html lang="pt-BR" data-theme="light">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+		<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+		<link rel="manifest" href="/site.webmanifest" />
+		<meta name="theme-color" content="#6E0D25" />
+		<meta name="description" content={description} />
+		<title>{title}</title>
+
+		<!-- Google Fonts (Cinzel + Montserrat) -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link 
+			href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" 
+			rel="stylesheet" 
+		/>
+	</head>
+	<body class="bg-[#F6EFE8] text-[#2F2F2F] min-h-screen flex flex-col pb-16 md:pb-0 font-sans">
+		<AnnouncementBar />
+		<Navbar />
+		<main class="flex-1">
+			<slot />
+		</main>
+		<Footer />
+		<BottomNav />
+		<CartDrawer />
+		<ToasterComponent client:load />
+
+		<script>
+			if ('serviceWorker' in navigator) {
+				window.addEventListener('load', () => {
+					navigator.serviceWorker.register('/sw.js').catch(() => {});
+				});
+			}
+		</script>
+	</body>
+</html>

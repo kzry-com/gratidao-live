@@ -1,0 +1,63 @@
+---
+import AboutCard from "./AboutCard.astro";
+
+const values = [
+    {
+        title: "Alta Concentração & Fixação",
+        description:
+            "Nossas fragrâncias contam com padrão Parfum (até 33% de óleos essenciais nobres), garantindo longevidade e projeção elegante por todo o dia.",
+        icon: "lucide:sparkles",
+    },
+    {
+        title: "Inteligência Financeira",
+        description:
+            "A mesma experiência olfativa dos perfumes de luxo internacionais por uma fração justa do preço, sem custos abusivos de importação de marca.",
+        icon: "lucide:shield-check",
+    },
+    {
+        title: "Envio Seguro & Ágil",
+        description:
+            "Embalagens preparadas com plástico-bolha reforçado e frete inteligente integrado para todo o Brasil via Correios e transportadoras parceiras.",
+        icon: "lucide:truck",
+    },
+    {
+        title: "Consultoria Dedicada",
+        description:
+            "Auxílio direto e individualizado via WhatsApp com a especialista Ana Ferreira para você acertar em cheio no seu perfume assinatura.",
+        icon: "lucide:message-circle",
+    },
+    {
+        title: "Transparência & Integridade",
+        description:
+            "Fichas técnicas completas com pirâmide olfativa (topo, corpo, fundo), peso bruto, cubagem e volumetria clara de cada produto.",
+        icon: "lucide:check-circle-2",
+    },
+    {
+        title: "Gratidão em Cada Envio",
+        description:
+            "Pautamos nosso trabalho em princípios cristãos, respeito sincero a cada cliente e o desejo de abençoar você através do aroma.",
+        icon: "lucide:heart",
+    },
+];
+---
+
+<section class="py-16 md:py-24 bg-base-200/50 px-4">
+    <div class="max-w-7xl mx-auto">
+        <div class="text-center max-w-2xl mx-auto mb-16">
+            <span
+                class="text-primary font-bold uppercase tracking-widest text-xs md:text-sm mb-3 block font-['Cinzel']"
+            >
+                Nossos Pilares
+            </span>
+            <h2
+                class="text-3xl md:text-4xl lg:text-5xl font-black text-base-content font-['Cinzel'] tracking-tight"
+            >
+                O Que Move a Nossa Marca
+            </h2>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {values.map((value) => <AboutCard {...value} />)}
+        </div>
+    </div>
+</section>

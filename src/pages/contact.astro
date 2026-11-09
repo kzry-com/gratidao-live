@@ -1,0 +1,59 @@
+---
+import Layout from "../layouts/Layout.astro";
+import FormContact from "../components/contact/FormContact.astro";
+import ContactInfo from "../components/contact/ContactInfo.astro";
+import SocialFollow from "../components/contact/SocialFollow.astro";
+import Breadcrumbs from "../components/ui/Breadcrumbs.astro";
+---
+
+<Layout>
+    <section class="max-w-7xl mx-auto px-4 py-10 lg:py-16">
+        <div class="mb-8">
+            <Breadcrumbs
+                items={[
+                    { label: "Início", href: "/" },
+                    { label: "Fale Conosco", href: "/contact" },
+                ]}
+            />
+        </div>
+
+        <!-- Centered Title -->
+        <div class="text-center mb-16">
+            <span class="text-primary font-bold uppercase tracking-widest text-xs md:text-sm mb-3 block font-['Cinzel']">
+                Atendimento Personalizado
+            </span>
+            <h1 class="text-4xl md:text-5xl font-black text-base-content font-['Cinzel'] tracking-tight mb-4">
+                Fale <span class="text-primary">Conosco</span>
+            </h1>
+            <p class="text-base-content/70 max-w-2xl mx-auto text-base md:text-lg">
+                Estamos prontos para orientar você na escolha da sua fragrância assinatura, esclarecer dúvidas de pedidos ou calcular o envio para sua cidade.
+            </p>
+        </div>
+
+        <!-- Main Container -->
+        <div class="flex flex-col lg:flex-row items-start gap-12 lg:gap-16">
+            <!-- Left Side: Text & Contact Info -->
+            <div class="w-full lg:w-5/12 flex flex-col justify-center">
+                <div class="bg-primary/5 p-6 md:p-8 rounded-3xl border border-primary/10 mb-8">
+                    <h3 class="font-bold text-xl text-primary font-['Cinzel'] mb-3">
+                        Consultoria Especializada
+                    </h3>
+                    <p class="text-base-content/80 text-sm md:text-base leading-relaxed">
+                        A consultora <strong>Ana Ferreira</strong> atua há mais de 5 anos com a alta perfumaria Flatter em Natal/RN, auxiliando clientes em todo o Brasil a encontrar fragrâncias marcantes com a máxima fixação e inteligência financeira.
+                    </p>
+                </div>
+
+                <!-- Contact Details -->
+                <ContactInfo />
+
+                <!-- Social Icons -->
+                <SocialFollow />
+            </div>
+
+            <!-- Right Side: Form -->
+            <div class="w-full lg:w-7/12">
+                <FormContact />
+            </div>
+        </div>
+    </section>
+</Layout>

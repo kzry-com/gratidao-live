@@ -1,0 +1,1692 @@
+[
+  {
+    "id": "101",
+    "nome": "ADG",
+    "genero": "Masculino",
+    "categoria": "Perfume Masculino",
+    "inspiracao_olfativa": "Acqua Di Giò (Giorgio Armani)",
+    "familia_olfativa": "Fougère Aquoso",
+    "piramide_olfativa": {
+      "topo": [
+        "Cítricos",
+        "Jasmin",
+        "Neroli"
+      ],
+      "corpo": [
+        "Notas Marinhas",
+        "Notas Florais",
+        "Orquídea"
+      ],
+      "fundo": [
+        "Almíscar",
+        "Cedro",
+        "Carvalho",
+        "Âmbar"
+      ]
+    },
+    "perfil_sensorial": [
+      "Cítrico",
+      "Fresco",
+      "Marinho",
+      "Elegante",
+      "Coringa",
+      "Limpo"
+    ],
+    "ocasiao_uso": "Dia a dia, trabalho, lazer e atividades sob o sol (Primavera/Verão)",
+    "status": "Linha Ativa",
+    "preco_venda": 190.0,
+    "preco_shopee": 220.0,
+    "estoque_inicial": 1,
+    "logistica": {
+      "peso_bruto_gramas": 400.0,
+      "volume_liquido_ml": 100.0,
+      "dimensoes_embalagem": {
+        "altura_cm": 15.0,
+        "largura_cm": 7.0,
+        "comprimento_cm": 7.0
+      },
+      "fragil": true
+    },
+    "assets": {
+      "capa_img": "/assets/images/flatter/anuncios_masculinos_26/anuncio_perfume_m_adg_3x4.jpg",
+      "ficha_tecnica_img": "/assets/images/flatter/catalogo-fichas-flatter-26/28.jpg",
+      "url_slug": "/101-adg/"
+    },
+    "link_shopee": "https://shopee.com.br/annaferreira81",
+    "descricao_longa": "Principais Características e Notas:\r\n\r\n- Família Olfativa: Fougère | Aquoso\r\n\r\n- Notas de Topo: Cítricos, Jasmin, Neroli\r\n\r\n- Notas de Corpo: Notas Marinhas, Notas Florais, Orquídea\r\n\r\n- Notas de Fundo: Almíscar, Cedro, Carvalho, Âmbar\r\n\r\nEquilíbrio entre notas cítricas, florais e marinhas, evocando o frescor do mar e da natureza\r\n\r\nÉ extremamente versátil, sendo a escolha perfeita para o dia a dia, trabalho, lazer e atividades sob o sol."
+  },
+  {
+    "id": "102",
+    "nome": "Ferblack",
+    "genero": "Masculino",
+    "categoria": "Perfume Masculino",
+    "inspiracao_olfativa": "Ferrari Black (Scuderia Ferrari)",
+    "familia_olfativa": "Aromático Fougère",
+    "piramide_olfativa": {
+      "topo": [
+        "Limão Siciliano",
+        "Maçã Vermelha",
+        "Ameixa",
+        "Bergamota"
+      ],
+      "corpo": [
+        "Cardamomo",
+        "Canela",
+        "Jasmin",
+        "Rosa"
+      ],
+      "fundo": [
+        "Cedro",
+        "Âmbar",
+        "Almíscar",
+        "Baunilha"
+      ]
+    },
+    "perfil_sensorial": [
+      "Frutado suave",
+      "Especiado doce",
+      "Agradável",
+      "Jovem",
+      "Coringa"
+    ],
+    "ocasiao_uso": "Uso casual diário, passeios, encontros descontraídos e clima ameno",
+    "status": "Linha Ativa",
+    "preco_venda": 190.0,
+    "preco_shopee": 220.0,
+    "estoque_inicial": 3,
+    "logistica": {
+      "peso_bruto_gramas": 400.0,
+      "volume_liquido_ml": 100.0,
+      "dimensoes_embalagem": {
+        "altura_cm": 15.0,
+        "largura_cm": 7.0,
+        "comprimento_cm": 7.0
+      },
+      "fragil": true
+    },
+    "assets": {
+      "capa_img": "/assets/images/flatter/anuncios_masculinos_26/anuncio_ferblack_1x1.jpg",
+      "ficha_tecnica_img": "/assets/images/flatter/catalogo-fichas-flatter-26/29.jpg",
+      "url_slug": "/102-ferblack/"
+    },
+    "link_shopee": "https://shopee.com.br/annaferreira81",
+    "descricao_longa": "Principais Características e Notas:\r\n\r\n- Família Olfativa: Madeira | Cítrico\r\n\r\n- Notas de Topo: Ameixa, Lima, Bergamota, Maçã\r\n\r\n- Notas de Corpo: Jasmin, Cardamono, Canela, Rosa\r\n\r\n- Notas de Fundo: Almíscar, Baunilha, Cedro,  Âmbar\r\n\r\nEquilibra frescor cítrico com um fundo doce e amadeirado.\r\n\r\nA saída é vibrante e frutada, com maçã, ameixa, lima e bergamota, trazendo um frescor imediato.\r\nCanela, jasmim, cardamomo e rosa aparecem para dar um toque especiado e levemente floral, equilibrando a doçura\r\nsobre um fundo quente, cremoso e sensual, com baunilha, âmbar, almíscar e cedro garantindo a característica \"confortável\" do perfume.\r\n\r\nUm perfume extremamente versátil e \"coringa\", podendo ser utilizado de dia e noite, evitando calor intenso.\r\nCombina bem com um visual casual-sofisticado (jeans e camisa) e agrada bastante o público jovem."
+  },
+  {
+    "id": "103",
+    "nome": "Oito.2",
+    "genero": "Masculino",
+    "categoria": "Perfume Masculino",
+    "inspiracao_olfativa": "Invictus (Paco Rabanne)",
+    "familia_olfativa": "Aquático Amadeirado",
+    "piramide_olfativa": {
+      "topo": [
+        "Notas Oceânicas",
+        "Toranja",
+        "Tangerina"
+      ],
+      "corpo": [
+        "Folha de Louro",
+        "Jasmin"
+      ],
+      "fundo": [
+        "Âmbar Cinzento",
+        "Madeira Guaiac",
+        "Musgo de Carvalho",
+        "Patchouli"
+      ]
+    },
+    "perfil_sensorial": [
+      "Aquático salgado",
+      "Vencedor",
+      "Energético",
+      "Jovem",
+      "Doce fresco",
+      "Vibrante"
+    ],
+    "ocasiao_uso": "Festas diurnas, pós-praia, eventos descontraídos e encontros de verão",
+    "status": "Linha Ativa",
+    "preco_venda": 190.0,
+    "preco_shopee": 220.0,
+    "estoque_inicial": 1,
+    "logistica": {
+      "peso_bruto_gramas": 400.0,
+      "volume_liquido_ml": 100.0,
+      "dimensoes_embalagem": {
+        "altura_cm": 15.0,
+        "largura_cm": 7.0,
+        "comprimento_cm": 7.0
+      },
+      "fragil": true
+    },
+    "assets": {
+      "capa_img": "/assets/images/flatter/anuncios_masculinos_26/anuncio_perfume_m_82_3x4.jpg",
+      "ficha_tecnica_img": "/assets/images/flatter/catalogo-fichas-flatter-26/30.jpg",
+      "url_slug": "/103-82/"
+    },
+    "link_shopee": "https://shopee.com.br/annaferreira81",
+    "descricao_longa": "Principais Características e Notas:\r\n\r\n- Família Olfativa: Madeira | Fougère\r\n\r\n- Notas de Topo: Notas Marinhas, Toranja, Mexerica\r\n\r\n- Notas de Corpo: Jasmin, Louro\r\n\r\n- Notas de Fundo: Guaiacum, Patchouli, Carvalho, Âmbar cinza\r\n\r\nFresco e cítrico de saída, abre para um dueto Floral e Especiado de\r\nLouro e Jasmin, com fundo adocicado e duradouro.\r\n\r\nO frescor aquático com fundo adocicado agrada a maioria das pessoas ao trazer\r\ncontraste entre notas marinhas e a sensualidade do âmbar.\r\nVersátil com DNA esportivo e fresco, vai bem de dia \r\nmas exige cautela nas borrifadas devido à sua potência.\r\nIdeal para festas e eventos noturnos onde você quer ser notado."
+  },
+  {
+    "id": "104",
+    "nome": "Bad Man",
+    "genero": "Masculino",
+    "categoria": "Perfume Masculino",
+    "inspiracao_olfativa": "Bad Boy (Carolina Herrera)",
+    "familia_olfativa": "Oriental Especiado",
+    "piramide_olfativa": {
+      "topo": [
+        "Pimenta Branca",
+        "Pimenta Preta",
+        "Bergamota"
+      ],
+      "corpo": [
+        "Cedro",
+        "Sálvia"
+      ],
+      "fundo": [
+        "Fava Tonka",
+        "Cacau",
+        "Baunilha"
+      ]
+    },
+    "perfil_sensorial": [
+      "Especiado",
+      "Quente",
+      "Achocolatado",
+      "Doce amadeirado",
+      "Sedutor",
+      "Marcante"
+    ],
+    "ocasiao_uso": "Noite, encontros românticos, baladas e dias frescos (Outono/Inverno)",
+    "status": "Linha Ativa",
+    "preco_venda": 190.0,
+    "preco_shopee": 220.0,
+    "estoque_inicial": 1,
+    "logistica": {
+      "peso_bruto_gramas": 400.0,
+      "volume_liquido_ml": 100.0,
+      "dimensoes_embalagem": {
+        "altura_cm": 15.0,
+        "largura_cm": 7.0,
+        "comprimento_cm": 7.0
+      },
+      "fragil": true
+    },
+    "assets": {
+      "capa_img": "/assets/images/flatter/anuncios_masculinos_26/anuncio_perfume_m_badman_3x4.jpg",
+      "ficha_tecnica_img": "/assets/images/flatter/catalogo-fichas-flatter-26/31.jpg",
+      "url_slug": "/104-bad-man/"
+    },
+    "link_shopee": "https://shopee.com.br/annaferreira81",
+    "descricao_longa": "Principais Características e Notas:\r\n\r\n- Família Olfativa: Oriental | Fougère\r\n\r\n- Notas de Topo: Pimenta Branca, Bergamota, Pimenta Rosa\r\n\r\n- Notas de Corpo: Sálvia, Cedro\r\n\r\n- Notas de Fundo: Cacau, Cumaru, Vetiver\r\n\r\nAbertura picante e levemente cítrica, \r\nrevela um amadeirado refinado e aromático\r\ncom fundo doce e aveludado de cacau.\r\n\r\nSua característica sensual e projeção discreta o tornam perfeito para situações de proximidade.\r\nFunciona bem em festas informais, mas pode faltar pegada para baladas muito agitadas."
+  },
+  {
+    "id": "105",
+    "nome": "Gold",
+    "genero": "Masculino",
+    "categoria": "Femininos",
+    "inspiracao_olfativa": "Pure XS (Paco Rabanne)",
+    "familia_olfativa": "Aromático Especiado",
+    "piramide_olfativa": {
+      "topo": [
+        "Gengibre",
+        "Acorde Verde",
+        "Tomilho",
+        "Bergamota"
+      ],
+      "corpo": [
+        "Baunilha",
+        "Canela",
+        "Couro",
+        "Licor"
+      ],
+      "fundo": [
+        "Cedro",
+        "Mirra",
+        "Açúcar",
+        "Patchouli"
+      ]
+    },
+    "perfil_sensorial": [
+      "Quente-frio",
+      "Sensual",
+      "Licoroso",
+      "Adocicado",
+      "Magnético"
+    ],
+    "ocasiao_uso": "Noite, jantares românticos e ocasiões de sedução íntima",
+    "status": "Fora de linha",
+    "preco_venda": 190.0,
+    "preco_shopee": 220.0,
+    "estoque_inicial": 0,
+    "logistica": {
+      "peso_bruto_gramas": 400.0,
+      "volume_liquido_ml": 100.0,
+      "dimensoes_embalagem": {
+        "altura_cm": 15.0,
+        "largura_cm": 7.0,
+        "comprimento_cm": 7.0
+      },
+      "fragil": true
+    },
+    "assets": {
+      "capa_img": "/assets/images/flatter/fichas_flatter_26-masculinos/172.png",
+      "ficha_tecnica_img": "/assets/images/flatter/fichas_flatter_26-masculinos/173.png",
+      "url_slug": "/105-gold/"
+    },
+    "link_shopee": "https://shopee.com.br/annaferreira81",
+    "descricao_longa": "Principais Características e Notas:\r\n\r\n- Família Olfativa: Oriental | Especiado\r\n\r\n- Notas de Topo: Gengibre, Tomilho, Bergamota, Notas Verdes\r\n\r\n- Notas de Corpo: Baunilha, Canela, Maça, Couro\r\n\r\n- Notas de Fundo: Mirra, Cashemira, Cedro, Madeiras, Açucar\r\n\r\nA saída é ardida e fresca, dando aquela sensação de \"gelado\"\r\nA baunilha é bem presente e o toque de licor traz uma nuance alcoólica viciante.\r\nO encerramento é denso, resinoso e muito doce.\r\n\r\nEncontros e Baladas são o habitat natural desse perfume. \r\nO toque de baunilha e licor é feito para atrair atenção na noite."
+  },
+  {
+    "id": "106",
+    "nome": "One Man",
+    "genero": "Masculino",
+    "categoria": "Perfume Masculino",
+    "inspiracao_olfativa": "1 Million (Paco Rabanne)",
+    "familia_olfativa": "Amadeirado Especiado",
+    "piramide_olfativa": {
+      "topo": [
+        "Toranja",
+        "Hortelã",
+        "Mandarina"
+      ],
+      "corpo": [
+        "Rosa",
+        "Canela",
+        "Notas Especiadas"
+      ],
+      "fundo": [
+        "Couro",
+        "Âmbar",
+        "Madeiras Brancas",
+        "Patchouli Indiano"
+      ]
+    },
+    "perfil_sensorial": [
+      "Especiado canelado",
+      "Doce marcante",
+      "Opulento",
+      "Notável",
+      "Poderoso"
+    ],
+    "ocasiao_uso": "Festas, baladas, comemorações e momentos de protagonismo",
+    "status": "Linha Ativa",
+    "preco_venda": 190.0,
+    "preco_shopee": 220.0,
+    "estoque_inicial": 1,
+    "logistica": {
+      "peso_bruto_gramas": 400.0,
+      "volume_liquido_ml": 100.0,
+      "dimensoes_embalagem": {
+        "altura_cm": 15.0,
+        "largura_cm": 7.0,
+        "comprimento_cm": 7.0
+      },
+      "fragil": true
+    },
+    "assets": {
+      "capa_img": "/assets/images/flatter/anuncios_masculinos_26/anuncio_perfume_m_oneman_3x4.jpg",
+      "ficha_tecnica_img": "/assets/images/flatter/catalogo-fichas-flatter-26/32.jpg",
+      "url_slug": "/106-one-man/"
+    },
+    "link_shopee": "https://shopee.com.br/annaferreira81",
+    "descricao_longa": "Principais Características e Notas:\r\n\r\n- Família Olfativa: Oriental | Couro\r\n\r\n- Notas de Topo: Mexerica, Toranja, Hortelã\r\n\r\n- Notas de Corpo: Especiarias, Canela, Rosa\r\n\r\n- Notas de Fundo: Madeira, Couro, Âmbar\r\n\r\nSaída frutada e levemente fresca logo revela o doce, denso e sensual\r\n\r\nUm Amadeirado Especiado doce, opulento e festivo. Feito para quem quer ser notado."
+  },
+  {
+    "id": "107",
+    "nome": "Black VIP",
+    "genero": "Masculino",
+    "categoria": "Perfume Masculino",
+    "inspiracao_olfativa": "212 VIP Black (Carolina Herrera)",
+    "familia_olfativa": "Aromático Fougère",
+    "piramide_olfativa": {
+      "topo": [
+        "Absinto",
+        "Anis",
+        "Erva-Doce"
+      ],
+      "corpo": [
+        "Lavanda"
+      ],
+      "fundo": [
+        "Casca de Baunilha Negra",
+        "Almíscar"
+      ]
+    },
+    "perfil_sensorial": [
+      "Licoroso",
+      "Alcoólico",
+      "Envolvente",
+      "Misterioso",
+      "Noturno",
+      "Sensual"
+    ],
+    "ocasiao_uso": "Baladas, festas, eventos noturnos de destaque e noites frias",
+    "status": "Linha Ativa",
+    "preco_venda": 190.0,
+    "preco_shopee": 220.0,
+    "estoque_inicial": 1,
+    "logistica": {
+      "peso_bruto_gramas": 400.0,
+      "volume_liquido_ml": 100.0,
+      "dimensoes_embalagem": {
+        "altura_cm": 15.0,
+        "largura_cm": 7.0,
+        "comprimento_cm": 7.0
+      },
+      "fragil": true
+    },
+    "assets": {
+      "capa_img": "/assets/images/flatter/anuncios_masculinos_26/anuncio_perfume_m_blackvip_3x4.jpg",
+      "ficha_tecnica_img": "/assets/images/flatter/catalogo-fichas-flatter-26/33.jpg",
+      "url_slug": "/107-black-vip/"
+    },
+    "link_shopee": "https://shopee.com.br/annaferreira81",
+    "descricao_longa": "Principais Características e Notas:\r\n\r\n- Família Olfativa: Fougère | Oriental\r\n\r\n- Notas de Topo: Absinto, Anis, Funcho\r\n\r\n- Notas de Corpo: Lavanda\r\n\r\n- Notas de Fundo: Baunilha, Almíscar\r\n\r\n\r\nSaída aromática e levemente amarga, abre para o toque limpo de lavanda\r\nsobre uma baunilha densa, escura e muito sedutora.\r\n\r\nIntenso, doce, magnético. Um perfume noturno, para balada."
+  },
+  {
+    "id": "108",
+    "nome": "IUCAM",
+    "genero": "Masculino",
+    "categoria": "Perfume Masculino",
+    "inspiracao_olfativa": "L'Eau d'Issey Pour Homme (Issey Miyake)",
+    "familia_olfativa": "Madeira Aquoso",
+    "piramide_olfativa": {
+      "topo": [
+        "Cítricos",
+        "Verde",
+        "Sálvia",
+        "Verbena",
+        "Cipreste"
+      ],
+      "corpo": [
+        "Lírio",
+        "Gerânio",
+        "Noz-Moscada",
+        "Canela",
+        "Lótus",
+        "Açafrão"
+      ],
+      "fundo": [
+        "Vetiver",
+        "Cedro",
+        "Sândalo",
+        "Âmbar",
+        "Almíscar"
+      ]
+    },
+    "perfil_sensorial": [
+      "Cítrico",
+      "Amadeirado",
+      "Marinho",
+      "Fresco",
+      "Elegante",
+      "Luxuoso"
+    ],
+    "ocasiao_uso": "Dias quentes, trabalho, viagens e assinatura atemporal (Primavera/Verão)",
+    "status": "Linha Ativa",
+    "preco_venda": 190.0,
+    "preco_shopee": 220.0,
+    "estoque_inicial": 0,
+    "logistica": {
+      "peso_bruto_gramas": 400.0,
+      "volume_liquido_ml": 100.0,
+      "dimensoes_embalagem": {
+        "altura_cm": 15.0,
+        "largura_cm": 7.0,
+        "comprimento_cm": 7.0
+      },
+      "fragil": true
+    },
+    "assets": {
+      "capa_img": "/assets/images/flatter/anuncios_masculinos_26/anuncio_perfume_m_iucam_3x4.jpg",
+      "ficha_tecnica_img": "/assets/images/flatter/catalogo-fichas-flatter-26/46.jpg",
+      "url_slug": "/108-iucam/"
+    },
+    "link_shopee": "https://shopee.com.br/annaferreira81",
+    "descricao_longa": "Principais Características e Notas:\r\n\r\n- Família Olfativa: Madeira | Aquoso\r\n\r\n- Notas de Topo: Citricos, Verde, Sálvia, Vérbena, Cipreste\r\n\r\n- Notas de Corpo: Lirio, Gerânio, Noz Moscada, Canela, Lotus, Açafrão\r\n\r\n- Notas de Fundo: Vetiver, Cedro, Sândalo, Âmbar, Almíscar\r\n\r\nAmadeirado Aquático com um toque cítrico amargo e muito elegante, \r\numa aura de banho tomado caro com fundo levemente madeirado.\r\nFrescor do início ao fim."
+  },
+  {
+    "id": "109",
+    "nome": "Opion",
+    "genero": "Masculino",
+    "categoria": "Perfume Masculino",
+    "inspiracao_olfativa": "Y Eau de Parfum (Yves Saint Laurent)",
+    "familia_olfativa": "Aromático Fougère",
+    "piramide_olfativa": {
+      "topo": [
+        "Maçã",
+        "Gengibre",
+        "Bergamota"
+      ],
+      "corpo": [
+        "Sálvia",
+        "Zimbro",
+        "Gerânio"
+      ],
+      "fundo": [
+        "Madeira de Âmbar",
+        "Fava Tonka",
+        "Cedro",
+        "Vetiver",
+        "Olíbano"
+      ]
+    },
+    "perfil_sensorial": [
+      "Azul moderno",
+      "Frutado limpo",
+      "Ultraversátil",
+      "Jovem empreendedor",
+      "Elegante"
+    ],
+    "ocasiao_uso": "Uso universal (trabalho, saídas noturnas, encontros e dia a dia)",
+    "status": "Linha Ativa",
+    "preco_venda": 190.0,
+    "preco_shopee": 220.0,
+    "estoque_inicial": 0,
+    "logistica": {
+      "peso_bruto_gramas": 400.0,
+      "volume_liquido_ml": 100.0,
+      "dimensoes_embalagem": {
+        "altura_cm": 15.0,
+        "largura_cm": 7.0,
+        "comprimento_cm": 7.0
+      },
+      "fragil": true
+    },
+    "assets": {
+      "capa_img": "/assets/images/flatter/fichas_flatter_26-masculinos/192.png",
+      "ficha_tecnica_img": "/assets/images/flatter/fichas_flatter_26-masculinos/193.png",
+      "url_slug": "/109-opion/"
+    },
+    "link_shopee": "https://shopee.com.br/annaferreira81",
+    "descricao_longa": "Principais Características e Notas:\r\n\r\n- Família Olfativa: Madeira | Fougère\r\n\r\n- Notas de Topo: Aldeídeos, Lima, Bergamota, Hortelã, Gengibre\r\n\r\n- Notas de Corpo: Maça, Abacaxi, Gerânio, Violeta, Sálvia\r\n\r\n- Notas de Fundo: Almíscar, Âmbar cinza, Cedro, Abeto, Vetiver, Incenso\r\n\r\nAbre bem gelada e cortante com um toque frutado, \r\nmas evolui aromático e \"limpo\" para um doce amadeirado muito sofisticado.\r\n\r\nO equilíbrio perfeito entre o frescor de uma camiseta branca limpa e a força de uma jaqueta de couro preta.\r\nVersátil, transmite a imagem de um homem bem-sucedido, jovem e dinâmico."
+  },
+  {
+    "id": "110",
+    "nome": "Blum",
+    "genero": "Masculino",
+    "categoria": "Perfume Masculino",
+    "inspiracao_olfativa": "Bleu de Chanel (Chanel)",
+    "familia_olfativa": "Amadeirado Aromático",
+    "piramide_olfativa": {
+      "topo": [
+        "Menta",
+        "Limão Siciliano",
+        "Tangerina",
+        "Laranja"
+      ],
+      "corpo": [
+        "Gengibre",
+        "Jasmin",
+        "Noz-Moscada"
+      ],
+      "fundo": [
+        "Vetiver",
+        "Patchouli",
+        "Sândalo",
+        "Cedro"
+      ]
+    },
+    "perfil_sensorial": [
+      "Cítrico sofisticado",
+      "Amadeirado limpo",
+      "Versátil",
+      "Elegante",
+      "Assinatura executiva"
+    ],
+    "ocasiao_uso": "Ambiente profissional executivo, reuniões, eventos formais e casamentos",
+    "status": "Linha Ativa",
+    "preco_venda": 190.0,
+    "preco_shopee": 220.0,
+    "estoque_inicial": 2,
+    "logistica": {
+      "peso_bruto_gramas": 400.0,
+      "volume_liquido_ml": 100.0,
+      "dimensoes_embalagem": {
+        "altura_cm": 15.0,
+        "largura_cm": 7.0,
+        "comprimento_cm": 7.0
+      },
+      "fragil": true
+    },
+    "assets": {
+      "capa_img": "/assets/images/flatter/anuncios_masculinos_26/anuncio_blum_1x1.jpg",
+      "ficha_tecnica_img": "/assets/images/flatter/catalogo-fichas-flatter-26/34.jpg",
+      "url_slug": "/110-blum/"
+    },
+    "link_shopee": "https://shopee.com.br/annaferreira81",
+    "descricao_longa": "Principais Características e Notas:\r\n\r\n- Família Olfativa: Fourgère | Cítrico\r\n\r\n- Notas de Topo: Pimenta Rosa, Lima, Toranja, Hortelã\r\n\r\n- Notas de Corpo: Jasmin, Gengibre, Noz moscada\r\n\r\n- Notas de Fundo: Almíscar, Labdanum, Cedro, Sândalo, Vetiver, Incenso\r\n\r\nA saída é cítrica, ardida e extremamente revigorante. \r\nEvolui metálico e limpo com fundo amadeirado incensado que traz uma masculinidade séria e limpa\r\n\r\nElegante. Ele cria uma aura de sofisticação, autoridade e limpeza que as pessoas sentem ao passar por você."
+  },
+  {
+    "id": "111",
+    "nome": "Le Boy",
+    "genero": "Masculino",
+    "categoria": "Perfume Masculino",
+    "inspiracao_olfativa": "Wanted (Azzaro)",
+    "familia_olfativa": "Amadeirado Especiado",
+    "piramide_olfativa": {
+      "topo": [
+        "Limão Siciliano",
+        "Gengibre",
+        "Lavanda",
+        "Hortelã"
+      ],
+      "corpo": [
+        "Cardamomo da Guatemala",
+        "Zimbro",
+        "Maçã",
+        "Gerânio"
+      ],
+      "fundo": [
+        "Vetiver do Haiti",
+        "Fava Tonka",
+        "Madeira de Âmbar"
+      ]
+    },
+    "perfil_sensorial": [
+      "Solar",
+      "Especiado fresco",
+      "Ousado",
+      "Magnético",
+      "Elegante e descolado"
+    ],
+    "ocasiao_uso": "Tardes e noites, encontros, happy hour e lazer refinado",
+    "status": "Linha Ativa",
+    "preco_venda": 190.0,
+    "preco_shopee": 220.0,
+    "estoque_inicial": 2,
+    "logistica": {
+      "peso_bruto_gramas": 400.0,
+      "volume_liquido_ml": 100.0,
+      "dimensoes_embalagem": {
+        "altura_cm": 15.0,
+        "largura_cm": 7.0,
+        "comprimento_cm": 7.0
+      },
+      "fragil": true
+    },
+    "assets": {
+      "capa_img": "/assets/images/flatter/anuncios_masculinos_26/anuncio_le_boy_1x1.jpg",
+      "ficha_tecnica_img": "/assets/images/flatter/catalogo-fichas-flatter-26/35.jpg",
+      "url_slug": "/111-le-boy/"
+    },
+    "link_shopee": "https://shopee.com.br/annaferreira81",
+    "descricao_longa": "Principais Características e Notas:\r\n\r\n- Família Olfativa: Madeira | Oriental\r\n\r\n- Notas de Topo: Limão, Lavanda, Gengibre, Hortelã\r\n\r\n- Notas de Corpo: Maça, Cardamono, Gerânio, Junípero\r\n\r\n- Notas de Fundo: Cumaru, Vetiver, Âmbar\r\n\r\nA saída é explosiva, fresca e levemente picante. \r\nUm corpo quente e aromático com fundo doce, cremoso e levemente terroso\r\n\r\nAmadeirado Especiado solar, vibrante e assumidamente sedutor\r\nIdeal para um visual casual-chic ou um estilo mais despojado e autoconfiante."
+  },
+  {
+    "id": "112",
+    "nome": "PBlue",
+    "genero": "Masculino",
+    "categoria": "Femininos",
+    "inspiracao_olfativa": "Polo Blue (Ralph Lauren)",
+    "familia_olfativa": "Aromático Fougère",
+    "piramide_olfativa": {
+      "topo": [
+        "Pepino",
+        "Melão",
+        "Mandarina"
+      ],
+      "corpo": [
+        "Manjericão",
+        "Sálvia",
+        "Gerânio"
+      ],
+      "fundo": [
+        "Camurça",
+        "Notas Amadeiradas",
+        "Almíscar"
+      ]
+    },
+    "perfil_sensorial": [
+      "Aquático elegante",
+      "Melão fresco",
+      "Céu aberto",
+      "Aristocrático",
+      "Limpo"
+    ],
+    "ocasiao_uso": "Dias de sol, esportes finos, ambiente náutico, clube e trabalho",
+    "status": "Fora de linha",
+    "preco_venda": 190.0,
+    "preco_shopee": 220.0,
+    "estoque_inicial": 0,
+    "logistica": {
+      "peso_bruto_gramas": 400.0,
+      "volume_liquido_ml": 100.0,
+      "dimensoes_embalagem": {
+        "altura_cm": 15.0,
+        "largura_cm": 7.0,
+        "comprimento_cm": 7.0
+      },
+      "fragil": true
+    },
+    "assets": {
+      "capa_img": "/assets/images/flatter/fichas_flatter_26-masculinos/207.png",
+      "ficha_tecnica_img": "/assets/images/flatter/fichas_flatter_26-masculinos/208.png",
+      "url_slug": "/112-pblue/"
+    },
+    "link_shopee": "https://shopee.com.br/annaferreira81",
+    "descricao_longa": "Principais Características e Notas:\r\n\r\n- Família Olfativa: Fougère | Aquoso\r\n\r\n- Notas de Topo: Pepino, Mexerica, Melão\r\n\r\n- Notas de Corpo: Majericão, Sálvia, Gerânio\r\n\r\n- Notas de Fundo: Suede, Madeira, Almíscar\r\n\r\nA saída é extremamente aquática lembrando um dia de verão à beira-mar.\r\nO corpo traz um aspecto herbal e limpo sobre fundo aveludado e macio.\r\n\r\nFrescor aquático combinado com um toque frutado e macio. \r\nPerfeito para o dia a dia. É inofensivo e transmite uma imagem de asseio e organização."
+  },
+  {
+    "id": "113",
+    "nome": "Bold Boy",
+    "genero": "Masculino",
+    "categoria": "Perfume Masculino",
+    "inspiracao_olfativa": "Scandal Pour Homme (Jean Paul Gaultier)",
+    "familia_olfativa": "Oriental Amadeirado",
+    "piramide_olfativa": {
+      "topo": [
+        "Sálvia Esclaréia",
+        "Mandarina"
+      ],
+      "corpo": [
+        "Caramelo",
+        "Fava Tonka"
+      ],
+      "fundo": [
+        "Vetiver",
+        "Âmbar",
+        "Musgo"
+      ]
+    },
+    "perfil_sensorial": [
+      "Doce gourmand",
+      "Caramelizado",
+      "Potente",
+      "Viril",
+      "Projetado",
+      "Conquistador"
+    ],
+    "ocasiao_uso": "Noites frias, baladas, eventos badalados e encontros",
+    "status": "Linha Ativa",
+    "preco_venda": 190.0,
+    "preco_shopee": 220.0,
+    "estoque_inicial": 2,
+    "logistica": {
+      "peso_bruto_gramas": 400.0,
+      "volume_liquido_ml": 100.0,
+      "dimensoes_embalagem": {
+        "altura_cm": 15.0,
+        "largura_cm": 7.0,
+        "comprimento_cm": 7.0
+      },
+      "fragil": true
+    },
+    "assets": {
+      "capa_img": "/assets/images/flatter/anuncios_masculinos_26/anuncio_bold_boy_1x1.jpg",
+      "ficha_tecnica_img": "/assets/images/flatter/catalogo-fichas-flatter-26/36.jpg",
+      "url_slug": "/113-bold-boy/"
+    },
+    "link_shopee": "https://shopee.com.br/annaferreira81",
+    "descricao_longa": "Principais Características e Notas:\r\n\r\n- Família Olfativa: Madeira | Oriental\r\n\r\n- Notas de Topo: Mexerica, Sálvia\r\n\r\n- Notas de Corpo: Caramelo, Cumaru\r\n\r\n- Notas de Fundo: Vetiver, Cedro, Âmbar\r\n\r\nA saída é levemente fresca e herbácea, rapida, cede logo a um caramelo tostado e salgado.\r\nA nota amadeirada no fundo serve para dar estrutura masculina.\r\n\r\nContrasta o frescor aromático da sálvia contra o peso doce do caramelo salgado\r\nfoi feito para se destacar em ambientes barulhentos e lotados."
+  },
+  {
+    "id": "114",
+    "nome": "Most",
+    "genero": "Masculino",
+    "categoria": "Perfume Masculino",
+    "inspiracao_olfativa": "The Most Wanted (Azzaro)",
+    "familia_olfativa": "Oriental Especiado",
+    "piramide_olfativa": {
+      "topo": [
+        "Cardamomo"
+      ],
+      "corpo": [
+        "Caramelo Toffee"
+      ],
+      "fundo": [
+        "Madeira de Âmbar"
+      ]
+    },
+    "perfil_sensorial": [
+      "Doce tostado",
+      "Caramelizado escuro",
+      "Hipnótico",
+      "Sensualidade intensa",
+      "Imponente"
+    ],
+    "ocasiao_uso": "Noites frias, encontros a dois, jantares sofisticados e eventos noturnos",
+    "status": "Linha Ativa",
+    "preco_venda": 190.0,
+    "preco_shopee": 220.0,
+    "estoque_inicial": 3,
+    "logistica": {
+      "peso_bruto_gramas": 400.0,
+      "volume_liquido_ml": 100.0,
+      "dimensoes_embalagem": {
+        "altura_cm": 15.0,
+        "largura_cm": 7.0,
+        "comprimento_cm": 7.0
+      },
+      "fragil": true
+    },
+    "assets": {
+      "capa_img": "/assets/images/flatter/anuncios_masculinos_26/anuncio_most_1x1.jpg",
+      "ficha_tecnica_img": "/assets/images/flatter/catalogo-fichas-flatter-26/37.jpg",
+      "url_slug": "/114-most/"
+    },
+    "link_shopee": "https://shopee.com.br/annaferreira81",
+    "descricao_longa": "Principais Características e Notas:\r\n\r\n- Família Olfativa: Oriental | Cítrico\r\n\r\n- Notas de Topo: Cardamono\r\n\r\n- Notas de Corpo: Toffe\r\n\r\n- Notas de Fundo: Amberwood\r\n\r\nA saída é quente, picante e levemente adocicada, \r\nevolui para um doce cremoso, que lembra bala de leite tostada, mas sem ser infantil.\r\nNo fundo, Madeira de Âmbar. Garante uma base sólida, masculina e extremamente duradoura.\r\n\r\nMinimalista e intenso, é voltado para encontros românticos e baladas. \r\nEvoca inverno"
+  },
+  {
+    "id": "115",
+    "nome": "Platino",
+    "genero": "Masculino",
+    "categoria": "Perfume Masculino",
+    "inspiracao_olfativa": "Invictus Platinum (Paco Rabanne)",
+    "familia_olfativa": "Amadeirado Aromático",
+    "piramide_olfativa": {
+      "topo": [
+        "Absinto",
+        "Toranja"
+      ],
+      "corpo": [
+        "Hortelã",
+        "Lavanda"
+      ],
+      "fundo": [
+        "Cipreste",
+        "Patchouli"
+      ]
+    },
+    "perfil_sensorial": [
+      "Herbal metálico",
+      "Menta gelada",
+      "Vigoroso",
+      "Moderno",
+      "Intenso e fresco"
+    ],
+    "ocasiao_uso": "Dias quentes, academia, baladas de verão e comemorações",
+    "status": "Fora de Linha",
+    "preco_venda": 190.0,
+    "preco_shopee": 220.0,
+    "estoque_inicial": 1,
+    "logistica": {
+      "peso_bruto_gramas": 400.0,
+      "volume_liquido_ml": 100.0,
+      "dimensoes_embalagem": {
+        "altura_cm": 15.0,
+        "largura_cm": 7.0,
+        "comprimento_cm": 7.0
+      },
+      "fragil": true
+    },
+    "assets": {
+      "capa_img": "/assets/images/flatter/fichas_flatter_26-masculinos/222.png",
+      "ficha_tecnica_img": "/assets/images/flatter/catalogo-fichas-flatter-26/47.jpg",
+      "url_slug": "/115-platino/"
+    },
+    "link_shopee": "https://shopee.com.br/annaferreira81",
+    "descricao_longa": "Principais Características e Notas:\r\n\r\n- Família Olfativa: Fougère | Madeira\r\n\r\n- Notas de Topo: Absinto, Toranja\r\n\r\n- Notas de Corpo: Hortelã, Lavanda\r\n\r\n- Notas de Fundo: Cipreste, Patchouli\r\n\r\nA saída é amarga, cítrica e muito vibrante.\r\nA lavanda traz uma limpeza clássica, enquanto a hortelã reforça o aspecto metálico.\r\nO encerramento é amadeirado seco e levemente terroso\r\n\r\nVersátil, fresco e aromático, combina com o ambiente esportivo.\r\nPerfeito para o dia a dia e noites quentes."
+  },
+  {
+    "id": "116",
+    "nome": "Selvagem",
+    "genero": "Masculino",
+    "categoria": "Perfume Masculino",
+    "inspiracao_olfativa": "Sauvage (Dior)",
+    "familia_olfativa": "Aromático Fougère",
+    "piramide_olfativa": {
+      "topo": [
+        "Bergamota da Calábria",
+        "Pimenta"
+      ],
+      "corpo": [
+        "Pimenta Rosa",
+        "Lavanda",
+        "Vetiver",
+        "Patchouli",
+        "Gerânio",
+        "Elemi"
+      ],
+      "fundo": [
+        "Ambroxan",
+        "Cedro",
+        "Ládano"
+      ]
+    },
+    "perfil_sensorial": [
+      "Cítrico metálico",
+      "Ambroxan potente",
+      "Marcante",
+      "Campeão de elogios",
+      "Viril"
+    ],
+    "ocasiao_uso": "Coringa definitivo: vai do trabalho à balada, em qualquer clima e horário",
+    "status": "Linha Ativa",
+    "preco_venda": 190.0,
+    "preco_shopee": 220.0,
+    "estoque_inicial": 2,
+    "logistica": {
+      "peso_bruto_gramas": 400.0,
+      "volume_liquido_ml": 100.0,
+      "dimensoes_embalagem": {
+        "altura_cm": 15.0,
+        "largura_cm": 7.0,
+        "comprimento_cm": 7.0
+      },
+      "fragil": true
+    },
+    "assets": {
+      "capa_img": "/assets/images/flatter/anuncios_masculinos_26/anuncio_selvagem_1x1.jpg",
+      "ficha_tecnica_img": "/assets/images/flatter/catalogo-fichas-flatter-26/38.jpg",
+      "url_slug": "/116-selvagem/"
+    },
+    "link_shopee": "https://shopee.com.br/annaferreira81",
+    "descricao_longa": "Principais Características e Notas:\r\n\r\n- Família Olfativa: Fougère | Cítrico\r\n\r\n- Notas de Topo: Bergamota, Pimenta\r\n\r\n- Notas de Corpo: Lavanda, Gerânio, Vetiver, Patchouli, Pimentas\r\n\r\n- Notas de Fundo: Labdanum, Cedro, Âmbar cinza\r\n\r\nA saída é cítrica e muito ardida, mas logo fica aromático e levemente floral, trazendo elegância.\r\nFundo limpo e másculo.\r\n\r\nFunciona em qualquer lugar e temperatura.\r\nEquilibra o frescor do banho tomado com uma base amadeirada e sexy."
+  },
+  {
+    "id": "117",
+    "nome": "Urbano",
+    "genero": "Masculino",
+    "categoria": "Perfume Masculino",
+    "inspiracao_olfativa": "Urban Hero (Jimmy Choo)",
+    "familia_olfativa": "Amadeirado Especiado",
+    "piramide_olfativa": {
+      "topo": [
+        "Caviar de Limão (Finger Lime)",
+        "Pimenta Preta"
+      ],
+      "corpo": [
+        "Jacarandá",
+        "Vetiver"
+      ],
+      "fundo": [
+        "Couro",
+        "Âmbar Cinzento"
+      ]
+    },
+    "perfil_sensorial": [
+      "Couro moderno",
+      "Amadeirado nobre",
+      "Urbano sofisticado",
+      "Artístico",
+      "Viril"
+    ],
+    "ocasiao_uso": "Uso urbano, trabalho moderno, reuniões, eventos noturnos e passeios",
+    "status": "Fora de Linha",
+    "preco_venda": 190.0,
+    "preco_shopee": 220.0,
+    "estoque_inicial": 2,
+    "logistica": {
+      "peso_bruto_gramas": 400.0,
+      "volume_liquido_ml": 100.0,
+      "dimensoes_embalagem": {
+        "altura_cm": 15.0,
+        "largura_cm": 7.0,
+        "comprimento_cm": 7.0
+      },
+      "fragil": true
+    },
+    "assets": {
+      "capa_img": "/assets/images/flatter/anuncios_masculinos_26/anuncio_urbano.jpg",
+      "ficha_tecnica_img": "/assets/images/flatter/catalogo-fichas-flatter-26/48.jpg",
+      "url_slug": "/117-urbano/"
+    },
+    "link_shopee": "https://shopee.com.br/annaferreira81",
+    "descricao_longa": "Principais Características e Notas:\r\n\r\n- Família Olfativa: Madeira | Cítrico\r\n\r\n- Notas de Topo: Pimenta Rosa, Lima Dedo\r\n\r\n- Notas de Corpo: Vetiver, Palissandro\r\n\r\n- Notas de Fundo: Couro, Âmbar cinza\r\n\r\nA saída é vibrante, gelada e bem temperada.\r\nEvolui para um corpo com sofisticação amadeirada clássica.\r\nO Fundo remete a jaqueta de couro e asfalto limpo, com um toque mineral.\r\n\r\nAmadeirado Especiado com um toque extra de couro e pimenta que o deixa \r\ncom uma pegada mais urbana e noturna.\r\nTransmite uma imagem de homem moderno, limpo e decidido."
+  },
+  {
+    "id": "118",
+    "nome": "Polb",
+    "genero": "Masculino",
+    "categoria": "Femininos",
+    "inspiracao_olfativa": "Polo Black (Ralph Lauren)",
+    "familia_olfativa": "Amadeirado Aromático",
+    "piramide_olfativa": {
+      "topo": [
+        "Manga Gelada",
+        "Sálvia"
+      ],
+      "corpo": [
+        "Artemísia (Absinto)",
+        "Hedgedione"
+      ],
+      "fundo": [
+        "Sândalo",
+        "Fava Tonka",
+        "Patchouli Negro"
+      ]
+    },
+    "perfil_sensorial": [
+      "Manga madura sofisticada",
+      "Amadeirado sóbrio",
+      "Elegância descontraída",
+      "Sexy"
+    ],
+    "ocasiao_uso": "Fins de tarde, encontros românticos, jantares e passeios noturnos",
+    "status": "Fora de linha",
+    "preco_venda": 190.0,
+    "preco_shopee": 220.0,
+    "estoque_inicial": 0,
+    "logistica": {
+      "peso_bruto_gramas": 400.0,
+      "volume_liquido_ml": 100.0,
+      "dimensoes_embalagem": {
+        "altura_cm": 15.0,
+        "largura_cm": 7.0,
+        "comprimento_cm": 7.0
+      },
+      "fragil": true
+    },
+    "assets": {
+      "capa_img": "/assets/images/flatter/fichas_flatter_26-masculinos/237.png",
+      "ficha_tecnica_img": "/assets/images/flatter/fichas_flatter_26-masculinos/238.png",
+      "url_slug": "/118-polb/"
+    },
+    "link_shopee": "https://shopee.com.br/annaferreira81",
+    "descricao_longa": "Principais Características e Notas:\r\n\r\n- Família Olfativa: Madeira | Fougère\r\n\r\n- Notas de Topo: Manga, Tangerina, Limão\r\n\r\n- Notas de Corpo: Sálvia, Artemísia, Jasmin\r\n\r\n- Notas de Fundo: Sândalo, Cumaru, Patchouli\r\n\r\nA saída é frutada e refrescante, com um aspecto levemente \"gelado\".\r\nCorpo limpo, aquático e aromático.\r\nBase amadeirada macia e levemente adocicada que traz sobriedade.\r\n\r\nEquilibra notas tropicais com uma base escura e urbana\r\nExcelente para o ambiente corporativo, pois transmite seriedade e limpeza."
+  },
+  {
+    "id": "119",
+    "nome": "Silver",
+    "genero": "Masculino",
+    "categoria": "Perfume Masculino",
+    "inspiracao_olfativa": "Silver Scent (Jacques Bogart)",
+    "familia_olfativa": "Oriental Fougère",
+    "piramide_olfativa": {
+      "topo": [
+        "Flor de Laranjeira",
+        "Limão"
+      ],
+      "corpo": [
+        "Alecrim",
+        "Cardamomo",
+        "Lavanda",
+        "Noz-Moscada",
+        "Coentro"
+      ],
+      "fundo": [
+        "Fava Tonka",
+        "Lichia",
+        "Vetiver",
+        "Madeira de Teca"
+      ]
+    },
+    "perfil_sensorial": [
+      "Intenso",
+      "Toque de uva/chiclete",
+      "Bomba de projeção",
+      "Rastro longo"
+    ],
+    "ocasiao_uso": "Noites frias, ar livre e eventos em grandes ambientes",
+    "status": "Linha Ativa",
+    "preco_venda": 190.0,
+    "preco_shopee": 220.0,
+    "estoque_inicial": 2,
+    "logistica": {
+      "peso_bruto_gramas": 400.0,
+      "volume_liquido_ml": 100.0,
+      "dimensoes_embalagem": {
+        "altura_cm": 15.0,
+        "largura_cm": 7.0,
+        "comprimento_cm": 7.0
+      },
+      "fragil": true
+    },
+    "assets": {
+      "capa_img": "/assets/images/flatter/anuncios_masculinos_26/anuncio_perfume_m_silver_3x4.jpg",
+      "ficha_tecnica_img": "/assets/images/flatter/catalogo-fichas-flatter-26/39.jpg",
+      "url_slug": "/119-silver/"
+    },
+    "link_shopee": "https://shopee.com.br/annaferreira81",
+    "descricao_longa": "Principais Características e Notas:\r\n\r\n- Família Olfativa: Madeira | Oriental\r\n\r\n- Notas de Topo: Flor de Laranjeira, Limão\r\n\r\n- Notas de Corpo: Gerânio, Lavanda, Cardamono, Noz moscada, Alecrim, Coentro\r\n\r\n- Notas de Fundo: Lichia, Cumaru, Teca, Vetiver\r\n\r\n\r\nA saída é cítrica e floral, mas logo é dominada pelo dulçor.\r\nEvolui para mix de especiarias com um toque aromático \"ardido\".\r\nAo fundo, a lichia combinada com a fava tonka é o que cria a famosa ilusão olfativa de vinho\r\n\r\n\r\nIdeal para noite e balada, para quem quer ser notado a metros de distância."
+  },
+  {
+    "id": "120",
+    "nome": "Verus 21",
+    "genero": "Masculino",
+    "categoria": "Perfume Masculino",
+    "inspiracao_olfativa": "Invictus Victory (Paco Rabanne)",
+    "familia_olfativa": "Âmbar Oriental",
+    "piramide_olfativa": {
+      "topo": [
+        "Limão Siciliano",
+        "Pimenta Rosa"
+      ],
+      "corpo": [
+        "Incenso",
+        "Lavanda"
+      ],
+      "fundo": [
+        "Baunilha",
+        "Fava Tonka",
+        "Âmbar"
+      ]
+    },
+    "perfil_sensorial": [
+      "Resinoso",
+      "Baunilha escura",
+      "Doce esfumaçado",
+      "Conquistador",
+      "Imponente"
+    ],
+    "ocasiao_uso": "Noite, eventos de gala, jantares e clima ameno/frio",
+    "status": "Linha Ativa",
+    "preco_venda": 190.0,
+    "preco_shopee": 220.0,
+    "estoque_inicial": 1,
+    "logistica": {
+      "peso_bruto_gramas": 400.0,
+      "volume_liquido_ml": 100.0,
+      "dimensoes_embalagem": {
+        "altura_cm": 15.0,
+        "largura_cm": 7.0,
+        "comprimento_cm": 7.0
+      },
+      "fragil": true
+    },
+    "assets": {
+      "capa_img": "/assets/images/flatter/anuncios_masculinos_26/anuncio_perfume_m_verus_3x4.jpg",
+      "ficha_tecnica_img": "/assets/images/flatter/catalogo-fichas-flatter-26/40.jpg",
+      "url_slug": "/120-verus-21/"
+    },
+    "link_shopee": "https://shopee.com.br/annaferreira81",
+    "descricao_longa": "Principais Características e Notas:\r\n\r\n- Família Olfativa: Oriental | Fougère\r\n\r\n- Notas de Topo: Pimenta Rosa, Limão, Maçã\r\n\r\n- Notas de Corpo: Incenso, Lavanda, Rosa\r\n\r\n- Notas de Fundo: Baunilha, Cumaru, Âmbar\r\n\r\n\r\nMarcada pelo contraste entre um toque cítrico e picante inicial \r\ne uma base de baunilha e incenso muito potente.\r\n\r\nNoturno, ele corta o cheiro de outros perfumes e se destaca em ambientes lotados.\r\nEle cria uma bolha doce e quente ao seu redor que é impossível de ignorar."
+  },
+  {
+    "id": "121",
+    "nome": "Stronger",
+    "genero": "Masculino",
+    "categoria": "Perfume Masculino",
+    "inspiracao_olfativa": "Stronger With You (Emporio Armani)",
+    "familia_olfativa": "Aromático Fougère",
+    "piramide_olfativa": {
+      "topo": [
+        "Cardamomo",
+        "Pimenta Rosa",
+        "Folhas de Violeta",
+        "Hortelã"
+      ],
+      "corpo": [
+        "Sálvia",
+        "Melão",
+        "Abacaxi"
+      ],
+      "fundo": [
+        "Baunilha",
+        "Castanha Cristalizada",
+        "Cedro",
+        "Madeira de Âmbar"
+      ]
+    },
+    "perfil_sensorial": [
+      "Doce castanha",
+      "Quente",
+      "Aconchegante",
+      "Romântico",
+      "Moderno"
+    ],
+    "ocasiao_uso": "Encontros a dois, clima frio, cinema, jantares românticos",
+    "status": "Linha Ativa",
+    "preco_venda": 190.0,
+    "preco_shopee": 220.0,
+    "estoque_inicial": 3,
+    "logistica": {
+      "peso_bruto_gramas": 400.0,
+      "volume_liquido_ml": 100.0,
+      "dimensoes_embalagem": {
+        "altura_cm": 15.0,
+        "largura_cm": 7.0,
+        "comprimento_cm": 7.0
+      },
+      "fragil": true
+    },
+    "assets": {
+      "capa_img": "/assets/images/flatter/anuncios_masculinos_26/anuncio_stronger_1x1.jpg",
+      "ficha_tecnica_img": "/assets/images/flatter/catalogo-fichas-flatter-26/41.jpg",
+      "url_slug": "/121-stronger/"
+    },
+    "link_shopee": "https://shopee.com.br/annaferreira81",
+    "descricao_longa": "Principais Características e Notas:\r\n\r\n- Família Olfativa: Fougère | Oriental\r\n\r\n- Notas de Topo: Castanha, Açucar, Pimenta Rosa\r\n\r\n- Notas de Corpo: Sálvia, Cardamono, Lavanda\r\n\r\n- Notas de Fundo: Baunilha, Fumaça, Âmbar\r\n\r\n\r\nA saída é levemente picante e fresca, mas o frescor logo dá lugar ao calor das especiarias\r\ne notas frutadas trazem um dulçor suculento que equilibra o peso \r\ndas notas de fundo: uma mistura cremosa de baunilha com o aspecto tostado da castanha.\r\n\r\nAromático Fougère com uma base quente e especiada ideal para momentos de proximidade\r\nem noite fria."
+  },
+  {
+    "id": "122",
+    "nome": "Summer",
+    "genero": "Masculino",
+    "categoria": "Femininos",
+    "inspiracao_olfativa": "212 VIP Men Party Fever (Carolina Herrera)",
+    "familia_olfativa": "Amadeirado Especiado",
+    "piramide_olfativa": {
+      "topo": [
+        "Maçã Vermelha",
+        "Cítricos",
+        "Gengibre",
+        "Zimbro"
+      ],
+      "corpo": [
+        "Canela",
+        "Gerânio",
+        "Frésia"
+      ],
+      "fundo": [
+        "Cedro",
+        "Vetiver",
+        "Fava Tonka",
+        "Almíscar",
+        "Oliveira"
+      ]
+    },
+    "perfil_sensorial": [
+      "Fresco efervescente",
+      "Festivo",
+      "Tropical",
+      "Descontraído",
+      "Enérgico"
+    ],
+    "ocasiao_uso": "Festas de verão, pool parties, fins de tarde e férias",
+    "status": "Fora de linha",
+    "preco_venda": 190.0,
+    "preco_shopee": 220.0,
+    "estoque_inicial": 0,
+    "logistica": {
+      "peso_bruto_gramas": 400.0,
+      "volume_liquido_ml": 100.0,
+      "dimensoes_embalagem": {
+        "altura_cm": 15.0,
+        "largura_cm": 7.0,
+        "comprimento_cm": 7.0
+      },
+      "fragil": true
+    },
+    "assets": {
+      "capa_img": "/assets/images/flatter/fichas_flatter_26-masculinos/257.png",
+      "ficha_tecnica_img": "/assets/images/flatter/fichas_flatter_26-masculinos/258.png",
+      "url_slug": "/122-summer/"
+    },
+    "link_shopee": "https://shopee.com.br/annaferreira81",
+    "descricao_longa": "Principais Características e Notas:\r\n\r\n- Família Olfativa: Fougère | Cítrico\r\n\r\n- Notas de Topo: Maçã, Tamarindo, Gengibre, Zimbro, Cítricos\r\n\r\n- Notas de Corpo: Notas Verdes, Gerânio, Frésia\r\n\r\n- Notas de Fundo: Almiscar, Incenso, Cipreste, Vetiver, Cumaru\r\n\r\nA abertura é frutada, lembrando casca de maçã, com a picância do gengibre.\r\nEvolui para um herbal ousado, metálico em fundo aveludado clássico.\r\n\r\nFestivo, alegre e um aspecto verde e herbal único,\r\num verdadeiro \"coringa\" para o clima brasileiro."
+  },
+  {
+    "id": "123",
+    "nome": "Vip Men",
+    "genero": "Masculino",
+    "categoria": "Perfume Masculino",
+    "inspiracao_olfativa": "212 VIP Men (Carolina Herrera)",
+    "familia_olfativa": "Oriental Amadeirado",
+    "piramide_olfativa": {
+      "topo": [
+        "Maracujá",
+        "Gengibre",
+        "Pimenta Preta",
+        "Lima"
+      ],
+      "corpo": [
+        "Vodka",
+        "Gin",
+        "Hortelã",
+        "Especiarias"
+      ],
+      "fundo": [
+        "Âmbar",
+        "Couro",
+        "Notas Amadeiradas"
+      ]
+    },
+    "perfil_sensorial": [
+      "Alcoólico sofisticado",
+      "Fresco picante",
+      "Carismático",
+      "VIP",
+      "Noturno"
+    ],
+    "ocasiao_uso": "Baladas, bares premium, eventos sociais exclusivos",
+    "status": "Linha Ativa",
+    "preco_venda": 190.0,
+    "preco_shopee": 220.0,
+    "estoque_inicial": 1,
+    "logistica": {
+      "peso_bruto_gramas": 400.0,
+      "volume_liquido_ml": 100.0,
+      "dimensoes_embalagem": {
+        "altura_cm": 15.0,
+        "largura_cm": 7.0,
+        "comprimento_cm": 7.0
+      },
+      "fragil": true
+    },
+    "assets": {
+      "capa_img": "/assets/images/flatter/anuncios_masculinos_26/anuncio_perfume_m_vipmen_3x4.jpg",
+      "ficha_tecnica_img": "/assets/images/flatter/catalogo-fichas-flatter-26/42.jpg",
+      "url_slug": "/123-vip-men/"
+    },
+    "link_shopee": "https://shopee.com.br/annaferreira81",
+    "descricao_longa": "Principais Características e Notas:\r\n\r\n- Família Olfativa: Madeira | Oriental\r\n\r\n- Notas de Topo: Maracujá, Pimenta Preta, Gengibre, Limão\r\n\r\n- Notas de Corpo: Especiarias, Vodka, Gin, Hortelã\r\n\r\n- Notas de Fundo: Madeira, Couro, Âmbar\r\n\r\nA saída é explosiva, tropical e levemente picante, \r\nabrindo para um alcoólico e refrescante, dando a vibe de festa.\r\nFundo quente e denso\r\n\r\nFocado em um público jovem, urbano e que frequenta a vida noturna.\r\nAmadeirado Oriental que equilibra o frescor \"gelado\" com um toque alcoólico e doce."
+  },
+  {
+    "id": "124",
+    "nome": "Supremo",
+    "genero": "Masculino",
+    "categoria": "Femininos",
+    "inspiracao_olfativa": "Boss Bottled (Hugo Boss)",
+    "familia_olfativa": "Amadeirado Especiado",
+    "piramide_olfativa": {
+      "topo": [
+        "Maçã",
+        "Ameixa",
+        "Limão",
+        "Bergamota",
+        "Gerânio"
+      ],
+      "corpo": [
+        "Canela",
+        "Mogno",
+        "Cravo-da-Índia"
+      ],
+      "fundo": [
+        "Baunilha",
+        "Sândalo",
+        "Cedro",
+        "Vetiver",
+        "Oliveira"
+      ]
+    },
+    "perfil_sensorial": [
+      "Torta de maçã canelada",
+      "Amadeirado clássico",
+      "Confiante",
+      "Atraente",
+      "Versátil"
+    ],
+    "ocasiao_uso": "Dia a dia executivo, encontros, almoços de negócios e passeios",
+    "status": "Fora de linha",
+    "preco_venda": 190.0,
+    "preco_shopee": 220.0,
+    "estoque_inicial": 0,
+    "logistica": {
+      "peso_bruto_gramas": 400.0,
+      "volume_liquido_ml": 100.0,
+      "dimensoes_embalagem": {
+        "altura_cm": 15.0,
+        "largura_cm": 7.0,
+        "comprimento_cm": 7.0
+      },
+      "fragil": true
+    },
+    "assets": {
+      "capa_img": "/assets/images/flatter/fichas_flatter_26-masculinos/267.png",
+      "ficha_tecnica_img": "/assets/images/flatter/fichas_flatter_26-masculinos/268.png",
+      "url_slug": "/124-supremo/"
+    },
+    "link_shopee": "https://shopee.com.br/annaferreira81",
+    "descricao_longa": "Principais Características e Notas:\r\n\r\n- Família Olfativa: Madeira | Oriental\r\n\r\n- Notas de Topo: Ameixa, Maça, Limão, Bergamota, Gerânio\r\n\r\n- Notas de Corpo: Mogno, Canela, Cravo\r\n\r\n- Notas de Fundo: Baunilha, Cedro, Sândalo, Oliveira, Vetiver\r\n\r\nA saída é dominada por uma maçã verde suculenta e brilhante.\r\nEvolui  quente e especiada sobre fundo doce com toque seco.\r\n\r\nVersátil, transmite organização, limpeza e profissionalismo.\r\nSua leveza evoca traje social, criando uma aura de sofisticação educada."
+  },
+  {
+    "id": "125",
+    "nome": "Young",
+    "genero": "Masculino",
+    "categoria": "Perfume Masculino",
+    "inspiracao_olfativa": "212 Heroes (Carolina Herrera)",
+    "familia_olfativa": "Aromático Frutado",
+    "piramide_olfativa": {
+      "topo": [
+        "Pera",
+        "Gengibre",
+        "Cannabis"
+      ],
+      "corpo": [
+        "Gerânio",
+        "Sálvia"
+      ],
+      "fundo": [
+        "Almíscar",
+        "Couro"
+      ]
+    },
+    "perfil_sensorial": [
+      "Frutado moderno",
+      "Urbano",
+      "Skater chic",
+      "Jovem",
+      "Descontraído",
+      "Vibrante"
+    ],
+    "ocasiao_uso": "Passeios, faculdade, encontros com amigos e eventos descontraídos",
+    "status": "Fora de Linha",
+    "preco_venda": 190.0,
+    "preco_shopee": 220.0,
+    "estoque_inicial": 1,
+    "logistica": {
+      "peso_bruto_gramas": 400.0,
+      "volume_liquido_ml": 100.0,
+      "dimensoes_embalagem": {
+        "altura_cm": 15.0,
+        "largura_cm": 7.0,
+        "comprimento_cm": 7.0
+      },
+      "fragil": true
+    },
+    "assets": {
+      "capa_img": "/assets/images/flatter/fichas_flatter_26-masculinos/272.png",
+      "ficha_tecnica_img": "/assets/images/flatter/fichas_flatter_26-masculinos/273.png",
+      "url_slug": "/125-young/"
+    },
+    "link_shopee": "https://shopee.com.br/annaferreira81",
+    "descricao_longa": "Principais Características e Notas:\r\n\r\n- Família Olfativa: Fougère | Frutado\r\n\r\n- Notas de Topo: Pera, Gengibre, Notas Verdes\r\n\r\n- Notas de Corpo: Gerânio, Sálvia\r\n\r\n- Notas de Fundo: Almíscar, Couro\r\n\r\nA saída é refrescante, alegre e levemente picante. \r\nEvolui Herbal-Metálico sobre fundo é macio e levemente amadeirado.\r\n\r\nFragrância Aromática Frutada que foca no frescor moderno e em uma doçura leve.\r\nVoltado para Juventude Urbana."
+  },
+  {
+    "id": "126",
+    "nome": "Tróia",
+    "genero": "Masculino",
+    "categoria": "Perfume Masculino",
+    "inspiracao_olfativa": "Eros (Versace)",
+    "familia_olfativa": "Madeira Oriental",
+    "piramide_olfativa": {
+      "topo": [
+        "Hortelã",
+        "Maçã Verde",
+        "Limão"
+      ],
+      "corpo": [
+        "Gerânio",
+        "Cumaru",
+        "Âmbar Cinza"
+      ],
+      "fundo": [
+        "Baunilha",
+        "Vetiver",
+        "Cedro",
+        "Musgo de Carvalho"
+      ]
+    },
+    "perfil_sensorial": [
+      "Menta doce",
+      "Baunilha envolvente",
+      "Sedutor",
+      "Festa",
+      "Extrovertido",
+      "Poderoso"
+    ],
+    "ocasiao_uso": "Baladas, festas noturnas, encontros e noites frias",
+    "status": "Linha Ativa",
+    "preco_venda": 190.0,
+    "preco_shopee": 220.0,
+    "estoque_inicial": 0,
+    "logistica": {
+      "peso_bruto_gramas": 400.0,
+      "volume_liquido_ml": 100.0,
+      "dimensoes_embalagem": {
+        "altura_cm": 15.0,
+        "largura_cm": 7.0,
+        "comprimento_cm": 7.0
+      },
+      "fragil": true
+    },
+    "assets": {
+      "capa_img": "/assets/images/flatter/anuncios_masculinos_26/anuncio_perfume_m_troia_3x4.jpg",
+      "ficha_tecnica_img": "/assets/images/flatter/fichas_flatter_26-masculinos/278.png",
+      "url_slug": "/126-troia/"
+    },
+    "link_shopee": "https://shopee.com.br/annaferreira81",
+    "descricao_longa": "Principais Características e Notas:\r\n\r\n- Família Olfativa: Madeira | Oriental\r\n\r\n- Notas de Topo: Hortelã, Maça verde, Limão\r\n\r\n- Notas de Corpo: Gerânio, Cumaru, Âmbar cinza\r\n\r\n- Notas de Fundo: Baunilha, Vetiver, Cedro, Musgo de Carvalho\r\n\r\nA saída é refrescante, gelada e levemente ácida.\r\nEvolui doce, achicletado, fundo cremoso, quente e extremamente persistente.\r\n\r\nBaladas, frestas, noites frias.\r\nEle corta o cheiro de outros perfumes e se destaca em ambientes aglomerados."
+  },
+  {
+    "id": "127",
+    "nome": "Deep",
+    "genero": "Masculino",
+    "categoria": "Perfume Masculino",
+    "inspiracao_olfativa": "Silver Scent Deep (Jacques Bogart)",
+    "familia_olfativa": "Oriental Fougère",
+    "piramide_olfativa": {
+      "topo": [
+        "Laranja Amarga",
+        "Flor de Laranjeira"
+      ],
+      "corpo": [
+        "Noz-Moscada",
+        "Sálvia Esclaréia",
+        "Gerânio"
+      ],
+      "fundo": [
+        "Fava Tonka",
+        "Avelã",
+        "Baunilha",
+        "Notas Amadeiradas"
+      ]
+    },
+    "perfil_sensorial": [
+      "Avelã tostada",
+      "Doce denso",
+      "Noturno encorpado",
+      "Altíssima fixação"
+    ],
+    "ocasiao_uso": "Noites frias de inverno, eventos ao ar livre noturnos",
+    "status": "Linha Ativa",
+    "preco_venda": 190.0,
+    "preco_shopee": 220.0,
+    "estoque_inicial": 1,
+    "logistica": {
+      "peso_bruto_gramas": 400.0,
+      "volume_liquido_ml": 100.0,
+      "dimensoes_embalagem": {
+        "altura_cm": 15.0,
+        "largura_cm": 7.0,
+        "comprimento_cm": 7.0
+      },
+      "fragil": true
+    },
+    "assets": {
+      "capa_img": "/assets/images/flatter/anuncios_masculinos_26/anuncio_perfume_m_deep_3x4.jpg",
+      "ficha_tecnica_img": "/assets/images/flatter/catalogo-fichas-flatter-26/43.jpg",
+      "url_slug": "/127-deep/"
+    },
+    "link_shopee": "https://shopee.com.br/annaferreira81",
+    "descricao_longa": "Principais Características e Notas:\r\n\r\n- Família Olfativa: Madeira | Cítrico\r\n\r\n- Notas de Topo: Flor de Laranjeira, Laranja, Toranja\r\n\r\n- Notas de Corpo: Gerânio, Sálvia, Noz moscada\r\n\r\n- Notas de Fundo: Madeira, Cumaru, Avelã, Baunilha\r\n\r\n\r\nA saída é cítrica e vibrante evolui aromático e especiado\r\nsobre fundo com toque de avelã, \r\nque traz uma cremosidade amendoada viciante\r\n\r\nElegante, vai bem em ambientes climatizados, mas melhor em\r\nmomentos de proximidade devido ao seu lado cremoso."
+  },
+  {
+    "id": "128",
+    "nome": "Alpha",
+    "genero": "Masculino",
+    "categoria": "Perfume Masculino",
+    "inspiracao_olfativa": "Fakhar Black (Lattafa) / Y Le Parfum (YSL)",
+    "familia_olfativa": "Âmbar Fougère",
+    "piramide_olfativa": {
+      "topo": [
+        "Maçã",
+        "Bergamota",
+        "Gengibre"
+      ],
+      "corpo": [
+        "Lavanda",
+        "Sálvia",
+        "Bagas de Zimbro",
+        "Gerânio"
+      ],
+      "fundo": [
+        "Fava Tonka",
+        "Madeira de Âmbar",
+        "Cedro",
+        "Vetiver"
+      ]
+    },
+    "perfil_sensorial": [
+      "Fougère elegante",
+      "Aromático nobre",
+      "Sedutor",
+      "Presença magnética",
+      "Versátil chic"
+    ],
+    "ocasiao_uso": "Assinatura executiva, jantares, eventos sociais e ocasiões de destaque",
+    "status": "Lançamento",
+    "preco_venda": 210.0,
+    "preco_shopee": 240.0,
+    "estoque_inicial": 1,
+    "logistica": {
+      "peso_bruto_gramas": 400.0,
+      "volume_liquido_ml": 100.0,
+      "dimensoes_embalagem": {
+        "altura_cm": 15.0,
+        "largura_cm": 7.0,
+        "comprimento_cm": 7.0
+      },
+      "fragil": true
+    },
+    "assets": {
+      "capa_img": "/assets/images/flatter/anuncios_masculinos_26/anuncio_perfume_m_alpha_3x4.jpg",
+      "ficha_tecnica_img": "/assets/images/flatter/catalogo-fichas-flatter-26/44.jpg",
+      "url_slug": "/128-alpha/"
+    },
+    "link_shopee": "https://shopee.com.br/annaferreira81",
+    "descricao_longa": "Principais Características e Notas:\r\n\r\n- Família Olfativa: Madeira | Oriental\r\n\r\n- Notas de Topo: Pimenta Preta\r\n\r\n- Notas de Corpo: Âmbar, Âmbar cinzento, Madeira\r\n\r\n- Notas de Fundo: Sândalo, Olíbano, Patchouli"
+  },
+  {
+    "id": "129",
+    "nome": "Magnus",
+    "genero": "Masculino",
+    "categoria": "Perfume Masculino",
+    "inspiracao_olfativa": "Asad (Lattafa) / Sauvage Elixir (Dior)",
+    "familia_olfativa": "Oriental Especiado",
+    "piramide_olfativa": {
+      "topo": [
+        "Pimenta Preta",
+        "Abacaxi",
+        "Tabaco"
+      ],
+      "corpo": [
+        "Café",
+        "Íris",
+        "Patchouli"
+      ],
+      "fundo": [
+        "Âmbar",
+        "Baunilha",
+        "Madeiras Nobres",
+        "Benjoim",
+        "Ládano"
+      ]
+    },
+    "perfil_sensorial": [
+      "Especiado quente",
+      "Café com tabaco",
+      "Imponente",
+      "Árabe luxuoso",
+      "Poder"
+    ],
+    "ocasiao_uso": "Noites especiais, clima ameno ou frio, assinatura de autoridade",
+    "status": "Lançamento",
+    "preco_venda": 210.0,
+    "preco_shopee": 240.0,
+    "estoque_inicial": 3,
+    "logistica": {
+      "peso_bruto_gramas": 400.0,
+      "volume_liquido_ml": 100.0,
+      "dimensoes_embalagem": {
+        "altura_cm": 15.0,
+        "largura_cm": 7.0,
+        "comprimento_cm": 7.0
+      },
+      "fragil": true
+    },
+    "assets": {
+      "capa_img": "/assets/images/flatter/anuncios_masculinos_26/anuncio_perfume_m_magnus_3x4.jpg",
+      "ficha_tecnica_img": "/assets/images/flatter/catalogo-fichas-flatter-26/45.jpg",
+      "url_slug": "/129-magnus/"
+    },
+    "link_shopee": "https://shopee.com.br/annaferreira81",
+    "descricao_longa": "Principais Características e Notas:\r\n\r\n- Família Olfativa: Oriental | Madeira\r\n\r\n- Notas de Topo: Pimenta Rosa, Maça, Bergamota/Mandarina\r\n\r\n- Notas de Corpo: Flor de Laranjeira, Lírio, Gerânio\r\n\r\n- Notas de Fundo: Almíscar, Baunilha, Âmbar, Patchouli"
+  },
+  {
+    "id": "130",
+    "nome": "Santorini",
+    "genero": "Masculino",
+    "categoria": "Perfume Masculino",
+    "inspiracao_olfativa": "Light Blue Pour Homme Summer Vibes (Dolce & Gabbana)",
+    "familia_olfativa": "Amadeirado Aromático Cítrico",
+    "piramide_olfativa": {
+      "topo": [
+        "Limão Siciliano"
+      ],
+      "corpo": [
+        "Cipreste"
+      ],
+      "fundo": [
+        "Madeira de Âmbar"
+      ]
+    },
+    "perfil_sensorial": [
+      "Mediterrâneo",
+      "Cítrico solar",
+      "Cipreste elegante",
+      "Fresco",
+      "Sofisticação de verão"
+    ],
+    "ocasiao_uso": "Dias ensolarados, passeios litorâneos, encontros diurnos e resort",
+    "status": "Lançamento",
+    "preco_venda": 210.0,
+    "preco_shopee": 240.0,
+    "estoque_inicial": 1,
+    "logistica": {
+      "peso_bruto_gramas": 400.0,
+      "volume_liquido_ml": 100.0,
+      "dimensoes_embalagem": {
+        "altura_cm": 15.0,
+        "largura_cm": 7.0,
+        "comprimento_cm": 7.0
+      },
+      "fragil": true
+    },
+    "assets": {
+      "capa_img": "/assets/images/flatter/anuncios_masculinos_26/anuncio_santorini.jpg",
+      "ficha_tecnica_img": "/assets/images/flatter/catalogo-fichas-flatter-26/26.jpg",
+      "url_slug": "/130-santorini/"
+    },
+    "link_shopee": "https://shopee.com.br/annaferreira81",
+    "descricao_longa": "Principais Características e Notas:\r\n\r\n- Família Olfativa: Madeira | Cítrico\r\n\r\n- Notas de Topo: Cítrico\r\n\r\n- Notas de Corpo: Floral\r\n\r\n- Notas de Fundo: Aquático"
+  },
+  {
+    "id": "131",
+    "nome": "Êxtase Man",
+    "genero": "Masculino",
+    "categoria": "Perfume Masculino",
+    "inspiracao_olfativa": "Autoral Flatter (Flanker Masculino Êxtase)",
+    "familia_olfativa": "Madeira Oriental",
+    "piramide_olfativa": {
+      "topo": [
+        "Bergamota",
+        "Pimenta Rosa"
+      ],
+      "corpo": [
+        "Jasmin Sambac",
+        "Rosa Damascena",
+        "Tuberosa",
+        "Ylang Ylang"
+      ],
+      "fundo": [
+        "Baunilha",
+        "Sândalo",
+        "Musk"
+      ]
+    },
+    "perfil_sensorial": [
+      "Intenso",
+      "Sofisticado",
+      "Sensual",
+      "Moderno",
+      "Exclusivo"
+    ],
+    "ocasiao_uso": "Noites especiais, encontros marcantes e ocasiões que pedem presença única",
+    "status": "Lançamento",
+    "preco_venda": 260.0,
+    "preco_shopee": 290.0,
+    "estoque_inicial": 1,
+    "logistica": {
+      "peso_bruto_gramas": 400.0,
+      "volume_liquido_ml": 100.0,
+      "dimensoes_embalagem": {
+        "altura_cm": 15.0,
+        "largura_cm": 7.0,
+        "comprimento_cm": 7.0
+      },
+      "fragil": true
+    },
+    "assets": {
+      "capa_img": "/assets/images/flatter/anuncios_masculinos_26/anuncio_extaseman.jpg",
+      "ficha_tecnica_img": "/assets/images/flatter/catalogo-fichas-flatter-26/27.jpg",
+      "url_slug": "/131-extaseman/"
+    },
+    "link_shopee": "https://shopee.com.br/annaferreira81",
+    "descricao_longa": "Principais Características e Notas:\r\n\r\n- Família Olfativa: Madeira | Oriental\r\n\r\n- Notas de Topo: Bergamota, Pimenta Rosa\r\n\r\n- Notas de Corpo: Jasmin Sambac, Rosa Damascena, Tuberose, Ylang Ylang\r\n\r\n- Notas de Fundo: Baunilha, Sândalo, Musk"
+  }
+]

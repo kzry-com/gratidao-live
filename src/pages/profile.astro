@@ -1,0 +1,313 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Breadcrumbs from "../components/ui/Breadcrumbs.astro";
+---
+
+<Layout title="Meu Perfil | Ana Ferreira • Gratidão Shop">
+    <div class="bg-[#F6EFE8] min-h-screen py-10 md:py-16 px-4">
+        <div class="max-w-4xl mx-auto">
+            <div class="mb-6">
+                <Breadcrumbs
+                    items={[
+                        { label: "Início", href: "/" },
+                        { label: "Meu Perfil", href: "/profile" },
+                    ]}
+                />
+            </div>
+
+            <!-- Profile Dashboard -->
+            <div id="profile-container" class="space-y-8">
+                <!-- Header Card -->
+                <div class="bg-white p-6 sm:p-8 rounded-3xl shadow-sm border border-[#D4A33D]/25 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-6">
+                    <div class="flex items-center gap-5">
+                        <div class="w-16 h-16 rounded-2xl bg-gradient-to-br from-[#6E0D25] to-[#D4A33D] flex items-center justify-center text-white font-black text-2xl font-['Cinzel'] shadow-md">
+                            <span id="user-initial">A</span>
+                        </div>
+                        <div>
+                            <span class="text-xs uppercase font-bold text-[#D4A33D] tracking-widest font-['Cinzel']">
+                                Cliente VIP Gratidão Shop
+                            </span>
+                            <h1 id="user-display-name" class="text-2xl sm:text-3xl font-black text-[#6E0D25] font-['Cinzel']">
+                                Carregando...
+                            </h1>
+                            <p id="user-display-email" class="text-sm text-slate-500 font-medium">
+                                -
+                            </p>
+                        </div>
+                    </div>
+
+                    <button
+                        id="btn-logout"
+                        class="btn btn-outline border-slate-200 hover:bg-red-50 hover:border-red-300 hover:text-red-700 rounded-full px-6 text-xs uppercase font-bold tracking-wider cursor-pointer"
+                    >
+                        Encerrar Sessão
+                    </button>
+                </div>
+
+                <!-- Grid de Painéis -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
+                    <!-- Painel 1: Dados & Endereço de Entrega -->
+                    <div class="bg-white p-6 sm:p-8 rounded-3xl shadow-sm border border-[#D4A33D]/20 space-y-6">
+                        <div class="flex items-center justify-between border-b border-slate-100 pb-4">
+                            <h2 class="text-lg font-bold text-[#6E0D25] font-['Cinzel'] flex items-center gap-2">
+                                <span>📍</span> Dados de Entrega
+                            </h2>
+                            <span class="text-[10px] uppercase font-bold text-emerald-700 bg-emerald-50 px-2.5 py-1 rounded-full">
+                                Para Frete Rápido
+                            </span>
+                        </div>
+
+                        <form id="profile-address-form" class="space-y-4">
+                            <div class="form-control">
+                                <label class="label text-xs font-bold text-slate-500 pb-1">Telefone / WhatsApp</label>
+                                <input
+                                    type="tel"
+                                    id="profile-phone"
+                                    class="input input-bordered w-full rounded-xl text-sm bg-slate-50/50"
+                                    placeholder="(84) 9.9999-9999"
+                                />
+                            </div>
+
+                            <div class="grid grid-cols-3 gap-3">
+                                <div class="form-control col-span-1">
+                                    <div class="flex items-center justify-between pb-1">
+                                        <label class="label text-xs font-bold text-slate-500 p-0">CEP</label>
+                                        <span id="profile-cep-badge" class="hidden text-[9px] font-bold px-1.5 py-0.2 rounded-full bg-emerald-100 text-emerald-800 uppercase">
+                                            OpenCEP
+                                        </span>
+                                    </div>
+                                    <input
+                                        type="text"
+                                        id="profile-zip"
+                                        maxlength="9"
+                                        class="input input-bordered w-full rounded-xl text-sm bg-slate-50/50"
+                                        placeholder="59000-000"
+                                    />
+                                </div>
+                                <div class="form-control col-span-2">
+                                    <label class="label text-xs font-bold text-slate-500 pb-1">Logradouro / Rua</label>
+                                    <input
+                                        type="text"
+                                        id="profile-street"
+                                        class="input input-bordered w-full rounded-xl text-sm bg-slate-50/50"
+                                        placeholder="Rua das Flores"
+                                    />
+                                </div>
+                            </div>
+
+                            <div class="grid grid-cols-3 gap-3">
+                                <div class="form-control">
+                                    <label class="label text-xs font-bold text-slate-500 pb-1">Número</label>
+                                    <input
+                                        type="text"
+                                        id="profile-number"
+                                        class="input input-bordered w-full rounded-xl text-sm bg-slate-50/50"
+                                        placeholder="123"
+                                    />
+                                </div>
+                                <div class="form-control">
+                                    <label class="label text-xs font-bold text-slate-500 pb-1">Cidade</label>
+                                    <input
+                                        type="text"
+                                        id="profile-city"
+                                        class="input input-bordered w-full rounded-xl text-sm bg-slate-50/50"
+                                        placeholder="Natal"
+                                    />
+                                </div>
+                                <div class="form-control">
+                                    <label class="label text-xs font-bold text-slate-500 pb-1">Estado</label>
+                                    <input
+                                        type="text"
+                                        id="profile-state"
+                                        class="input input-bordered w-full rounded-xl text-sm bg-slate-50/50"
+                                        placeholder="RN"
+                                    />
+                                </div>
+                            </div>
+
+                            <button
+                                type="submit"
+                                class="btn bg-[#6E0D25] hover:bg-[#4B0919] text-white rounded-full w-full py-3 text-xs font-bold uppercase tracking-wider border-none shadow-md cursor-pointer mt-2"
+                            >
+                                Salvar Alterações
+                            </button>
+                        </form>
+                    </div>
+
+                    <!-- Painel 2: Acesso Rápido & Favoritos do Perfil -->
+                    <div class="space-y-6">
+                        <div class="bg-white p-6 sm:p-8 rounded-3xl shadow-sm border border-[#D4A33D]/20">
+                            <div class="flex items-center justify-between border-b border-slate-100 pb-4 mb-4">
+                                <h2 class="text-lg font-bold text-[#6E0D25] font-['Cinzel'] flex items-center gap-2">
+                                    <span>💖</span> Favoritos Salvos
+                                </h2>
+                                <a href="/favorites" class="text-xs font-bold text-[#D4A33D] hover:underline">
+                                    Ver todos
+                                </a>
+                            </div>
+
+                            <div id="profile-favorites-list" class="space-y-3">
+                                <p class="text-sm text-slate-400 font-light">Carregando seus perfumes salvos...</p>
+                            </div>
+                        </div>
+
+                        <!-- Painel 3: Suporte & Atendimento -->
+                        <div class="bg-gradient-to-br from-[#6E0D25]/10 to-[#D4A33D]/10 p-6 rounded-3xl border border-[#D4A33D]/30 flex items-center justify-between gap-4">
+                            <div>
+                                <h3 class="font-bold text-sm text-[#6E0D25] font-['Cinzel']">Consultoria Ana Ferreira</h3>
+                                <p class="text-xs text-slate-600 mt-0.5">Precisa de auxílio com pedidos ou indicações de fragrâncias?</p>
+                            </div>
+                            <a
+                                href="https://wa.me/5584994224545?text=Ol%C3%A1%20Ana%20Ferreira%2C%20estou%20na%20minha%20conta%20e%20gostaria%20de%20atendimento!"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="btn btn-sm bg-emerald-600 hover:bg-emerald-700 text-white border-none rounded-full px-4 text-xs font-bold shrink-0 shadow-sm"
+                            >
+                                WhatsApp
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</Layout>
+
+<script>
+    import { currentUser, logoutUser, updateUserProfile } from "../store/authStore";
+    import { favoriteItems } from "../store/favoriteStore";
+    import { fetchAddressByCep, formatCep } from "../utils/cep";
+    import { toast } from "sonner";
+
+    function initProfile() {
+        const user = currentUser.get();
+        if (!user) {
+            window.location.href = "/login?redirect=/profile";
+            return;
+        }
+
+        // Render user details
+        const initialEl = document.getElementById("user-initial");
+        const nameEl = document.getElementById("user-display-name");
+        const emailEl = document.getElementById("user-display-email");
+        const phoneEl = document.getElementById("profile-phone") as HTMLInputElement;
+        const zipEl = document.getElementById("profile-zip") as HTMLInputElement;
+        const streetEl = document.getElementById("profile-street") as HTMLInputElement;
+        const numberEl = document.getElementById("profile-number") as HTMLInputElement;
+        const cityEl = document.getElementById("profile-city") as HTMLInputElement;
+        const stateEl = document.getElementById("profile-state") as HTMLInputElement;
+        const profileCepBadge = document.getElementById("profile-cep-badge");
+        const logoutBtn = document.getElementById("btn-logout");
+        const addressForm = document.getElementById("profile-address-form");
+        const favsContainer = document.getElementById("profile-favorites-list");
+
+        // CEP Auto-lookup with OpenCEP + ViaCEP fallback
+        let isLookingUpCep = false;
+        async function handleProfileCepLookup() {
+            if (!zipEl || isLookingUpCep) return;
+            const digits = zipEl.value.replace(/\D/g, "");
+
+            if (digits.length === 8) {
+                zipEl.value = formatCep(digits);
+                isLookingUpCep = true;
+                toast.loading("Buscando endereço via CEP...", { id: "profile-cep-loading" });
+
+                const res = await fetchAddressByCep(digits);
+                toast.dismiss("profile-cep-loading");
+
+                if (res.success && res.address) {
+                    if (streetEl) streetEl.value = res.address.logradouro;
+                    if (cityEl) cityEl.value = res.address.localidade;
+                    if (stateEl) stateEl.value = res.address.uf;
+
+                    if (profileCepBadge) {
+                        profileCepBadge.textContent = res.source === 'opencep' ? 'OpenCEP' : 'ViaCEP';
+                        profileCepBadge.classList.remove("hidden");
+                    }
+
+                    toast.success(`Endereço preenchido (${res.source === 'opencep' ? 'OpenCEP' : 'ViaCEP'})!`);
+                    numberEl?.focus();
+                } else if (res.error) {
+                    toast.error(res.error);
+                }
+                isLookingUpCep = false;
+            }
+        }
+
+        zipEl?.addEventListener("input", (e) => {
+            const val = (e.target as HTMLInputElement).value;
+            if (val.replace(/\D/g, "").length === 8) {
+                handleProfileCepLookup();
+            }
+        });
+
+        zipEl?.addEventListener("blur", handleProfileCepLookup);
+
+        if (initialEl) initialEl.textContent = (user.name || "A").charAt(0).toUpperCase();
+        if (nameEl) nameEl.textContent = user.name;
+        if (emailEl) emailEl.textContent = user.email;
+
+        if (phoneEl && user.phone) phoneEl.value = user.phone;
+        if (user.address) {
+            if (zipEl && user.address.zip) zipEl.value = user.address.zip;
+            if (streetEl && user.address.street) streetEl.value = user.address.street;
+            if (numberEl && user.address.number) numberEl.value = user.address.number;
+            if (cityEl && user.address.city) cityEl.value = user.address.city;
+            if (stateEl && user.address.state) stateEl.value = user.address.state;
+        }
+
+        // Render saved favorites
+        const favs = favoriteItems.get();
+        if (favsContainer) {
+            if (favs.length === 0) {
+                favsContainer.innerHTML = `
+                    <div class="text-center py-6 text-slate-400">
+                        <p class="text-sm">Você ainda não favoritou nenhum perfume.</p>
+                        <a href="/" class="btn btn-xs btn-outline btn-primary rounded-full mt-3">Explorar Vitrine</a>
+                    </div>
+                `;
+            } else {
+                favsContainer.innerHTML = favs.slice(0, 4).map(fav => `
+                    <a href="/product/${fav.slug}" class="flex items-center gap-3 p-2 rounded-xl hover:bg-slate-50 transition-colors border border-slate-100 group">
+                        <img src="${fav.image}" alt="${fav.name}" class="w-12 h-14 object-cover rounded-lg bg-slate-100" />
+                        <div class="flex-1 min-w-0">
+                            <h4 class="font-bold text-xs text-[#2F2F2F] group-hover:text-[#6E0D25] truncate font-['Cinzel']">${fav.name}</h4>
+                            <p class="text-xs text-[#6E0D25] font-bold">R$ ${fav.price.toFixed(2).replace('.', ',')}</p>
+                        </div>
+                        <span class="text-xs text-slate-400 group-hover:translate-x-1 transition-transform">→</span>
+                    </a>
+                `).join('');
+            }
+        }
+
+        // Save Address Form
+        addressForm?.addEventListener("submit", (e) => {
+            e.preventDefault();
+            const phone = phoneEl?.value || "";
+            const address = {
+                zip: zipEl?.value || "",
+                street: streetEl?.value || "",
+                number: numberEl?.value || "",
+                city: cityEl?.value || "",
+                state: stateEl?.value || "",
+            };
+
+            const res = updateUserProfile({ phone, address });
+            if (res.success) {
+                toast.success(res.message);
+            } else {
+                toast.error(res.message);
+            }
+        });
+
+        // Logout
+        logoutBtn?.addEventListener("click", () => {
+            logoutUser();
+            toast.info("Você encerrou sua sessão.");
+            setTimeout(() => window.location.href = "/", 400);
+        });
+    }
+
+    initProfile();
+    document.addEventListener("astro:page-load", initProfile);
+</script>

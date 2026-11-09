@@ -1,0 +1,24 @@
+{
+  "name": "Gratidão Shop - Ana Ferreira Perfumes",
+  "short_name": "Gratidão Shop",
+  "description": "Sua essência, sua assinatura. Perfumes femininos, masculinos e cosméticos finos.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#F6EFE8",
+  "theme_color": "#6E0D25",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

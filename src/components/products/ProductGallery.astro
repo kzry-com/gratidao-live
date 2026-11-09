@@ -1,0 +1,202 @@
+---
+import { Icon } from "astro-icon/components";
+
+interface Props {
+    images: string[];
+}
+
+const { images } = Astro.props;
+const mainImage =
+    images[0] ||
+    "https://images.unsplash.com/photo-1550985616-10810253b84d?q=80&w=2000&auto=format&fit=crop";
+---
+
+<div class="product-gallery space-y-6">
+    <!-- Main Image -->
+    <div
+        id="main-image-container"
+        class="aspect-4/5 md:aspect-square bg-slate-50 rounded-3xl overflow-hidden relative group border border-slate-200 shadow-inner cursor-zoom-in"
+        title="Clique para ampliar em alta resolução"
+    >
+        <img
+            id="main-product-image"
+            src={mainImage}
+            alt="Foto do Produto"
+            class="w-full h-full object-cover transition-all duration-700 group-hover:scale-105"
+        />
+
+        <!-- Hint de Zoom -->
+        <div class="absolute bottom-3 right-3 bg-black/60 backdrop-blur-xs text-white text-[11px] font-medium px-3 py-1.5 rounded-full flex items-center gap-1.5 opacity-80 group-hover:opacity-100 transition-opacity">
+            <Icon name="lucide:zoom-in" class="w-3.5 h-3.5" />
+            <span>Clique para ampliar</span>
+        </div>
+    </div>
+
+    <!-- Thumbnails -->
+    {images.length > 1 && (
+        <div class="grid grid-cols-4 gap-4">
+            {
+                images.map((img, index) => (
+                    <button
+                        class="cursor-pointer thumbnail-btn aspect-square rounded-2xl overflow-hidden border-2 transition-all p-1 bg-slate-50 border-slate-100"
+                        data-image={img}
+                        aria-label={`Ver imagem ${index + 1}`}
+                    >
+                        <img
+                            src={img}
+                            class="w-full h-full object-cover rounded-xl"
+                            alt={`Miniatura ${index + 1}`}
+                        />
+                    </button>
+                ))
+            }
+        </div>
+    )}
+
+    <!-- Modal de Zoom em Alta Resolução com Scrollbars se necessário -->
+    <div
+        id="image-zoom-modal"
+        class="fixed inset-0 z-99999 flex items-center justify-center p-3 sm:p-6 bg-slate-950/85 backdrop-blur-md opacity-0 pointer-events-none transition-all duration-300"
+    >
+        <div
+            id="zoom-modal-backdrop"
+            class="absolute inset-0"
+        ></div>
+
+        <div
+            class="relative z-10 bg-white rounded-3xl shadow-2xl max-w-5xl max-h-[92vh] w-full overflow-hidden flex flex-col border border-white/20"
+        >
+            <!-- Header do Modal -->
+            <div class="flex items-center justify-between px-6 py-4 border-b border-slate-100 bg-slate-50/80">
+                <span class="text-xs font-bold uppercase tracking-wider text-[#6E0D25] font-['Cinzel'] flex items-center gap-2">
+                    <Icon name="lucide:image" class="w-4 h-4 text-[#D4A33D]" />
+                    Visualização em Alta Resolução
+                </span>
+                <button
+                    id="close-zoom-modal"
+                    class="btn btn-sm btn-circle btn-ghost text-slate-500 hover:text-[#6E0D25] hover:bg-slate-200"
+                    aria-label="Fechar ampliação"
+                >
+                    <Icon name="lucide:x" class="w-5 h-5" />
+                </button>
+            </div>
+
+            <!-- Área de Imagem com Scrollbars se necessário -->
+            <div class="flex-1 overflow-auto p-4 sm:p-8 flex items-center justify-center bg-slate-900/5 custom-scrollbar">
+                <img
+                    id="modal-zoomed-img"
+                    src={mainImage}
+                    alt="Imagem Ampliada"
+                    class="max-w-none w-auto h-auto max-h-[85vh] object-contain rounded-2xl shadow-lg border border-slate-200 bg-white transition-transform"
+                />
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .custom-scrollbar::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+    }
+    .custom-scrollbar::-webkit-scrollbar-track {
+        background: #f1f5f9;
+        border-radius: 8px;
+    }
+    .custom-scrollbar::-webkit-scrollbar-thumb {
+        background: #cbd5e1;
+        border-radius: 8px;
+    }
+    .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+        background: #94a3b8;
+    }
+</style>
+
+<script>
+    function setupGallery() {
+        const mainContainer = document.getElementById("main-image-container");
+        const mainImage = document.getElementById("main-product-image") as HTMLImageElement;
+        const thumbnailBtns = document.querySelectorAll(".thumbnail-btn");
+
+        const modal = document.getElementById("image-zoom-modal");
+        const modalImg = document.getElementById("modal-zoomed-img") as HTMLImageElement;
+        const closeBtn = document.getElementById("close-zoom-modal");
+        const backdrop = document.getElementById("zoom-modal-backdrop");
+
+        // Thumbnail Click
+        thumbnailBtns.forEach((btn) => {
+            btn.addEventListener("click", () => {
+                const newSrc = btn.getAttribute("data-image");
+                if (newSrc && mainImage) {
+                    mainImage.src = newSrc;
+                    if (modalImg) modalImg.src = newSrc;
+
+                    // Update active state
+                    thumbnailBtns.forEach((b) => {
+                        b.classList.remove(
+                            "border-primary",
+                            "bg-white",
+                            "ring-4",
+                            "ring-primary/10",
+                        );
+                        b.classList.add("border-slate-100", "bg-slate-50");
+                    });
+
+                    btn.classList.add(
+                        "border-primary",
+                        "bg-white",
+                        "ring-4",
+                        "ring-primary/10",
+                    );
+                    btn.classList.remove("border-slate-100", "bg-slate-50");
+                }
+            });
+        });
+
+        // Mark first thumbnail as active initially
+        if (thumbnailBtns[0]) {
+            thumbnailBtns[0].classList.add(
+                "border-primary",
+                "bg-white",
+                "ring-4",
+                "ring-primary/10",
+            );
+            thumbnailBtns[0].classList.remove(
+                "border-slate-100",
+                "bg-slate-50",
+            );
+        }
+
+        // Open Modal
+        const openModal = () => {
+            if (!modal || !modalImg || !mainImage) return;
+            modalImg.src = mainImage.src;
+            modal.classList.remove("opacity-0", "pointer-events-none");
+            modal.classList.add("opacity-100");
+            document.body.style.overflow = "hidden";
+        };
+
+        // Close Modal
+        const closeModal = () => {
+            if (!modal) return;
+            modal.classList.add("opacity-0", "pointer-events-none");
+            modal.classList.remove("opacity-100");
+            document.body.style.overflow = "";
+        };
+
+        mainContainer?.addEventListener("click", openModal);
+        closeBtn?.addEventListener("click", closeModal);
+        backdrop?.addEventListener("click", closeModal);
+
+        // Escape Key
+        document.addEventListener("keydown", (e) => {
+            if (e.key === "Escape") {
+                closeModal();
+            }
+        });
+    }
+
+    // Initialize on page load and on view transitions
+    setupGallery();
+    document.addEventListener("astro:page-load", setupGallery);
+</script>

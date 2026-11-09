@@ -1,0 +1,194 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Breadcrumbs from "../components/ui/Breadcrumbs.astro";
+import { Icon } from "astro-icon/components";
+---
+
+<Layout title="Meus Favoritos | Ana Ferreira • Gratidão Shop">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-12 min-h-[65vh]">
+        <div class="mb-6">
+            <Breadcrumbs
+                items={[
+                    { label: "Início", href: "/" },
+                    { label: "Meus Favoritos", href: "/favorites" },
+                ]}
+            />
+        </div>
+
+        <div class="mb-8 flex flex-col sm:flex-row sm:items-end justify-between gap-4 border-b border-[#D4A33D]/20 pb-6">
+            <div>
+                <span class="text-[#D4A33D] font-bold uppercase tracking-widest text-xs font-['Cinzel'] block mb-1">
+                    Sua Lista de Desejos
+                </span>
+                <h1 class="text-3xl md:text-4xl font-black text-[#6E0D25] font-['Cinzel'] tracking-tight flex items-center gap-3">
+                    <span class="text-[#6E0D25]">
+                        <Icon name="lucide:heart" class="w-8 h-8 fill-[#6E0D25]" />
+                    </span>
+                    Meus Favoritos
+                </h1>
+            </div>
+            <div id="fav-count-header" class="text-xs font-bold uppercase tracking-wider text-slate-500 font-['Cinzel']">
+                Carregando...
+            </div>
+        </div>
+
+        <!-- Estado Vazio -->
+        <div id="favorites-empty" class="hidden flex-col items-center justify-center min-h-[45vh] text-center p-8 sm:p-12 bg-white rounded-3xl border border-[#D4A33D]/25 shadow-xs">
+            <div class="w-20 h-20 bg-[#6E0D25]/10 text-[#6E0D25] rounded-full flex items-center justify-center mb-5">
+                <Icon name="lucide:heart" class="w-10 h-10 text-[#6E0D25]" />
+            </div>
+            <h2 class="text-2xl font-bold font-['Cinzel'] text-[#6E0D25] mb-2">Sua lista de favoritos está vazia</h2>
+            <p class="text-slate-600 mb-6 max-w-sm text-sm font-light">
+                Explore nosso catálogo e clique no ícone de coração em qualquer fragrância para salvá-la aqui.
+            </p>
+            <a href="/category/todos" class="btn bg-[#6E0D25] hover:bg-[#4B0919] text-white rounded-full px-8 font-bold text-xs uppercase tracking-wider shadow-md border-none">
+                Explorar Catálogo
+            </a>
+        </div>
+
+        <!-- Grid de Favoritos -->
+        <div id="favorites-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+            <!-- Cards injetados via script do cliente -->
+        </div>
+    </div>
+</Layout>
+
+<script>
+    import { favoriteItems, removeFromFavorites, type FavoriteItem } from "../store/favoriteStore";
+    import { addToCart } from "../store/cartStore";
+    import { toast } from "sonner";
+
+    function initFavoritesPage() {
+        const grid = document.getElementById("favorites-grid");
+        const emptyState = document.getElementById("favorites-empty");
+        const headerCount = document.getElementById("fav-count-header");
+
+        if (!grid || !emptyState) return;
+
+        function renderFavorites(items: FavoriteItem[]) {
+            const list = Array.isArray(items) ? items : [];
+
+            if (headerCount) {
+                if (list.length === 0) {
+                    headerCount.textContent = "Nenhum perfume salvo";
+                } else if (list.length === 1) {
+                    headerCount.textContent = "1 perfume salvo";
+                } else {
+                    headerCount.textContent = `${list.length} perfumes salvos`;
+                }
+            }
+
+            if (list.length === 0) {
+                grid.innerHTML = "";
+                grid.classList.add("hidden");
+                emptyState.classList.remove("hidden");
+                emptyState.classList.add("flex");
+                return;
+            }
+
+            emptyState.classList.add("hidden");
+            emptyState.classList.remove("flex");
+            grid.classList.remove("hidden");
+
+            grid.innerHTML = list.map((item) => {
+                const targetSlug = item.slug || item.id || "";
+                const priceFormatted = typeof item.price === "number" && !isNaN(item.price)
+                    ? "R$ " + item.price.toFixed(2).replace(".", ",")
+                    : "R$ 0,00";
+                const img = item.image || "/docs/brand/Logo AnaFerreira_w.png";
+
+                return `
+                    <div class="card bg-white shadow-sm hover:shadow-xl transition-all duration-300 border border-[#D4A33D]/25 overflow-hidden relative group rounded-2xl flex flex-col justify-between" data-id="${item.id}">
+                        <!-- Botão Remover dos Favoritos -->
+                        <button
+                            data-remove-id="${item.id}"
+                            data-remove-name="${item.name}"
+                            class="btn-remove-fav absolute top-3 right-3 z-20 w-8 h-8 rounded-full bg-white/95 hover:bg-red-50 hover:text-red-700 text-slate-400 border border-[#D4A33D]/30 shadow-md flex items-center justify-center transition-all cursor-pointer"
+                            aria-label="Remover dos favoritos"
+                            title="Remover dos favoritos"
+                        >
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18 6 6 18"/><path d="m6 6 12 12"/>
+                            </svg>
+                        </button>
+
+                        <a href="/product/${targetSlug}" class="block relative aspect-4/5 bg-[#F6EFE8] overflow-hidden">
+                            <img
+                                src="${img}"
+                                alt="${item.name}"
+                                class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                                loading="lazy"
+                            />
+                        </a>
+
+                        <div class="p-4 flex flex-col justify-between flex-1">
+                            <div>
+                                ${item.category ? `<span class="text-[10px] uppercase font-bold text-[#D4A33D] tracking-widest font-['Cinzel'] block mb-1">${item.category}</span>` : ""}
+                                <h3 class="font-bold text-sm text-[#2F2F2F] group-hover:text-[#6E0D25] transition-colors truncate font-['Cinzel']">
+                                    <a href="/product/${targetSlug}">
+                                        ${item.name}
+                                    </a>
+                                </h3>
+                            </div>
+
+                            <div class="flex items-center justify-between mt-4 pt-3 border-t border-slate-100">
+                                <span class="text-base font-bold text-[#6E0D25] font-['Cinzel']">
+                                    ${priceFormatted}
+                                </span>
+                                <button
+                                    data-cart-item='${JSON.stringify({ id: targetSlug, name: item.name, price: item.price, image: img, stock: item.stock || 99 })}'
+                                    class="btn-add-cart-fav btn btn-circle btn-sm bg-[#6E0D25] hover:bg-[#4B0919] text-white border-none shadow-sm cursor-pointer"
+                                    aria-label="Adicionar à sacola"
+                                    title="Adicionar à sacola"
+                                >
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M6 2 3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4Z"/><path d="M3 6h18"/><path d="M16 10a4 4 0 0 1-8 0"/>
+                                    </svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            }).join("");
+
+            // Event Listeners
+            grid.querySelectorAll(".btn-remove-fav").forEach((btn) => {
+                btn.addEventListener("click", (e) => {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    const id = btn.getAttribute("data-remove-id") || "";
+                    const name = btn.getAttribute("data-remove-name") || "Produto";
+                    const res = removeFromFavorites(id);
+                    if (res.success) {
+                        toast.info(`${name} foi removido dos favoritos.`);
+                    }
+                });
+            });
+
+            grid.querySelectorAll(".btn-add-cart-fav").forEach((btn) => {
+                btn.addEventListener("click", (e) => {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    const productData = JSON.parse(btn.getAttribute("data-cart-item") || "{}");
+                    const res = addToCart(productData, 1);
+                    if (res.success) {
+                        toast.success(res.message);
+                    } else {
+                        toast.error(res.message);
+                    }
+                });
+            });
+        }
+
+        // Render initial state
+        renderFavorites(favoriteItems.get());
+
+        // Reactive updates
+        favoriteItems.subscribe((items) => {
+            renderFavorites(items);
+        });
+    }
+
+    initFavoritesPage();
+    document.addEventListener("astro:page-load", initFavoritesPage);
+</script>

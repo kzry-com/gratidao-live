@@ -1,0 +1,180 @@
+---
+import Layout from "../layouts/Layout.astro";
+import CheckoutForm from "../components/checkout/CheckoutForm.astro";
+import CheckoutSummary from "../components/checkout/CheckoutSummary.astro";
+import CheckoutTicket from "../components/checkout/CheckoutTicket.astro";
+import { Icon } from "astro-icon/components";
+---
+
+<Layout>
+    <div class="bg-base-200/50 min-h-screen py-10 md:py-16 px-4">
+        <div class="max-w-7xl mx-auto">
+            <!-- Breadcrumbs / Back Link -->
+            <a
+                href="/"
+                class="inline-flex items-center gap-2 text-base-content/60 hover:text-primary font-bold text-xs uppercase tracking-widest transition-colors mb-8 group font-['Cinzel']"
+            >
+                <Icon
+                    name="lucide:arrow-left"
+                    class="w-4 h-4 group-hover:-translate-x-1 transition-transform"
+                />
+                Voltar para a Loja
+            </a>
+
+            <div
+                class="grid grid-cols-1 lg:grid-cols-[1fr_400px] gap-10 items-start"
+            >
+                <!-- Left: Form -->
+                <div class="space-y-8">
+                    <div class="space-y-3">
+                        <span
+                            class="text-primary font-bold uppercase text-xs tracking-widest font-['Cinzel']"
+                            >Pagamento Protegido</span
+                        >
+                        <h1
+                            class="text-3xl md:text-5xl font-black text-base-content font-['Cinzel'] tracking-tight"
+                        >
+                            Finalizar Pedido
+                        </h1>
+                        <p class="text-base-content/70 font-normal text-sm md:text-base">
+                            Informe os dados de entrega para envio seguro via Melhor Envio e realize seu pagamento Pix ou Cartão.
+                        </p>
+                    </div>
+
+                    <CheckoutForm />
+                </div>
+
+                <!-- Right: Summary -->
+                <CheckoutSummary />
+            </div>
+        </div>
+    </div>
+
+    <CheckoutTicket />
+</Layout>
+
+<script>
+    import {
+        cartItems,
+        totalPrice,
+        completePurchase,
+    } from "../store/cartStore";
+    import { currentUser } from "../store/authStore";
+    import { toast } from "sonner";
+
+    const form = document.getElementById("checkout-form") as HTMLFormElement;
+    const ticketModal = document.getElementById("ticket-modal");
+    const ticketProducts = document.getElementById("ticket-products");
+    const ticketTotal = document.getElementById("ticket-total");
+    const ticketCustomer = document.getElementById("ticket-customer");
+    const ticketDate = document.getElementById("ticket-date");
+    const ticketId = document.getElementById("ticket-id");
+    const whatsappBtn = document.getElementById("whatsapp-confirm-btn") as HTMLAnchorElement;
+
+    const formatPrice = (price: number) =>
+        new Intl.NumberFormat("pt-BR", { style: "currency", currency: "BRL" }).format(price);
+
+    form?.addEventListener("submit", (e) => {
+        e.preventDefault();
+
+        const formData = new FormData(form);
+        const name = (formData.get("name") as string || "").trim();
+        const phone = (formData.get("phone") as string || "").trim();
+        const email = (formData.get("email") as string || "").trim();
+        const zip = (formData.get("zip") as string || "").trim();
+        const address = (formData.get("address") as string || "").trim();
+        const number = (formData.get("number") as string || "").trim();
+        const city = (formData.get("city") as string || "").trim();
+        const state = (formData.get("state") as string || "").trim();
+
+        const currentItems = cartItems.get();
+        const currentTotal = totalPrice.get();
+
+        if (currentItems.length === 0) {
+            toast.error("Sua sacola de compras está vazia!");
+            return;
+        }
+
+        if (!name || !phone || !email || !zip || !address || !number || !city || !state) {
+            toast.error("Por favor, preencha todos os campos obrigatórios com asterisco (*).");
+            return;
+        }
+
+        const orderCode = `GRT-${Math.floor(10000 + Math.random() * 90000)}`;
+        const dateStr = new Date().toLocaleDateString("pt-BR", {
+            day: "2-digit",
+            month: "short",
+            year: "numeric",
+        });
+
+        // Prepare ticket items
+        if (ticketProducts) {
+            ticketProducts.innerHTML = currentItems
+                .map(
+                    (item) => `
+                <div class="flex justify-between items-center text-sm py-1 border-b border-base-200">
+                    <div class="flex flex-col">
+                        <span class="font-bold text-base-content text-xs font-['Cinzel']">${item.name}</span>
+                        <span class="text-[10px] font-bold text-base-content/60">QTD: ${item.quantity}</span>
+                    </div>
+                    <span class="font-bold text-primary">${formatPrice(item.price * (1 - (item.discount || 0) / 100) * item.quantity)}</span>
+                </div>
+            `,
+                )
+                .join("");
+        }
+
+        if (ticketTotal) ticketTotal.textContent = formatPrice(currentTotal);
+        if (ticketCustomer) ticketCustomer.textContent = name;
+        if (ticketDate) ticketDate.textContent = dateStr;
+        if (ticketId) ticketId.textContent = orderCode;
+
+        // Build WhatsApp message
+        const itemsListText = currentItems.map(i => `• ${i.quantity}x ${i.name} (${formatPrice(i.price * i.quantity)})`).join("\n");
+        const user = currentUser.get();
+
+        const msgText = `*Novo Pedido na Loja Gratidão Shop!*\n\n*Código:* ${orderCode}\n*Cliente:* ${name}\n*WhatsApp:* ${phone}\n*E-mail:* ${email}\n\n*Endereço de Entrega:*\n${address}, Nº ${number}\nCEP: ${zip} - ${city}/${state}\n\n*Itens do Pedido:*\n${itemsListText}\n\n*Total a Pagar:* ${formatPrice(currentTotal)}\n*Forma de Pagamento:* Pix Dinâmico / Cartão\n\n_Por favor, confirme a disponibilidade e a chave Pix para liquidação!_`;
+
+        if (whatsappBtn) {
+            whatsappBtn.href = `https://wa.me/5584994224545?text=${encodeURIComponent(msgText)}`;
+        }
+
+        // Save order in history
+        const orderData = {
+            id: orderCode,
+            userId: user?.id || "guest",
+            customerName: name,
+            customerEmail: email,
+            customerPhone: phone,
+            shippingAddress: { zip, address, number, city, state },
+            items: currentItems,
+            total: currentTotal,
+            date: new Date().toISOString(),
+            status: "Aguardando Pagamento",
+        };
+
+        try {
+            const rawOrders = localStorage.getItem("gratidao_orders_history");
+            const orders = rawOrders ? JSON.parse(rawOrders) : [];
+            orders.unshift(orderData);
+            localStorage.setItem("gratidao_orders_history", JSON.stringify(orders));
+
+            if (user) {
+                const userOrdersKey = `gratidao_orders_${user.id}`;
+                const rawUserOrders = localStorage.getItem(userOrdersKey);
+                const userOrders = rawUserOrders ? JSON.parse(rawUserOrders) : [];
+                userOrders.unshift(orderData);
+                localStorage.setItem(userOrdersKey, JSON.stringify(userOrders));
+            }
+        } catch (err) {
+            console.error("Erro ao salvar histórico do pedido", err);
+        }
+
+        // Complete purchase and clear cart
+        completePurchase();
+
+        // Show ticket
+        ticketModal?.classList.add("open");
+        toast.success("Pedido realizado com sucesso!");
+    });
+</script>

@@ -1,0 +1,145 @@
+---
+import { featuredProducts } from "../../data/home";
+import CardProduct from "../products/CardProduct.astro";
+import Pagination from "../ui/Pagination.astro";
+
+const ITEMS_PER_PAGE = 8;
+const totalPages = Math.ceil(featuredProducts.length / ITEMS_PER_PAGE);
+---
+
+<section class="pb-16 bg-base-100" id="featured-products-section">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center md:text-left mb-10">
+            <span class="text-primary font-bold uppercase tracking-widest text-xs font-['Cinzel'] block mb-2">
+                Catálogo Oficial Flatter
+            </span>
+            <h2
+                class="text-3xl md:text-4xl font-black text-base-content font-['Cinzel'] tracking-tight"
+            >
+                Fragrâncias & Cosméticos em Destaque
+            </h2>
+        </div>
+
+        <div
+            id="product-grid"
+            class="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 md:gap-8 min-h-[400px]"
+        >
+            {
+                featuredProducts.map((product) => (
+                    <div class="product-card-wrapper hidden">
+                        <CardProduct
+                            title={product.title}
+                            price={product.price}
+                            compareAtPrice={product.compareAtPrice}
+                            stock={product.stock}
+                            images={product.images}
+                            slug={product.slug}
+                            badge={product.badge}
+                            isDiscontinued={product.isDiscontinued}
+                        />
+                    </div>
+                ))
+            }
+        </div>
+
+        <!-- Pagination Controls -->
+        <div class="flex justify-center mt-12" id="pagination-controls">
+            <Pagination currentPage={1} totalPages={totalPages} />
+        </div>
+    </div>
+</section>
+
+<script>
+    function initPagination() {
+        const ITEMS_PER_PAGE = 8;
+        const grid = document.getElementById("product-grid");
+        const wrappers = document.querySelectorAll(".product-card-wrapper");
+        const paginationButtons = document.querySelectorAll(".pagination-btn");
+
+        if (!grid || wrappers.length === 0) return;
+
+        let currentPage = 1;
+        const totalPages = Math.ceil(wrappers.length / ITEMS_PER_PAGE);
+
+        function renderProducts(page: number) {
+            const start = (page - 1) * ITEMS_PER_PAGE;
+            const end = start + ITEMS_PER_PAGE;
+
+            wrappers.forEach((wrapper, index) => {
+                if (index >= start && index < end) {
+                    wrapper.classList.remove("hidden");
+                } else {
+                    wrapper.classList.add("hidden");
+                }
+            });
+        }
+
+        function updateControls(page: number) {
+            paginationButtons.forEach((btn: any) => {
+                const btnPage = parseInt(btn.dataset.page);
+
+                // Reset states
+                btn.classList.remove("btn-active");
+                btn.disabled = false;
+
+                // Set active state
+                if (btnPage === page) {
+                    btn.classList.add("btn-active");
+                }
+
+                // Disable Prev if on first page
+                if (btn.textContent.trim() === "«" && page === 1) {
+                    btn.disabled = true;
+                    btn.dataset.page = page - 1;
+                }
+
+                // Disable Next if on last page
+                if (btn.textContent.trim() === "»" && page === totalPages) {
+                    btn.disabled = true;
+                    btn.dataset.page = page + 1;
+                }
+            });
+        }
+
+        function scrollToSection() {
+            const section = document.getElementById("featured-products-section");
+            if (section) {
+                const top = section.getBoundingClientRect().top + window.scrollY - 100;
+                window.scrollTo({ top, behavior: "smooth" });
+            }
+        }
+
+        // Attach click listeners to pagination buttons
+        paginationButtons.forEach((btn) => {
+            btn.addEventListener("click", (e) => {
+                e.preventDefault();
+                const target = e.currentTarget as HTMLButtonElement;
+                const pageText = target.textContent?.trim();
+
+                let newPage = currentPage;
+                if (pageText === "«") {
+                    newPage = Math.max(1, currentPage - 1);
+                } else if (pageText === "»") {
+                    newPage = Math.min(totalPages, currentPage + 1);
+                } else {
+                    newPage = parseInt(target.dataset.page || "1");
+                }
+
+                if (newPage !== currentPage) {
+                    currentPage = newPage;
+                    renderProducts(currentPage);
+                    updateControls(currentPage);
+                    scrollToSection();
+                }
+            });
+        });
+
+        // Initial render
+        renderProducts(currentPage);
+        updateControls(currentPage);
+    }
+
+    // Initialize on initial load and view transitions
+    initPagination();
+    document.addEventListener("astro:page-load", initPagination);
+</script>

@@ -1,0 +1,311 @@
+---
+import { Icon } from "astro-icon/components";
+
+interface Props {
+    title: string;
+    price: number;
+    compareAtPrice?: number;
+    images: string[];
+    stock: number;
+    slug: string;
+    badge?: string;
+    discount?: number;
+    isDiscontinued?: boolean;
+}
+
+const { title, price, compareAtPrice, images, stock, slug, badge, isDiscontinued } = Astro.props;
+
+const formatMoeda = (val: number | undefined) => typeof val === "number" ? `R$ ${val.toFixed(2).replace(".", ",")}` : "R$ 0,00";
+---
+
+<div
+    class="card bg-white shadow-sm hover:shadow-xl transition-all duration-300 group relative rounded-2xl overflow-hidden border border-[#D4A33D]/20 flex flex-col justify-between"
+>
+    <!-- Badge -->
+    {
+        badge && (
+            <div class="absolute top-3 left-3 z-20">
+                <span class:list={[
+                    "px-2.5 py-1 text-[10px] font-bold uppercase tracking-wider rounded-full shadow-xs",
+                    isDiscontinued
+                        ? (stock > 0 ? "bg-[#C05621] text-white font-bold" : "bg-[#2F2F2F] text-white")
+                        : (badge === "Lançamento" ? "bg-[#D4A33D] text-[#2F2F2F] font-black" : "bg-[#6E0D25] text-white")
+                ]}>
+                    {isDiscontinued && stock > 0 ? "Últimas Unidades" : badge}
+                </span>
+            </div>
+        )
+    }
+
+    <!-- Action Buttons -->
+    <div
+        class="absolute top-3 right-3 z-20 flex flex-col gap-2 translate-x-12 opacity-0 group-hover:translate-x-0 group-hover:opacity-100 transition-all duration-300 ease-in-out"
+    >
+        <button
+            class="add-to-favorite-btn btn btn-circle btn-sm bg-white hover:bg-[#6E0D25] hover:text-white border border-[#D4A33D]/30 shadow-md"
+            aria-label="Adicionar aos Favoritos"
+            data-favorite={JSON.stringify({
+                id: slug,
+                name: title,
+                price: price,
+                image: images[0] || "",
+                stock: stock,
+                slug: slug,
+            })}
+        >
+            <Icon
+                name="lucide:heart"
+                class="w-4 h-4 transition-colors duration-300"
+            />
+        </button>
+        {
+            (!isDiscontinued || (isDiscontinued && stock > 0)) && (
+                <button
+                    class="add-to-cart-btn btn btn-circle btn-sm bg-white hover:bg-[#6E0D25] hover:text-white border border-[#D4A33D]/30 shadow-md"
+                    aria-label="Adicionar ao Carrinho"
+                    data-product={JSON.stringify({
+                        id: slug,
+                        name: title,
+                        price: price,
+                        image: images[0] || "",
+                        stock: stock,
+                    })}
+                >
+                    <Icon name="lucide:shopping-cart" class="w-4 h-4" />
+                </button>
+            )
+        }
+    </div>
+
+    <!-- Image Slider -->
+    <div
+        class="relative w-full aspect-4/5 bg-[#F6EFE8] overflow-hidden group/slider"
+    >
+        <div class="swiper product-swiper w-full h-full">
+            <div class="swiper-wrapper">
+                {
+                    images.map((img) => (
+                        <div class="swiper-slide">
+                            <img
+                                src={img}
+                                alt={title}
+                                class="w-full h-full object-cover"
+                                loading="lazy"
+                            />
+                        </div>
+                    ))
+                }
+            </div>
+            <!-- Pagination dots -->
+            <div class="swiper-pagination"></div>
+        </div>
+
+        <!-- Navigation Arrows -->
+        <button
+            class="swiper-prev-btn absolute left-2 top-1/2 -translate-y-1/2 z-30 btn btn-circle btn-sm bg-white/90 hover:bg-[#6E0D25] hover:text-white border-none shadow-md opacity-0 group-hover/slider:opacity-100 transition-all duration-300 -translate-x-4 group-hover/slider:translate-x-0"
+            aria-label="Imagem Anterior"
+            onclick="event.preventDefault(); event.stopPropagation();"
+        >
+            <Icon name="lucide:chevron-left" class="w-4 h-4" />
+        </button>
+        <button
+            class="swiper-next-btn absolute right-2 top-1/2 -translate-y-1/2 z-30 btn btn-circle btn-sm bg-white/90 hover:bg-[#6E0D25] hover:text-white border-none shadow-md opacity-0 group-hover/slider:opacity-100 transition-all duration-300 translate-x-4 group-hover/slider:translate-x-0"
+            aria-label="Próxima Imagem"
+            onclick="event.preventDefault(); event.stopPropagation();"
+        >
+            <Icon name="lucide:chevron-right" class="w-4 h-4" />
+        </button>
+
+        <!-- Link Overlay -->
+        <a
+            href={`/product/${slug}`}
+            class="absolute inset-0 z-10"
+            aria-label={`Ver detalhes de ${title}`}></a>
+    </div>
+
+    <!-- Info -->
+    <div class="p-4 flex flex-col justify-between flex-1">
+        <div>
+            <h3 class="font-heading font-semibold text-base mb-1 truncate text-[#2F2F2F]" title={title}>
+                <a
+                    href={`/product/${slug}`}
+                    class="hover:text-[#6E0D25] transition-colors"
+                >
+                    {title}
+                </a>
+            </h3>
+        </div>
+
+        <div class="flex items-center justify-between mt-3 pt-2 border-t border-slate-100">
+            <div class="flex flex-col">
+                {
+                    compareAtPrice && compareAtPrice !== price && (
+                        <span class="text-xs text-slate-400 line-through">
+                            {formatMoeda(compareAtPrice)}
+                        </span>
+                    )
+                }
+                <span class="text-lg font-bold text-[#6E0D25]">
+                    {formatMoeda(price)}
+                </span>
+            </div>
+            
+            <div class="flex items-center gap-1 text-xs font-medium">
+                {
+                    isDiscontinued ? (
+                        stock > 0 ? (
+                            <span class="text-amber-800 flex items-center gap-1 font-semibold">
+                                <span class="w-2 h-2 rounded-full bg-amber-600" />
+                                Últimas {stock} un.
+                            </span>
+                        ) : (
+                            <span class="text-slate-500 flex items-center gap-1 font-semibold">
+                                <span class="w-2 h-2 rounded-full bg-slate-400" />
+                                Fora de Linha
+                            </span>
+                        )
+                    ) : (badge === "Lançamento" || badge === "Lancamento") ? (
+                        <span class="text-[#6E0D25] flex items-center gap-1 font-semibold">
+                            <span class="w-2 h-2 rounded-full bg-[#D4A33D]" />
+                            Lançamento
+                        </span>
+                    ) : stock > 0 ? (
+                        <span class="text-emerald-700 flex items-center gap-1 font-semibold">
+                            <span class="w-2 h-2 rounded-full bg-emerald-600" />
+                            Em Estoque
+                        </span>
+                    ) : (
+                        <span class="text-[#D4A33D] flex items-center gap-1 font-semibold">
+                            <span class="w-2 h-2 rounded-full bg-[#D4A33D]" />
+                            Sob Encomenda
+                        </span>
+                    )
+                }
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    import Swiper from "swiper";
+    import { Pagination, Navigation } from "swiper/modules";
+    import "swiper/css";
+    import "swiper/css/pagination";
+    import { addToCart } from "../../store/cartStore";
+    import {
+        toggleFavorite,
+        isFavorite,
+        favoriteItems,
+    } from "../../store/favoriteStore";
+    import { toast } from "sonner";
+
+    function initProductComponents() {
+        const containers = document.querySelectorAll(".group\\/slider");
+        containers.forEach((container) => {
+            const swiperEl = container.querySelector(".product-swiper");
+            if (!swiperEl || swiperEl.classList.contains("swiper-initialized"))
+                return;
+
+            const nextBtn = container.querySelector(".swiper-next-btn");
+            const prevBtn = container.querySelector(".swiper-prev-btn");
+
+            new Swiper(swiperEl as HTMLElement, {
+                modules: [Pagination, Navigation],
+                loop: true,
+                pagination: {
+                    el: swiperEl.querySelector(".swiper-pagination") as HTMLElement,
+                    clickable: true,
+                },
+                navigation: {
+                    nextEl: nextBtn as HTMLElement,
+                    prevEl: prevBtn as HTMLElement,
+                },
+                nested: true,
+                resistanceRatio: 0,
+                observer: true,
+                observeParents: true,
+            });
+        });
+
+        const cartButtons = document.querySelectorAll(".add-to-cart-btn");
+        cartButtons.forEach((btn) => {
+            if (btn.getAttribute("data-listener")) return;
+
+            btn.addEventListener("click", (e) => {
+                e.preventDefault();
+                e.stopPropagation();
+                const product = JSON.parse(
+                    btn.getAttribute("data-product") || "{}",
+                );
+                const result = addToCart(product, 1);
+                if (result.success) {
+                    toast.success(result.message);
+                } else {
+                    toast.error(result.message);
+                }
+            });
+            btn.setAttribute("data-listener", "true");
+        });
+
+        const favButtons = document.querySelectorAll(".add-to-favorite-btn");
+        const updateHeartStyle = (btn: Element, isFav: boolean) => {
+            const icon = btn.querySelector("svg");
+            if (isFav) {
+                icon?.classList.add("fill-red-600", "text-red-600");
+            } else {
+                icon?.classList.remove("fill-red-600", "text-red-600");
+            }
+        };
+
+        favButtons.forEach((btn) => {
+            const product = JSON.parse(
+                btn.getAttribute("data-favorite") || "{}",
+            );
+            const targetId = product.slug || product.id;
+            if (isFavorite(targetId)) {
+                updateHeartStyle(btn, true);
+            }
+
+            if (btn.getAttribute("data-fav-listener")) return;
+
+            btn.addEventListener("click", (e) => {
+                e.preventDefault();
+                e.stopPropagation();
+                const product = JSON.parse(
+                    btn.getAttribute("data-favorite") || "{}",
+                );
+                toggleFavorite(product);
+                const isNowFav = isFavorite(targetId);
+                updateHeartStyle(btn, isNowFav);
+
+                if (isNowFav) {
+                    toast.success("Adicionado aos favoritos!");
+                } else {
+                    toast.info("Removido dos favoritos.");
+                }
+            });
+            btn.setAttribute("data-fav-listener", "true");
+        });
+
+        favoriteItems.subscribe(() => {
+            favButtons.forEach((btn) => {
+                const product = JSON.parse(
+                    btn.getAttribute("data-favorite") || "{}",
+                );
+                const targetId = product.slug || product.id;
+                updateHeartStyle(btn, isFavorite(targetId));
+            });
+        });
+    }
+
+    initProductComponents();
+    document.addEventListener("astro:page-load", initProductComponents);
+</script>
+
+<style>
+    :root {
+        --swiper-pagination-color: #6E0D25;
+        --swiper-pagination-bullet-size: 6px;
+        --swiper-pagination-bullet-inactive-color: #999;
+    }
+</style>

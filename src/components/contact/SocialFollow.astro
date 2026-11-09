@@ -1,0 +1,29 @@
+---
+import { Icon } from "astro-icon/components";
+
+const socialLinks = [
+    { icon: "lucide:instagram", href: "https://www.instagram.com/lojagratidaoshop", name: "Instagram @lojagratidaoshop" },
+    { icon: "lucide:message-circle", href: "https://wa.me/5584994224545", name: "WhatsApp" },
+    { icon: "lucide:shopping-bag", href: "https://shopee.com.br/annaferreira81", name: "Shopee Anna Ferreira" },
+];
+---
+
+<div>
+    <h3 class="font-bold text-lg mb-4 font-['Cinzel'] text-base-content">Siga Nossas Redes</h3>
+    <div class="flex gap-4">
+        {
+            socialLinks.map((link) => (
+                <a
+                    href={link.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    aria-label={link.name}
+                    title={link.name}
+                    class="btn btn-circle btn-ghost border border-base-300 hover:bg-primary/10 hover:text-primary hover:border-primary transition-all"
+                >
+                    <Icon name={link.icon} class="w-5 h-5" />
+                </a>
+            ))
+        }
+    </div>
+</div>

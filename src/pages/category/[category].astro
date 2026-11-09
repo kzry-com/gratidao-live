@@ -1,0 +1,50 @@
+---
+import { getProductsByCategory, type Product } from "../../data/products";
+import CardProduct from "../../components/products/CardProduct.astro";
+import Layout from "../../layouts/Layout.astro";
+
+export function getStaticPaths() {
+    const categories = ["todos", "femininos", "masculinos", "cosmeticos"];
+    return categories.map((category) => ({
+        params: { category },
+    }));
+}
+
+const { category } = Astro.params;
+const currentCat = category || "todos";
+const categoryProducts = getProductsByCategory(currentCat);
+const categoryName = currentCat === "todos" 
+    ? "Todos os Produtos" 
+    : currentCat.charAt(0).toUpperCase() + currentCat.slice(1);
+---
+
+<Layout title={`${categoryName} | Ana Ferreira Perfumes`}>
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-12">
+        <div class="mb-8 text-center sm:text-left">
+            <h1 class="text-3xl md:text-4xl font-heading font-bold text-[#6E0D25] tracking-wide mb-2">
+                {categoryName}
+            </h1>
+            <p class="text-sm md:text-base text-[#2F2F2F]/80">
+                Mostrando {categoryProducts.length} fragrâncias e cosméticos exclusivos
+            </p>
+        </div>
+
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6">
+            {
+                categoryProducts.map((product) => (
+                    <CardProduct
+                        title={product.title}
+                        price={product.price}
+                        compareAtPrice={product.compareAtPrice}
+                        images={product.images}
+                        slug={product.slug}
+                        badge={product.badge}
+                        stock={product.stock}
+                        discount={product.discount}
+                        isDiscontinued={product.isDiscontinued}
+                    />
+                ))
+            }
+        </div>
+    </main>
+</Layout>

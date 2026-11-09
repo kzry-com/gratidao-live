@@ -1,0 +1,33 @@
+---
+const links = [
+    { name: "Todos os Produtos", path: "/category/todos" },
+    { name: "Perfumes Femininos", path: "/category/femininos" },
+    { name: "Perfumes Masculinos", path: "/category/masculinos" },
+    { name: "Cosméticos", path: "/category/cosmeticos" },
+];
+
+const currentPath = Astro.url.pathname;
+---
+
+<ul class="flex items-center gap-2 sm:gap-4 text-xs font-medium whitespace-nowrap">
+    {
+        links.map((link) => {
+            const isActive = currentPath === link.path;
+            return (
+                <li>
+                    <a
+                        href={link.path}
+                        class:list={[
+                            "px-3 py-1.5 rounded-full transition-all duration-200",
+                            isActive
+                                ? "bg-[#6E0D25] text-white shadow-xs font-semibold"
+                                : "text-[#2F2F2F] hover:bg-[#D4A33D]/20 hover:text-[#6E0D25]",
+                        ]}
+                    >
+                        {link.name}
+                    </a>
+                </li>
+            );
+        })
+    }
+</ul>
