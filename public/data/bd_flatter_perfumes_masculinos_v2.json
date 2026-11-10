@@ -34,16 +34,16 @@
     ],
     "ocasiao_uso": "Dia a dia, trabalho, lazer e atividades sob o sol (Primavera/Verão)",
     "status": "Linha Ativa",
-    "preco_venda": 190.0,
-    "preco_shopee": 220.0,
+    "preco_venda": 190,
+    "preco_shopee": 220,
     "estoque_inicial": 1,
     "logistica": {
-      "peso_bruto_gramas": 400.0,
-      "volume_liquido_ml": 100.0,
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 100,
       "dimensoes_embalagem": {
-        "altura_cm": 15.0,
-        "largura_cm": 7.0,
-        "comprimento_cm": 7.0
+        "altura_cm": 15,
+        "largura_cm": 7,
+        "comprimento_cm": 7
       },
       "fragil": true
     },
@@ -91,16 +91,16 @@
     ],
     "ocasiao_uso": "Uso casual diário, passeios, encontros descontraídos e clima ameno",
     "status": "Linha Ativa",
-    "preco_venda": 190.0,
-    "preco_shopee": 220.0,
+    "preco_venda": 190,
+    "preco_shopee": 220,
     "estoque_inicial": 3,
     "logistica": {
-      "peso_bruto_gramas": 400.0,
-      "volume_liquido_ml": 100.0,
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 100,
       "dimensoes_embalagem": {
-        "altura_cm": 15.0,
-        "largura_cm": 7.0,
-        "comprimento_cm": 7.0
+        "altura_cm": 15,
+        "largura_cm": 7,
+        "comprimento_cm": 7
       },
       "fragil": true
     },
@@ -146,16 +146,16 @@
     ],
     "ocasiao_uso": "Festas diurnas, pós-praia, eventos descontraídos e encontros de verão",
     "status": "Linha Ativa",
-    "preco_venda": 190.0,
-    "preco_shopee": 220.0,
+    "preco_venda": 190,
+    "preco_shopee": 220,
     "estoque_inicial": 1,
     "logistica": {
-      "peso_bruto_gramas": 400.0,
-      "volume_liquido_ml": 100.0,
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 100,
       "dimensoes_embalagem": {
-        "altura_cm": 15.0,
-        "largura_cm": 7.0,
-        "comprimento_cm": 7.0
+        "altura_cm": 15,
+        "largura_cm": 7,
+        "comprimento_cm": 7
       },
       "fragil": true
     },
@@ -200,16 +200,16 @@
     ],
     "ocasiao_uso": "Noite, encontros românticos, baladas e dias frescos (Outono/Inverno)",
     "status": "Linha Ativa",
-    "preco_venda": 190.0,
-    "preco_shopee": 220.0,
+    "preco_venda": 190,
+    "preco_shopee": 220,
     "estoque_inicial": 1,
     "logistica": {
-      "peso_bruto_gramas": 400.0,
-      "volume_liquido_ml": 100.0,
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 100,
       "dimensoes_embalagem": {
-        "altura_cm": 15.0,
-        "largura_cm": 7.0,
-        "comprimento_cm": 7.0
+        "altura_cm": 15,
+        "largura_cm": 7,
+        "comprimento_cm": 7
       },
       "fragil": true
     },
@@ -257,16 +257,16 @@
     ],
     "ocasiao_uso": "Noite, jantares românticos e ocasiões de sedução íntima",
     "status": "Fora de linha",
-    "preco_venda": 190.0,
-    "preco_shopee": 220.0,
+    "preco_venda": 190,
+    "preco_shopee": 220,
     "estoque_inicial": 0,
     "logistica": {
-      "peso_bruto_gramas": 400.0,
-      "volume_liquido_ml": 100.0,
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 100,
       "dimensoes_embalagem": {
-        "altura_cm": 15.0,
-        "largura_cm": 7.0,
-        "comprimento_cm": 7.0
+        "altura_cm": 15,
+        "largura_cm": 7,
+        "comprimento_cm": 7
       },
       "fragil": true
     },
@@ -312,16 +312,16 @@
     ],
     "ocasiao_uso": "Festas, baladas, comemorações e momentos de protagonismo",
     "status": "Linha Ativa",
-    "preco_venda": 190.0,
-    "preco_shopee": 220.0,
+    "preco_venda": 190,
+    "preco_shopee": 220,
     "estoque_inicial": 1,
     "logistica": {
-      "peso_bruto_gramas": 400.0,
-      "volume_liquido_ml": 100.0,
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 100,
       "dimensoes_embalagem": {
-        "altura_cm": 15.0,
-        "largura_cm": 7.0,
-        "comprimento_cm": 7.0
+        "altura_cm": 15,
+        "largura_cm": 7,
+        "comprimento_cm": 7
       },
       "fragil": true
     },
@@ -364,16 +364,16 @@
     ],
     "ocasiao_uso": "Baladas, festas, eventos noturnos de destaque e noites frias",
     "status": "Linha Ativa",
-    "preco_venda": 190.0,
-    "preco_shopee": 220.0,
+    "preco_venda": 190,
+    "preco_shopee": 220,
     "estoque_inicial": 1,
     "logistica": {
-      "peso_bruto_gramas": 400.0,
-      "volume_liquido_ml": 100.0,
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 100,
       "dimensoes_embalagem": {
-        "altura_cm": 15.0,
-        "largura_cm": 7.0,
-        "comprimento_cm": 7.0
+        "altura_cm": 15,
+        "largura_cm": 7,
+        "comprimento_cm": 7
       },
       "fragil": true
     },
@@ -426,16 +426,16 @@
     ],
     "ocasiao_uso": "Dias quentes, trabalho, viagens e assinatura atemporal (Primavera/Verão)",
     "status": "Linha Ativa",
-    "preco_venda": 190.0,
-    "preco_shopee": 220.0,
+    "preco_venda": 190,
+    "preco_shopee": 220,
     "estoque_inicial": 0,
     "logistica": {
-      "peso_bruto_gramas": 400.0,
-      "volume_liquido_ml": 100.0,
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 100,
       "dimensoes_embalagem": {
-        "altura_cm": 15.0,
-        "largura_cm": 7.0,
-        "comprimento_cm": 7.0
+        "altura_cm": 15,
+        "largura_cm": 7,
+        "comprimento_cm": 7
       },
       "fragil": true
     },
@@ -482,16 +482,16 @@
     ],
     "ocasiao_uso": "Uso universal (trabalho, saídas noturnas, encontros e dia a dia)",
     "status": "Linha Ativa",
-    "preco_venda": 190.0,
-    "preco_shopee": 220.0,
+    "preco_venda": 190,
+    "preco_shopee": 220,
     "estoque_inicial": 0,
     "logistica": {
-      "peso_bruto_gramas": 400.0,
-      "volume_liquido_ml": 100.0,
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 100,
       "dimensoes_embalagem": {
-        "altura_cm": 15.0,
-        "largura_cm": 7.0,
-        "comprimento_cm": 7.0
+        "altura_cm": 15,
+        "largura_cm": 7,
+        "comprimento_cm": 7
       },
       "fragil": true
     },
@@ -538,16 +538,16 @@
     ],
     "ocasiao_uso": "Ambiente profissional executivo, reuniões, eventos formais e casamentos",
     "status": "Linha Ativa",
-    "preco_venda": 190.0,
-    "preco_shopee": 220.0,
+    "preco_venda": 190,
+    "preco_shopee": 220,
     "estoque_inicial": 2,
     "logistica": {
-      "peso_bruto_gramas": 400.0,
-      "volume_liquido_ml": 100.0,
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 100,
       "dimensoes_embalagem": {
-        "altura_cm": 15.0,
-        "largura_cm": 7.0,
-        "comprimento_cm": 7.0
+        "altura_cm": 15,
+        "largura_cm": 7,
+        "comprimento_cm": 7
       },
       "fragil": true
     },
@@ -594,16 +594,16 @@
     ],
     "ocasiao_uso": "Tardes e noites, encontros, happy hour e lazer refinado",
     "status": "Linha Ativa",
-    "preco_venda": 190.0,
-    "preco_shopee": 220.0,
+    "preco_venda": 190,
+    "preco_shopee": 220,
     "estoque_inicial": 2,
     "logistica": {
-      "peso_bruto_gramas": 400.0,
-      "volume_liquido_ml": 100.0,
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 100,
       "dimensoes_embalagem": {
-        "altura_cm": 15.0,
-        "largura_cm": 7.0,
-        "comprimento_cm": 7.0
+        "altura_cm": 15,
+        "largura_cm": 7,
+        "comprimento_cm": 7
       },
       "fragil": true
     },
@@ -648,16 +648,16 @@
     ],
     "ocasiao_uso": "Dias de sol, esportes finos, ambiente náutico, clube e trabalho",
     "status": "Fora de linha",
-    "preco_venda": 190.0,
-    "preco_shopee": 220.0,
+    "preco_venda": 190,
+    "preco_shopee": 220,
     "estoque_inicial": 0,
     "logistica": {
-      "peso_bruto_gramas": 400.0,
-      "volume_liquido_ml": 100.0,
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 100,
       "dimensoes_embalagem": {
-        "altura_cm": 15.0,
-        "largura_cm": 7.0,
-        "comprimento_cm": 7.0
+        "altura_cm": 15,
+        "largura_cm": 7,
+        "comprimento_cm": 7
       },
       "fragil": true
     },
@@ -701,16 +701,16 @@
     ],
     "ocasiao_uso": "Noites frias, baladas, eventos badalados e encontros",
     "status": "Linha Ativa",
-    "preco_venda": 190.0,
-    "preco_shopee": 220.0,
+    "preco_venda": 190,
+    "preco_shopee": 220,
     "estoque_inicial": 2,
     "logistica": {
-      "peso_bruto_gramas": 400.0,
-      "volume_liquido_ml": 100.0,
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 100,
       "dimensoes_embalagem": {
-        "altura_cm": 15.0,
-        "largura_cm": 7.0,
-        "comprimento_cm": 7.0
+        "altura_cm": 15,
+        "largura_cm": 7,
+        "comprimento_cm": 7
       },
       "fragil": true
     },
@@ -749,16 +749,16 @@
     ],
     "ocasiao_uso": "Noites frias, encontros a dois, jantares sofisticados e eventos noturnos",
     "status": "Linha Ativa",
-    "preco_venda": 190.0,
-    "preco_shopee": 220.0,
+    "preco_venda": 190,
+    "preco_shopee": 220,
     "estoque_inicial": 3,
     "logistica": {
-      "peso_bruto_gramas": 400.0,
-      "volume_liquido_ml": 100.0,
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 100,
       "dimensoes_embalagem": {
-        "altura_cm": 15.0,
-        "largura_cm": 7.0,
-        "comprimento_cm": 7.0
+        "altura_cm": 15,
+        "largura_cm": 7,
+        "comprimento_cm": 7
       },
       "fragil": true
     },
@@ -800,16 +800,16 @@
     ],
     "ocasiao_uso": "Dias quentes, academia, baladas de verão e comemorações",
     "status": "Fora de Linha",
-    "preco_venda": 190.0,
-    "preco_shopee": 220.0,
+    "preco_venda": 190,
+    "preco_shopee": 220,
     "estoque_inicial": 1,
     "logistica": {
-      "peso_bruto_gramas": 400.0,
-      "volume_liquido_ml": 100.0,
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 100,
       "dimensoes_embalagem": {
-        "altura_cm": 15.0,
-        "largura_cm": 7.0,
-        "comprimento_cm": 7.0
+        "altura_cm": 15,
+        "largura_cm": 7,
+        "comprimento_cm": 7
       },
       "fragil": true
     },
@@ -856,16 +856,16 @@
     ],
     "ocasiao_uso": "Coringa definitivo: vai do trabalho à balada, em qualquer clima e horário",
     "status": "Linha Ativa",
-    "preco_venda": 190.0,
-    "preco_shopee": 220.0,
+    "preco_venda": 190,
+    "preco_shopee": 220,
     "estoque_inicial": 2,
     "logistica": {
-      "peso_bruto_gramas": 400.0,
-      "volume_liquido_ml": 100.0,
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 100,
       "dimensoes_embalagem": {
-        "altura_cm": 15.0,
-        "largura_cm": 7.0,
-        "comprimento_cm": 7.0
+        "altura_cm": 15,
+        "largura_cm": 7,
+        "comprimento_cm": 7
       },
       "fragil": true
     },
@@ -907,16 +907,16 @@
     ],
     "ocasiao_uso": "Uso urbano, trabalho moderno, reuniões, eventos noturnos e passeios",
     "status": "Fora de Linha",
-    "preco_venda": 190.0,
-    "preco_shopee": 220.0,
+    "preco_venda": 190,
+    "preco_shopee": 220,
     "estoque_inicial": 2,
     "logistica": {
-      "peso_bruto_gramas": 400.0,
-      "volume_liquido_ml": 100.0,
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 100,
       "dimensoes_embalagem": {
-        "altura_cm": 15.0,
-        "largura_cm": 7.0,
-        "comprimento_cm": 7.0
+        "altura_cm": 15,
+        "largura_cm": 7,
+        "comprimento_cm": 7
       },
       "fragil": true
     },
@@ -958,16 +958,16 @@
     ],
     "ocasiao_uso": "Fins de tarde, encontros românticos, jantares e passeios noturnos",
     "status": "Fora de linha",
-    "preco_venda": 190.0,
-    "preco_shopee": 220.0,
+    "preco_venda": 190,
+    "preco_shopee": 220,
     "estoque_inicial": 0,
     "logistica": {
-      "peso_bruto_gramas": 400.0,
-      "volume_liquido_ml": 100.0,
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 100,
       "dimensoes_embalagem": {
-        "altura_cm": 15.0,
-        "largura_cm": 7.0,
-        "comprimento_cm": 7.0
+        "altura_cm": 15,
+        "largura_cm": 7,
+        "comprimento_cm": 7
       },
       "fragil": true
     },
@@ -1013,16 +1013,16 @@
     ],
     "ocasiao_uso": "Noites frias, ar livre e eventos em grandes ambientes",
     "status": "Linha Ativa",
-    "preco_venda": 190.0,
-    "preco_shopee": 220.0,
+    "preco_venda": 190,
+    "preco_shopee": 220,
     "estoque_inicial": 2,
     "logistica": {
-      "peso_bruto_gramas": 400.0,
-      "volume_liquido_ml": 100.0,
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 100,
       "dimensoes_embalagem": {
-        "altura_cm": 15.0,
-        "largura_cm": 7.0,
-        "comprimento_cm": 7.0
+        "altura_cm": 15,
+        "largura_cm": 7,
+        "comprimento_cm": 7
       },
       "fragil": true
     },
@@ -1065,16 +1065,16 @@
     ],
     "ocasiao_uso": "Noite, eventos de gala, jantares e clima ameno/frio",
     "status": "Linha Ativa",
-    "preco_venda": 190.0,
-    "preco_shopee": 220.0,
+    "preco_venda": 190,
+    "preco_shopee": 220,
     "estoque_inicial": 1,
     "logistica": {
-      "peso_bruto_gramas": 400.0,
-      "volume_liquido_ml": 100.0,
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 100,
       "dimensoes_embalagem": {
-        "altura_cm": 15.0,
-        "largura_cm": 7.0,
-        "comprimento_cm": 7.0
+        "altura_cm": 15,
+        "largura_cm": 7,
+        "comprimento_cm": 7
       },
       "fragil": true
     },
@@ -1121,16 +1121,16 @@
     ],
     "ocasiao_uso": "Encontros a dois, clima frio, cinema, jantares românticos",
     "status": "Linha Ativa",
-    "preco_venda": 190.0,
-    "preco_shopee": 220.0,
+    "preco_venda": 190,
+    "preco_shopee": 220,
     "estoque_inicial": 3,
     "logistica": {
-      "peso_bruto_gramas": 400.0,
-      "volume_liquido_ml": 100.0,
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 100,
       "dimensoes_embalagem": {
-        "altura_cm": 15.0,
-        "largura_cm": 7.0,
-        "comprimento_cm": 7.0
+        "altura_cm": 15,
+        "largura_cm": 7,
+        "comprimento_cm": 7
       },
       "fragil": true
     },
@@ -1178,16 +1178,16 @@
     ],
     "ocasiao_uso": "Festas de verão, pool parties, fins de tarde e férias",
     "status": "Fora de linha",
-    "preco_venda": 190.0,
-    "preco_shopee": 220.0,
+    "preco_venda": 190,
+    "preco_shopee": 220,
     "estoque_inicial": 0,
     "logistica": {
-      "peso_bruto_gramas": 400.0,
-      "volume_liquido_ml": 100.0,
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 100,
       "dimensoes_embalagem": {
-        "altura_cm": 15.0,
-        "largura_cm": 7.0,
-        "comprimento_cm": 7.0
+        "altura_cm": 15,
+        "largura_cm": 7,
+        "comprimento_cm": 7
       },
       "fragil": true
     },
@@ -1234,16 +1234,16 @@
     ],
     "ocasiao_uso": "Baladas, bares premium, eventos sociais exclusivos",
     "status": "Linha Ativa",
-    "preco_venda": 190.0,
-    "preco_shopee": 220.0,
+    "preco_venda": 190,
+    "preco_shopee": 220,
     "estoque_inicial": 1,
     "logistica": {
-      "peso_bruto_gramas": 400.0,
-      "volume_liquido_ml": 100.0,
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 100,
       "dimensoes_embalagem": {
-        "altura_cm": 15.0,
-        "largura_cm": 7.0,
-        "comprimento_cm": 7.0
+        "altura_cm": 15,
+        "largura_cm": 7,
+        "comprimento_cm": 7
       },
       "fragil": true
     },
@@ -1292,16 +1292,16 @@
     ],
     "ocasiao_uso": "Dia a dia executivo, encontros, almoços de negócios e passeios",
     "status": "Fora de linha",
-    "preco_venda": 190.0,
-    "preco_shopee": 220.0,
+    "preco_venda": 190,
+    "preco_shopee": 220,
     "estoque_inicial": 0,
     "logistica": {
-      "peso_bruto_gramas": 400.0,
-      "volume_liquido_ml": 100.0,
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 100,
       "dimensoes_embalagem": {
-        "altura_cm": 15.0,
-        "largura_cm": 7.0,
-        "comprimento_cm": 7.0
+        "altura_cm": 15,
+        "largura_cm": 7,
+        "comprimento_cm": 7
       },
       "fragil": true
     },
@@ -1345,16 +1345,16 @@
     ],
     "ocasiao_uso": "Passeios, faculdade, encontros com amigos e eventos descontraídos",
     "status": "Fora de Linha",
-    "preco_venda": 190.0,
-    "preco_shopee": 220.0,
+    "preco_venda": 190,
+    "preco_shopee": 220,
     "estoque_inicial": 1,
     "logistica": {
-      "peso_bruto_gramas": 400.0,
-      "volume_liquido_ml": 100.0,
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 100,
       "dimensoes_embalagem": {
-        "altura_cm": 15.0,
-        "largura_cm": 7.0,
-        "comprimento_cm": 7.0
+        "altura_cm": 15,
+        "largura_cm": 7,
+        "comprimento_cm": 7
       },
       "fragil": true
     },
@@ -1401,16 +1401,16 @@
     ],
     "ocasiao_uso": "Baladas, festas noturnas, encontros e noites frias",
     "status": "Linha Ativa",
-    "preco_venda": 190.0,
-    "preco_shopee": 220.0,
+    "preco_venda": 190,
+    "preco_shopee": 220,
     "estoque_inicial": 0,
     "logistica": {
-      "peso_bruto_gramas": 400.0,
-      "volume_liquido_ml": 100.0,
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 100,
       "dimensoes_embalagem": {
-        "altura_cm": 15.0,
-        "largura_cm": 7.0,
-        "comprimento_cm": 7.0
+        "altura_cm": 15,
+        "largura_cm": 7,
+        "comprimento_cm": 7
       },
       "fragil": true
     },
@@ -1454,16 +1454,16 @@
     ],
     "ocasiao_uso": "Noites frias de inverno, eventos ao ar livre noturnos",
     "status": "Linha Ativa",
-    "preco_venda": 190.0,
-    "preco_shopee": 220.0,
+    "preco_venda": 190,
+    "preco_shopee": 220,
     "estoque_inicial": 1,
     "logistica": {
-      "peso_bruto_gramas": 400.0,
-      "volume_liquido_ml": 100.0,
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 100,
       "dimensoes_embalagem": {
-        "altura_cm": 15.0,
-        "largura_cm": 7.0,
-        "comprimento_cm": 7.0
+        "altura_cm": 15,
+        "largura_cm": 7,
+        "comprimento_cm": 7
       },
       "fragil": true
     },
@@ -1510,16 +1510,16 @@
     ],
     "ocasiao_uso": "Assinatura executiva, jantares, eventos sociais e ocasiões de destaque",
     "status": "Lançamento",
-    "preco_venda": 210.0,
-    "preco_shopee": 240.0,
+    "preco_venda": 210,
+    "preco_shopee": 240,
     "estoque_inicial": 1,
     "logistica": {
-      "peso_bruto_gramas": 400.0,
-      "volume_liquido_ml": 100.0,
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 100,
       "dimensoes_embalagem": {
-        "altura_cm": 15.0,
-        "largura_cm": 7.0,
-        "comprimento_cm": 7.0
+        "altura_cm": 15,
+        "largura_cm": 7,
+        "comprimento_cm": 7
       },
       "fragil": true
     },
@@ -1566,16 +1566,16 @@
     ],
     "ocasiao_uso": "Noites especiais, clima ameno ou frio, assinatura de autoridade",
     "status": "Lançamento",
-    "preco_venda": 210.0,
-    "preco_shopee": 240.0,
+    "preco_venda": 210,
+    "preco_shopee": 240,
     "estoque_inicial": 3,
     "logistica": {
-      "peso_bruto_gramas": 400.0,
-      "volume_liquido_ml": 100.0,
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 100,
       "dimensoes_embalagem": {
-        "altura_cm": 15.0,
-        "largura_cm": 7.0,
-        "comprimento_cm": 7.0
+        "altura_cm": 15,
+        "largura_cm": 7,
+        "comprimento_cm": 7
       },
       "fragil": true
     },
@@ -1591,7 +1591,7 @@
     "id": "130",
     "nome": "Santorini",
     "genero": "Masculino",
-    "categoria": "Perfume Masculino",
+    "categoria": "Masculinos",
     "inspiracao_olfativa": "Light Blue Pour Homme Summer Vibes (Dolce & Gabbana)",
     "familia_olfativa": "Amadeirado Aromático Cítrico",
     "piramide_olfativa": {
@@ -1613,17 +1613,17 @@
       "Sofisticação de verão"
     ],
     "ocasiao_uso": "Dias ensolarados, passeios litorâneos, encontros diurnos e resort",
-    "status": "Lançamento",
-    "preco_venda": 210.0,
-    "preco_shopee": 240.0,
+    "status": "Em estoque",
+    "preco_venda": 210,
+    "preco_shopee": 240,
     "estoque_inicial": 1,
     "logistica": {
-      "peso_bruto_gramas": 400.0,
-      "volume_liquido_ml": 100.0,
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 100,
       "dimensoes_embalagem": {
-        "altura_cm": 15.0,
-        "largura_cm": 7.0,
-        "comprimento_cm": 7.0
+        "altura_cm": 15,
+        "largura_cm": 7,
+        "comprimento_cm": 7
       },
       "fragil": true
     },
@@ -1668,16 +1668,16 @@
     ],
     "ocasiao_uso": "Noites especiais, encontros marcantes e ocasiões que pedem presença única",
     "status": "Lançamento",
-    "preco_venda": 260.0,
-    "preco_shopee": 290.0,
+    "preco_venda": 260,
+    "preco_shopee": 290,
     "estoque_inicial": 1,
     "logistica": {
-      "peso_bruto_gramas": 400.0,
-      "volume_liquido_ml": 100.0,
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 100,
       "dimensoes_embalagem": {
-        "altura_cm": 15.0,
-        "largura_cm": 7.0,
-        "comprimento_cm": 7.0
+        "altura_cm": 15,
+        "largura_cm": 7,
+        "comprimento_cm": 7
       },
       "fragil": true
     },

@@ -1,7 +1,7 @@
 [
   {
     "id": "201",
-    "nome": "Body Mystic Melina",
+    "nome": "Body Myst Melina",
     "genero": "Feminino",
     "categoria": "Cosméticos",
     "inspiracao_olfativa": "Delina (Parfums de Marly)",
@@ -30,17 +30,17 @@
       "Pós-banho luxuoso"
     ],
     "ocasiao_uso": "Uso diário, pós-banho, sobreposição com perfume e dias quentes",
-    "status": "Linha Ativa",
-    "preco_venda": 55.0,
-    "preco_shopee": 70.0,
+    "status": "Em estoque",
+    "preco_venda": 55,
+    "preco_shopee": 70,
     "estoque_inicial": 4,
     "logistica": {
-      "peso_bruto_gramas": 400.0,
-      "volume_liquido_ml": 200.0,
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 200,
       "dimensoes_embalagem": {
-        "altura_cm": 20.0,
-        "largura_cm": 6.0,
-        "comprimento_cm": 6.0
+        "altura_cm": 20,
+        "largura_cm": 6,
+        "comprimento_cm": 6
       },
       "fragil": false
     },
@@ -50,11 +50,11 @@
       "url_slug": "/201-body-mystic-melina/"
     },
     "link_shopee": "https://shopee.com.br/annaferreira81",
-    "descricao_longa": "Body Mystic Melina traz o frescor luminoso e aveludado da rosa turca com lichia e baunilha, proporcionando um toque de realeza e hidratação imediata para a rotina diária."
+    "descricao_longa": "Body Myst Melina traz o frescor luminoso e aveludado da rosa turca com lichia e baunilha, proporcionando um toque de realeza e hidratação imediata para a rotina diária."
   },
   {
     "id": "202",
-    "nome": "Body Mystic Golden",
+    "nome": "Body Myst Golden",
     "genero": "Unissex",
     "categoria": "Cosméticos",
     "inspiracao_olfativa": "Erba Pura (Xerjoff)",
@@ -81,17 +81,17 @@
       "Vibrante"
     ],
     "ocasiao_uso": "Dia a dia, verão, praia e lazer",
-    "status": "Linha Ativa",
-    "preco_venda": 55.0,
-    "preco_shopee": 70.0,
+    "status": "Em estoque",
+    "preco_venda": 55,
+    "preco_shopee": 70,
     "estoque_inicial": 4,
     "logistica": {
-      "peso_bruto_gramas": 400.0,
-      "volume_liquido_ml": 200.0,
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 200,
       "dimensoes_embalagem": {
-        "altura_cm": 20.0,
-        "largura_cm": 6.0,
-        "comprimento_cm": 6.0
+        "altura_cm": 20,
+        "largura_cm": 6,
+        "comprimento_cm": 6
       },
       "fragil": false
     },
@@ -101,11 +101,11 @@
       "url_slug": "/202-body-mystic-golden/"
     },
     "link_shopee": "https://shopee.com.br/annaferreira81",
-    "descricao_longa": "Body Mystic Golden: Brilho dourado e perfumação sofisticada com notas solares de âmbar e flores brancas, ideal para ocasiões de destaque e pele radiante."
+    "descricao_longa": "Body Myst Golden: Brilho dourado e perfumação sofisticada com notas solares de âmbar e flores brancas, ideal para ocasiões de destaque e pele radiante."
   },
   {
     "id": "203",
-    "nome": "Body Mystic Serena",
+    "nome": "Body Myst Serena",
     "genero": "Feminino",
     "categoria": "Cosméticos",
     "inspiracao_olfativa": "Yara (Lattafa)",
@@ -133,17 +133,17 @@
       "Aconchegante"
     ],
     "ocasiao_uso": "Uso diário, pós-banho e momentos de autocuidado",
-    "status": "Linha Ativa",
-    "preco_venda": 55.0,
-    "preco_shopee": 70.0,
+    "status": "Em estoque",
+    "preco_venda": 55,
+    "preco_shopee": 70,
     "estoque_inicial": 3,
     "logistica": {
-      "peso_bruto_gramas": 400.0,
-      "volume_liquido_ml": 200.0,
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 200,
       "dimensoes_embalagem": {
-        "altura_cm": 20.0,
-        "largura_cm": 6.0,
-        "comprimento_cm": 6.0
+        "altura_cm": 20,
+        "largura_cm": 6,
+        "comprimento_cm": 6
       },
       "fragil": false
     },
@@ -153,11 +153,11 @@
       "url_slug": "/203-body-mystic-serena/"
     },
     "link_shopee": "https://shopee.com.br/annaferreira81",
-    "descricao_longa": "Body Mystic Serena: Uma experiência de tranquilidade e frescor verde com notas florais suaves e toque aveludado para momentos de relaxamento."
+    "descricao_longa": "Body Myst Serena: Uma experiência de tranquilidade e frescor verde com notas florais suaves e toque aveludado para momentos de relaxamento."
   },
   {
     "id": "204",
-    "nome": "Body Mystic Hypnotic",
+    "nome": "Body Myst Hypnotic",
     "genero": "Feminino",
     "categoria": "Cosméticos",
     "inspiracao_olfativa": "Very Good Girl (Carolina Herrera)",
@@ -182,17 +182,17 @@
       "Feminino"
     ],
     "ocasiao_uso": "Dia e noite, encontros e perfumação pós-banho",
-    "status": "Linha Ativa",
-    "preco_venda": 55.0,
-    "preco_shopee": 70.0,
+    "status": "Em estoque",
+    "preco_venda": 55,
+    "preco_shopee": 70,
     "estoque_inicial": 2,
     "logistica": {
-      "peso_bruto_gramas": 400.0,
-      "volume_liquido_ml": 200.0,
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 200,
       "dimensoes_embalagem": {
-        "altura_cm": 20.0,
-        "largura_cm": 6.0,
-        "comprimento_cm": 6.0
+        "altura_cm": 20,
+        "largura_cm": 6,
+        "comprimento_cm": 6
       },
       "fragil": false
     },
@@ -202,11 +202,11 @@
       "url_slug": "/204-body-mystic-hypnotic/"
     },
     "link_shopee": "https://shopee.com.br/annaferreira81",
-    "descricao_longa": "Body Mystic Hypnotic: Acordes florais orientais misteriosos e sedutores, com nuances de baunilha licorosa e madeiras aveludadas."
+    "descricao_longa": "Body Myst Hypnotic: Acordes florais orientais misteriosos e sedutores, com nuances de baunilha licorosa e madeiras aveludadas."
   },
   {
     "id": "205",
-    "nome": "Body Mystic Auriah",
+    "nome": "Body Myst Auriah",
     "genero": "Feminino",
     "categoria": "Cosméticos",
     "inspiracao_olfativa": "Linha Especial Flatter",
@@ -232,17 +232,17 @@
       "Perfumação contínua"
     ],
     "ocasiao_uso": "Rotina diária, trabalho e pós-banho",
-    "status": "Linha Ativa",
-    "preco_venda": 55.0,
-    "preco_shopee": 70.0,
+    "status": "Em estoque",
+    "preco_venda": 55,
+    "preco_shopee": 70,
     "estoque_inicial": 3,
     "logistica": {
-      "peso_bruto_gramas": 400.0,
-      "volume_liquido_ml": 200.0,
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 200,
       "dimensoes_embalagem": {
-        "altura_cm": 20.0,
-        "largura_cm": 6.0,
-        "comprimento_cm": 6.0
+        "altura_cm": 20,
+        "largura_cm": 6,
+        "comprimento_cm": 6
       },
       "fragil": false
     },
@@ -252,11 +252,11 @@
       "url_slug": "/205-body-mystic-auriah/"
     },
     "link_shopee": "https://shopee.com.br/annaferreira81",
-    "descricao_longa": "Body Mystic Auriah: Frescor radiante com notas de frutas tropicais e flores orvalhadas, celebrando a luminosidade da mulher contemporânea."
+    "descricao_longa": "Body Myst Auriah: Frescor radiante com notas de frutas tropicais e flores orvalhadas, celebrando a luminosidade da mulher contemporânea."
   },
   {
     "id": "206",
-    "nome": "Body Mystic Zion",
+    "nome": "Body Spray Zion",
     "genero": "Masculino",
     "categoria": "Cosméticos",
     "inspiracao_olfativa": "Asad (Lattafa)",
@@ -285,17 +285,17 @@
       "Presença"
     ],
     "ocasiao_uso": "Pós-banho, academia e uso diário masculino",
-    "status": "Linha Ativa",
-    "preco_venda": 55.0,
-    "preco_shopee": 70.0,
+    "status": "Em estoque",
+    "preco_venda": 55,
+    "preco_shopee": 70,
     "estoque_inicial": 2,
     "logistica": {
-      "peso_bruto_gramas": 400.0,
-      "volume_liquido_ml": 200.0,
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 200,
       "dimensoes_embalagem": {
-        "altura_cm": 20.0,
-        "largura_cm": 6.0,
-        "comprimento_cm": 6.0
+        "altura_cm": 20,
+        "largura_cm": 6,
+        "comprimento_cm": 6
       },
       "fragil": false
     },
@@ -305,11 +305,11 @@
       "url_slug": "/206-body-mystic-zion/"
     },
     "link_shopee": "https://shopee.com.br/annaferreira81",
-    "descricao_longa": "Body Mystic Zion: Notas aquáticas e ambaradas intensas para uma sensação de energia revigorante e magnetismo duradouro."
+    "descricao_longa": "Body Spray Zion: Notas aquáticas e ambaradas intensas para uma sensação de energia revigorante e magnetismo duradouro."
   },
   {
     "id": "207",
-    "nome": "Body Mystic Royale",
+    "nome": "Body Spray Royale",
     "genero": "Masculino",
     "categoria": "Cosméticos",
     "inspiracao_olfativa": "Fakhar Black (Lattafa)",
@@ -338,17 +338,17 @@
       "Versátil"
     ],
     "ocasiao_uso": "Trabalho, dia a dia e pós-treino",
-    "status": "Linha Ativa",
-    "preco_venda": 55.0,
-    "preco_shopee": 70.0,
+    "status": "Em estoque",
+    "preco_venda": 55,
+    "preco_shopee": 70,
     "estoque_inicial": 2,
     "logistica": {
-      "peso_bruto_gramas": 400.0,
-      "volume_liquido_ml": 200.0,
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 200,
       "dimensoes_embalagem": {
-        "altura_cm": 20.0,
-        "largura_cm": 6.0,
-        "comprimento_cm": 6.0
+        "altura_cm": 20,
+        "largura_cm": 6,
+        "comprimento_cm": 6
       },
       "fragil": false
     },
@@ -358,11 +358,11 @@
       "url_slug": "/207-body-mystic-royale/"
     },
     "link_shopee": "https://shopee.com.br/annaferreira81",
-    "descricao_longa": "Body Mystic Royale: Elegância nobre com acordes florais opulentos e fundo resinoso de alta fixação corporal."
+    "descricao_longa": "Body Spray Royale: Elegância nobre com acordes florais opulentos e fundo resinoso de alta fixação corporal."
   },
   {
     "id": "208",
-    "nome": "Body Mystic Metallic",
+    "nome": "Body Spray Metallic",
     "genero": "Masculino",
     "categoria": "Cosméticos",
     "inspiracao_olfativa": "Al Noble Wazeer (Lattafa)",
@@ -396,17 +396,17 @@
       "Árabe moderno"
     ],
     "ocasiao_uso": "Noite, encontros e uso diário sofisticado",
-    "status": "Linha Ativa",
-    "preco_venda": 55.0,
-    "preco_shopee": 70.0,
+    "status": "Em estoque",
+    "preco_venda": 55,
+    "preco_shopee": 70,
     "estoque_inicial": 2,
     "logistica": {
-      "peso_bruto_gramas": 400.0,
-      "volume_liquido_ml": 200.0,
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 200,
       "dimensoes_embalagem": {
-        "altura_cm": 20.0,
-        "largura_cm": 6.0,
-        "comprimento_cm": 6.0
+        "altura_cm": 20,
+        "largura_cm": 6,
+        "comprimento_cm": 6
       },
       "fragil": false
     },
@@ -416,11 +416,11 @@
       "url_slug": "/208-body-mystic-metallic/"
     },
     "link_shopee": "https://shopee.com.br/annaferreira81",
-    "descricao_longa": "Body Mystic Metallic: Modernidade e sofisticação com reflexos luminosos e acordes ozônicos de impacto imediato."
+    "descricao_longa": "Body Spray Metallic: Modernidade e sofisticação com reflexos luminosos e acordes ozônicos de impacto imediato."
   },
   {
     "id": "209",
-    "nome": "Body Mystic Azure",
+    "nome": "Body Spray Azure",
     "genero": "Unissex",
     "categoria": "Cosméticos",
     "inspiracao_olfativa": "Light Blue Summer Vibes (Dolce & Gabbana)",
@@ -446,17 +446,17 @@
       "Revigorante"
     ],
     "ocasiao_uso": "Dias quentes, praia, piscina e pós-banho",
-    "status": "Linha Ativa",
-    "preco_venda": 55.0,
-    "preco_shopee": 70.0,
+    "status": "Em estoque",
+    "preco_venda": 55,
+    "preco_shopee": 70,
     "estoque_inicial": 2,
     "logistica": {
-      "peso_bruto_gramas": 400.0,
-      "volume_liquido_ml": 200.0,
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 200,
       "dimensoes_embalagem": {
-        "altura_cm": 20.0,
-        "largura_cm": 6.0,
-        "comprimento_cm": 6.0
+        "altura_cm": 20,
+        "largura_cm": 6,
+        "comprimento_cm": 6
       },
       "fragil": false
     },
@@ -466,7 +466,7 @@
       "url_slug": "/209-body-mystic-azure/"
     },
     "link_shopee": "https://shopee.com.br/annaferreira81",
-    "descricao_longa": "Body Mystic Azure: A brisa do Mediterrâneo traduzida em um body mist refrescante com notas cítricas e fundo amadeirado limpo."
+    "descricao_longa": "Body Spray Azure: A brisa do Mediterrâneo traduzida em um body mist refrescante com notas cítricas e fundo amadeirado limpo."
   },
   {
     "id": "210",
@@ -497,16 +497,16 @@
     ],
     "ocasiao_uso": "Uso diário, pós-banho e dias de calor",
     "status": "Linha Ativa",
-    "preco_venda": 45.0,
-    "preco_shopee": 58.0,
+    "preco_venda": 45,
+    "preco_shopee": 58,
     "estoque_inicial": 1,
     "logistica": {
-      "peso_bruto_gramas": 400.0,
-      "volume_liquido_ml": 200.0,
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 200,
       "dimensoes_embalagem": {
-        "altura_cm": 20.0,
-        "largura_cm": 6.0,
-        "comprimento_cm": 6.0
+        "altura_cm": 20,
+        "largura_cm": 6,
+        "comprimento_cm": 6
       },
       "fragil": false
     },
@@ -547,16 +547,16 @@
     ],
     "ocasiao_uso": "Pós-banho, dormir perfumada e rotina diária",
     "status": "Linha Ativa",
-    "preco_venda": 45.0,
-    "preco_shopee": 58.0,
+    "preco_venda": 45,
+    "preco_shopee": 58,
     "estoque_inicial": 2,
     "logistica": {
-      "peso_bruto_gramas": 400.0,
-      "volume_liquido_ml": 200.0,
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 200,
       "dimensoes_embalagem": {
-        "altura_cm": 20.0,
-        "largura_cm": 6.0,
-        "comprimento_cm": 6.0
+        "altura_cm": 20,
+        "largura_cm": 6,
+        "comprimento_cm": 6
       },
       "fragil": false
     },
@@ -597,16 +597,16 @@
     ],
     "ocasiao_uso": "Dia a dia, manhãs ensolaradas e pós-banho",
     "status": "Linha Ativa",
-    "preco_venda": 45.0,
-    "preco_shopee": 58.0,
+    "preco_venda": 45,
+    "preco_shopee": 58,
     "estoque_inicial": 1,
     "logistica": {
-      "peso_bruto_gramas": 400.0,
-      "volume_liquido_ml": 200.0,
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 200,
       "dimensoes_embalagem": {
-        "altura_cm": 20.0,
-        "largura_cm": 6.0,
-        "comprimento_cm": 6.0
+        "altura_cm": 20,
+        "largura_cm": 6,
+        "comprimento_cm": 6
       },
       "fragil": false
     },
@@ -647,16 +647,16 @@
     ],
     "ocasiao_uso": "Uso diário, lazer e pós-banho",
     "status": "Linha Ativa",
-    "preco_venda": 45.0,
-    "preco_shopee": 58.0,
+    "preco_venda": 45,
+    "preco_shopee": 58,
     "estoque_inicial": 3,
     "logistica": {
-      "peso_bruto_gramas": 400.0,
-      "volume_liquido_ml": 200.0,
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 200,
       "dimensoes_embalagem": {
-        "altura_cm": 20.0,
-        "largura_cm": 6.0,
-        "comprimento_cm": 6.0
+        "altura_cm": 20,
+        "largura_cm": 6,
+        "comprimento_cm": 6
       },
       "fragil": false
     },
@@ -698,16 +698,16 @@
     ],
     "ocasiao_uso": "Uso diário, pós-banho e combinação com hidratante",
     "status": "Linha Ativa",
-    "preco_venda": 45.0,
-    "preco_shopee": 58.0,
+    "preco_venda": 45,
+    "preco_shopee": 58,
     "estoque_inicial": 4,
     "logistica": {
-      "peso_bruto_gramas": 400.0,
-      "volume_liquido_ml": 200.0,
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 200,
       "dimensoes_embalagem": {
-        "altura_cm": 20.0,
-        "largura_cm": 6.0,
-        "comprimento_cm": 6.0
+        "altura_cm": 20,
+        "largura_cm": 6,
+        "comprimento_cm": 6
       },
       "fragil": false
     },
@@ -748,16 +748,16 @@
     ],
     "ocasiao_uso": "Dias quentes, verão e pós-banho",
     "status": "Linha Ativa",
-    "preco_venda": 45.0,
-    "preco_shopee": 58.0,
+    "preco_venda": 45,
+    "preco_shopee": 58,
     "estoque_inicial": 3,
     "logistica": {
-      "peso_bruto_gramas": 400.0,
-      "volume_liquido_ml": 200.0,
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 200,
       "dimensoes_embalagem": {
-        "altura_cm": 20.0,
-        "largura_cm": 6.0,
-        "comprimento_cm": 6.0
+        "altura_cm": 20,
+        "largura_cm": 6,
+        "comprimento_cm": 6
       },
       "fragil": false
     },
@@ -798,16 +798,16 @@
     ],
     "ocasiao_uso": "Pós-banho, relaxamento e dias de calor",
     "status": "Linha Ativa",
-    "preco_venda": 45.0,
-    "preco_shopee": 58.0,
+    "preco_venda": 45,
+    "preco_shopee": 58,
     "estoque_inicial": 1,
     "logistica": {
-      "peso_bruto_gramas": 400.0,
-      "volume_liquido_ml": 200.0,
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 200,
       "dimensoes_embalagem": {
-        "altura_cm": 20.0,
-        "largura_cm": 6.0,
-        "comprimento_cm": 6.0
+        "altura_cm": 20,
+        "largura_cm": 6,
+        "comprimento_cm": 6
       },
       "fragil": false
     },
@@ -849,16 +849,16 @@
     ],
     "ocasiao_uso": "Manhãs, pré-trabalho, pós-treino e dias quentes",
     "status": "Linha Ativa",
-    "preco_venda": 45.0,
-    "preco_shopee": 58.0,
+    "preco_venda": 45,
+    "preco_shopee": 58,
     "estoque_inicial": 1,
     "logistica": {
-      "peso_bruto_gramas": 400.0,
-      "volume_liquido_ml": 200.0,
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 200,
       "dimensoes_embalagem": {
-        "altura_cm": 20.0,
-        "largura_cm": 6.0,
-        "comprimento_cm": 6.0
+        "altura_cm": 20,
+        "largura_cm": 6,
+        "comprimento_cm": 6
       },
       "fragil": false
     },
@@ -898,16 +898,16 @@
     ],
     "ocasiao_uso": "Hidratação diária e potencialização da fixação do perfume",
     "status": "Linha Ativa",
-    "preco_venda": 40.0,
-    "preco_shopee": 53.0,
+    "preco_venda": 40,
+    "preco_shopee": 53,
     "estoque_inicial": 14,
     "logistica": {
-      "peso_bruto_gramas": 400.0,
-      "volume_liquido_ml": 200.0,
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 200,
       "dimensoes_embalagem": {
-        "altura_cm": 20.0,
-        "largura_cm": 6.0,
-        "comprimento_cm": 6.0
+        "altura_cm": 20,
+        "largura_cm": 6,
+        "comprimento_cm": 6
       },
       "fragil": false
     },
@@ -947,16 +947,16 @@
     ],
     "ocasiao_uso": "Banho diário e lavabo de luxo",
     "status": "Linha Ativa",
-    "preco_venda": 35.0,
-    "preco_shopee": 45.0,
+    "preco_venda": 35,
+    "preco_shopee": 45,
     "estoque_inicial": 10,
     "logistica": {
-      "peso_bruto_gramas": 400.0,
-      "volume_liquido_ml": 200.0,
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 200,
       "dimensoes_embalagem": {
-        "altura_cm": 20.0,
-        "largura_cm": 6.0,
-        "comprimento_cm": 6.0
+        "altura_cm": 20,
+        "largura_cm": 6,
+        "comprimento_cm": 6
       },
       "fragil": false
     },
@@ -997,16 +997,16 @@
     ],
     "ocasiao_uso": "Cuidado diário pós-sol e pós-banho",
     "status": "Linha Ativa",
-    "preco_venda": 43.0,
-    "preco_shopee": 55.0,
+    "preco_venda": 43,
+    "preco_shopee": 55,
     "estoque_inicial": 4,
     "logistica": {
-      "peso_bruto_gramas": 400.0,
-      "volume_liquido_ml": 200.0,
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 200,
       "dimensoes_embalagem": {
-        "altura_cm": 20.0,
-        "largura_cm": 6.0,
-        "comprimento_cm": 6.0
+        "altura_cm": 20,
+        "largura_cm": 6,
+        "comprimento_cm": 6
       },
       "fragil": false
     },
@@ -1047,16 +1047,16 @@
     ],
     "ocasiao_uso": "Banho diário revitalizante",
     "status": "Linha Ativa",
-    "preco_venda": 26.0,
-    "preco_shopee": 40.0,
+    "preco_venda": 26,
+    "preco_shopee": 40,
     "estoque_inicial": 8,
     "logistica": {
-      "peso_bruto_gramas": 400.0,
-      "volume_liquido_ml": 200.0,
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 200,
       "dimensoes_embalagem": {
-        "altura_cm": 20.0,
-        "largura_cm": 6.0,
-        "comprimento_cm": 6.0
+        "altura_cm": 20,
+        "largura_cm": 6,
+        "comprimento_cm": 6
       },
       "fragil": false
     },
@@ -1067,5 +1067,57 @@
     },
     "link_shopee": "https://shopee.com.br/annaferreira81",
     "descricao_longa": "Sabonete Líquido Fruit: hidratação e refrescância com notas frutais estimulantes para o banho diário."
+  },
+  {
+    "id": "222",
+    "nome": "Body Spray Orion",
+    "genero": "Feminino",
+    "categoria": "Cosméticos",
+    "inspiracao_olfativa": "Flatter",
+    "familia_olfativa": "",
+    "piramide_olfativa": {
+      "topo": [
+        "Bergamota",
+        "Pimenta Preta"
+      ],
+      "corpo": [
+        "Cardamono",
+        "Folhas de Violeta"
+      ],
+      "fundo": [
+        "Couro",
+        "Ambar",
+        "Madeiras Nobres"
+      ]
+    },
+    "perfil_sensorial": [
+      "\"Aura atemporal\"",
+      "\"Fresco\"",
+      "\"Amadeirado sutil\"",
+      "\"Distinção duradoura\"",
+      "\"Sensação pós-barba\""
+    ],
+    "ocasiao_uso": "",
+    "status": "Em estoque",
+    "preco_venda": 190,
+    "preco_shopee": 220,
+    "estoque_inicial": 10,
+    "logistica": {
+      "peso_bruto_gramas": 400,
+      "volume_liquido_ml": 100,
+      "dimensoes_embalagem": {
+        "altura_cm": 10,
+        "largura_cm": 10,
+        "comprimento_cm": 7
+      },
+      "fragil": true
+    },
+    "assets": {
+      "capa_img": "/assets/images/flatter/body_spray_orion.png",
+      "ficha_tecnica_img": "/assets/images/flatter/body_spray_orion2.png",
+      "url_slug": "222-body-spray-orion"
+    },
+    "link_shopee": "https://shopee.com.br/annaferreira81",
+    "descricao_longa": "Existem fragrâncias que nascem para desafiar o comum, e Orion é uma delas. Inspirado na imponência e no mistério do universo, este body spray foi desenhado para quem não tem medo de marcar presença, combinando a leveza prática de uma névoa corporal com a força e a profundidade de um perfume marcante.\n\nEle envelopa a pele com uma assinatura magnética, equilibrando perfeitamente a energia fresca com um rastro intensamente sofisticado."
   }
 ]

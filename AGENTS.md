@@ -182,5 +182,17 @@ No painel administrativo (`apps/gratidao_admin`), a listagem de catálogo operac
 * **Regra:** Deve ser ordenado exclusivamente pelo **identificador numérico em ordem crescente** (ex: `#001`, `#002`, `#003`, ..., `#036`, `#101`, `#102`...).
 * **Motivação:** Garantir localização rápida, previsibilidade sequencial e controle de cadastro por faixa de ID (#001 a #099 Femininos, #101 a #199 Masculinos, #201 a #299 Cosméticos).
 
+---
+
+## 7. Diretiva Estrita de Privacidade & Canais de Atendimento
+
+* **Sigilo de Telefonia Pessoal:** O número de telefone associado à consultora/gestora **NÃO é público**. É terminantemente vetado expor números de telefone, celular ou links diretos de WhatsApp (`wa.me`) nas interfaces públicas (Web e Mobile), rodapés, banners, formulários de checkout ou artigos de blog.
+* **Canais Oficiais Permitidos:**
+  * E-mail institucional de atendimento: `gratidao@gratidao.live`
+  * Perfil público institucional no Instagram: `@lojagratidaoshop`
+  * Loja Oficial Shopee: `shopee.com.br/annaferreira81`
+  * Formulário de contato institucional via site (`/contact`).
+
+
 
 
